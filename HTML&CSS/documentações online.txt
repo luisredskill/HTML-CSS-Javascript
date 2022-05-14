@@ -1,0 +1,4 @@
+Mozilla Developer Network - https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference
+World Wide Web Consortium - https://www.w3.org/standards/webdesign/
+WEb Hypertext Application Technology Working Group - https://html.spec.whatwg.org
+W3schools - https://www.w3schools.com 

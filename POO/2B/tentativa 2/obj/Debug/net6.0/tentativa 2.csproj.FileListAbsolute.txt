@@ -1,0 +1,15 @@
+D:\FullStack\Curso em video\POO\2B\tentativa 2\bin\Debug\net6.0\tentativa 2.exe
+D:\FullStack\Curso em video\POO\2B\tentativa 2\bin\Debug\net6.0\tentativa 2.deps.json
+D:\FullStack\Curso em video\POO\2B\tentativa 2\bin\Debug\net6.0\tentativa 2.runtimeconfig.json
+D:\FullStack\Curso em video\POO\2B\tentativa 2\bin\Debug\net6.0\tentativa 2.dll
+D:\FullStack\Curso em video\POO\2B\tentativa 2\bin\Debug\net6.0\tentativa 2.pdb
+D:\FullStack\Curso em video\POO\2B\tentativa 2\obj\Debug\net6.0\tentativa 2.csproj.AssemblyReference.cache
+D:\FullStack\Curso em video\POO\2B\tentativa 2\obj\Debug\net6.0\tentativa 2.GeneratedMSBuildEditorConfig.editorconfig
+D:\FullStack\Curso em video\POO\2B\tentativa 2\obj\Debug\net6.0\tentativa 2.AssemblyInfoInputs.cache
+D:\FullStack\Curso em video\POO\2B\tentativa 2\obj\Debug\net6.0\tentativa 2.AssemblyInfo.cs
+D:\FullStack\Curso em video\POO\2B\tentativa 2\obj\Debug\net6.0\tentativa 2.csproj.CoreCompileInputs.cache
+D:\FullStack\Curso em video\POO\2B\tentativa 2\obj\Debug\net6.0\tentativa 2.dll
+D:\FullStack\Curso em video\POO\2B\tentativa 2\obj\Debug\net6.0\refint\tentativa 2.dll
+D:\FullStack\Curso em video\POO\2B\tentativa 2\obj\Debug\net6.0\tentativa 2.pdb
+D:\FullStack\Curso em video\POO\2B\tentativa 2\obj\Debug\net6.0\tentativa 2.genruntimeconfig.cache
+D:\FullStack\Curso em video\POO\2B\tentativa 2\obj\Debug\net6.0\ref\tentativa 2.dll

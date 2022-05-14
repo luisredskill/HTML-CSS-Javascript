@@ -1,0 +1,45 @@
+D:\FullStack\Curso em video\POO\bin\Debug\net6.0\POO.exe
+D:\FullStack\Curso em video\POO\bin\Debug\net6.0\POO.deps.json
+D:\FullStack\Curso em video\POO\bin\Debug\net6.0\POO.runtimeconfig.json
+D:\FullStack\Curso em video\POO\bin\Debug\net6.0\POO.dll
+D:\FullStack\Curso em video\POO\bin\Debug\net6.0\POO.pdb
+D:\FullStack\Curso em video\POO\obj\Debug\net6.0\POO.csproj.AssemblyReference.cache
+D:\FullStack\Curso em video\POO\obj\Debug\net6.0\POO.GeneratedMSBuildEditorConfig.editorconfig
+D:\FullStack\Curso em video\POO\obj\Debug\net6.0\POO.AssemblyInfoInputs.cache
+D:\FullStack\Curso em video\POO\obj\Debug\net6.0\POO.AssemblyInfo.cs
+D:\FullStack\Curso em video\POO\obj\Debug\net6.0\POO.csproj.CoreCompileInputs.cache
+D:\FullStack\Curso em video\POO\obj\Debug\net6.0\POO.dll
+D:\FullStack\Curso em video\POO\obj\Debug\net6.0\refint\POO.dll
+D:\FullStack\Curso em video\POO\obj\Debug\net6.0\POO.pdb
+D:\FullStack\Curso em video\POO\obj\Debug\net6.0\POO.genruntimeconfig.cache
+D:\FullStack\Curso em video\POO\obj\Debug\net6.0\ref\POO.dll
+D:\FullStack\Curso em video\POO\2B\bin\Debug\net6.0\POO.exe
+D:\FullStack\Curso em video\POO\2B\bin\Debug\net6.0\POO.deps.json
+D:\FullStack\Curso em video\POO\2B\bin\Debug\net6.0\POO.runtimeconfig.json
+D:\FullStack\Curso em video\POO\2B\bin\Debug\net6.0\POO.dll
+D:\FullStack\Curso em video\POO\2B\bin\Debug\net6.0\POO.pdb
+D:\FullStack\Curso em video\POO\2B\obj\Debug\net6.0\POO.csproj.AssemblyReference.cache
+D:\FullStack\Curso em video\POO\2B\obj\Debug\net6.0\POO.GeneratedMSBuildEditorConfig.editorconfig
+D:\FullStack\Curso em video\POO\2B\obj\Debug\net6.0\POO.AssemblyInfoInputs.cache
+D:\FullStack\Curso em video\POO\2B\obj\Debug\net6.0\POO.AssemblyInfo.cs
+D:\FullStack\Curso em video\POO\2B\obj\Debug\net6.0\POO.csproj.CoreCompileInputs.cache
+D:\FullStack\Curso em video\POO\2B\obj\Debug\net6.0\POO.dll
+D:\FullStack\Curso em video\POO\2B\obj\Debug\net6.0\refint\POO.dll
+D:\FullStack\Curso em video\POO\2B\obj\Debug\net6.0\POO.pdb
+D:\FullStack\Curso em video\POO\2B\obj\Debug\net6.0\POO.genruntimeconfig.cache
+D:\FullStack\Curso em video\POO\2B\obj\Debug\net6.0\ref\POO.dll
+D:\Curso em video\POO\2B\tentativa 1\bin\Debug\net6.0\POO.exe
+D:\Curso em video\POO\2B\tentativa 1\bin\Debug\net6.0\POO.deps.json
+D:\Curso em video\POO\2B\tentativa 1\bin\Debug\net6.0\POO.runtimeconfig.json
+D:\Curso em video\POO\2B\tentativa 1\bin\Debug\net6.0\POO.dll
+D:\Curso em video\POO\2B\tentativa 1\bin\Debug\net6.0\POO.pdb
+D:\Curso em video\POO\2B\tentativa 1\obj\Debug\net6.0\POO.csproj.AssemblyReference.cache
+D:\Curso em video\POO\2B\tentativa 1\obj\Debug\net6.0\POO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Curso em video\POO\2B\tentativa 1\obj\Debug\net6.0\POO.AssemblyInfoInputs.cache
+D:\Curso em video\POO\2B\tentativa 1\obj\Debug\net6.0\POO.AssemblyInfo.cs
+D:\Curso em video\POO\2B\tentativa 1\obj\Debug\net6.0\POO.csproj.CoreCompileInputs.cache
+D:\Curso em video\POO\2B\tentativa 1\obj\Debug\net6.0\POO.dll
+D:\Curso em video\POO\2B\tentativa 1\obj\Debug\net6.0\refint\POO.dll
+D:\Curso em video\POO\2B\tentativa 1\obj\Debug\net6.0\POO.pdb
+D:\Curso em video\POO\2B\tentativa 1\obj\Debug\net6.0\POO.genruntimeconfig.cache
+D:\Curso em video\POO\2B\tentativa 1\obj\Debug\net6.0\ref\POO.dll
