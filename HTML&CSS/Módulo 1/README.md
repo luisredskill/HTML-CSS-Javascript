@@ -770,11 +770,11 @@ As vatagens do Youtube são melhores codecs de vídeo, deixando o vídeo mais le
 
 Youtube passo-a-passo:
 
-![barra_yt](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/barra_yt].PNG)
+![barra_yt](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/barra_yt.PNG)
 
-![selecao_yt](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/selecao_yt].PNG)
+![selecao_yt](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/selecao_yt.PNG)
 
-![incorporado_yt](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/incorporado_yt].PNG)
+![incorporado_yt](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/incorporado_yt.PNG)
 
 
 
