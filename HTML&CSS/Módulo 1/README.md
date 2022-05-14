@@ -731,7 +731,7 @@ Resultado:
 
 ![video_controls_width_700](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/video_controls_width_700.PNG)
 
-#### 11.3.3 __*IMPORTANTE*__ Adicionando Thumbnails
+#### 11.3.3 Adicionando Thumbnails
 
 Podemos adicionar uma thumbnail ao vídeo pelo parâmetro __*poster=""*__.
 
@@ -743,7 +743,7 @@ Resultado:
 
 ![poster_700](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/poster_700.PNG)
 
-#### 11.3.4 __*IMPORTANTE*__ Adicionando backups
+#### 11.3.4 __*IMPORTANTE!*__ Adicionando backups
 
 Para garantir a compatibilidade em todos os navegadores, devemos ter alternativas de carregamento para nossas mídias! Podemos fazer isso utilizando a tag &lt;video&gt;, porém em vez de indicar o caminho dentro da própria tag pelo parâmetro __*src=""*__, fazemos isso indicando entre as tags. Exemplo:
 
@@ -763,6 +763,20 @@ Código com arquivos de backup em vários formatos garantindo a compatibilidade:
 ```
 
     Note que ele vai tentar carregar as midias de cima para baixo, ou seja, é interessante que o menor arquivo seja colocado primeiro.
+
+#### 11.3.5 Incorporando vídeos externos
+
+As vatagens do Youtube são melhores codecs de vídeo, deixando o vídeo mais leve permitindo o usuário reproduzir em velocidades mais baixas de internet.
+
+Youtube passo-a-passo:
+
+![barra_yt](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/barra_yt].PNG)
+
+![selecao_yt](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/selecao_yt].PNG)
+
+![incorporado_yt](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/incorporado_yt].PNG)
+
+
 
 ------------------------------------------------------------------------------
 
