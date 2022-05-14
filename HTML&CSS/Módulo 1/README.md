@@ -674,7 +674,7 @@ Os áudios são adicionados por meio da tag &lt;audio&gt;, porém ele não é re
 
 Resultado:
 
-![Screenshot](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/video_nocontrols.PNG)
+![Screenshot](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/video_nocontrols_700.PNG)
 
 Para baixar vídeos gratuitos __*sem direitos autorais*__, podemos utilizar a plataforma da [Pexels](https://www.pexels.com/pt-br/).
 
