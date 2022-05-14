@@ -624,7 +624,7 @@ Os áudios são adicionados por meio da tag &lt;audio&gt;, porém ele não é re
 <audio src="meu_audio.mp3" ></audio>
 ```
 
-### 11.2.1 - Como adicionar controles nos áudios?
+#### 11.2.1 - Como adicionar controles nos áudios?
 
 Ao mesmo tempo, para que nosso áudio seja renderizado com os controles de áudio devemos utilizar o seguinte 
 
@@ -638,7 +638,7 @@ Resultado:
 
 ![Screenshot](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/audio_controller1.PNG)
 
-### 11.2.2- Otimização de Áudios nos sites.
+#### 11.2.2- Otimização de Áudios nos sites.
 
 Os áudios exigem ainda mais otimização na hora de adiconá-los em um site, uma música por exemplo, tem por volta de 5 MB de informação, o que já é muito mais pesado que qualquer imagem.
 
@@ -660,13 +660,13 @@ Dentro do parâmetro preload, podemos receber 3 valores:
 | --------------- | ----------- | -------------------- |
 |  Carrega todo o áudio e só considera o carregamento da página completa após o carregamento.    |  Carrega apenas as informações essenciais como nome, tipo de arquivo e tamanho. | Não carrega nada, apenas por comandos do usuário ou JS. |
 
-### 11.2.3 - Áudio em loop
+#### 11.2.3 - Áudio em loop
 
 Podemos deixar o áudio tocando em loop adicionando o parâmetro __*loop*__ dentro da tag &lt;audio&gt;.
 
 ### 11.3 - Vídeos
 
-Os áudios são adicionados por meio da tag &lt;audio&gt;, porém ele não é renderizado, apenas carregado na página.
+Os videos são adicionados por meio da tag &lt;video&gt;, porém diferente dos audios ele é sim renderizado.
 
 ```
 <video src="meu_video.mp4" ></video>
@@ -674,14 +674,41 @@ Os áudios são adicionados por meio da tag &lt;audio&gt;, porém ele não é re
 
 Resultado:
 
-[video_nocontrols](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/video_nocontrols_700.PNG)
+![video_nocontrols](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/video_nocontrols_700.PNG)
+
+    Note que o vídeo apenas é mostrado na tela, o usuário não consegue interagir com ele.
 
 Para baixar vídeos gratuitos __*sem direitos autorais*__, podemos utilizar a plataforma da [Pexels](https://www.pexels.com/pt-br/).
 
 Para conversão dos vídeos em formatos mais leves ou para mais formatos, [HandBrake](https://handbrake.fr).
 
-### 11.3.1 - Parâmetros dos vídeos
+#### 11.3.1 - Adicionando controles aos Vídeos
 
+Para adicionar controles aos vídeos utilizados o parâmetro __*controls*__.
+
+Código:
+
+```
+<video src="meu_video.mp4" controls></video>
+```
+
+Resultado:
+
+![video_controls](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/video_controls_700.PNG)
+
+#### 11.3.2 - Mudando o tamanho dos vídeos.
+
+As vezes, a largura de um vídeo pode ser muito grande para a página em que ele será inserido. Podemos alterar a largura de um vídeo com o parâmetro __*width=""*__:
+
+Código:
+
+```
+<video src="meu_video.mp4" controls></video>
+```
+
+Resultado:
+
+![video_controls_width_700](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/video_controls_width_700.PNG)
 
 
 
