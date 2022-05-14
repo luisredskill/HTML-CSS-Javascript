@@ -309,7 +309,7 @@ Note que ainda existe o parâmetro cite="link" para citar a fonte do texto.
 
 - __*&lt;abbr&gt;*__ - abreviações, ao passar o mouse em cima mostra o nome completo.
 
-![Screenshot](https://github.com/luisredskill/Curso-em-video/blob/main/HTML%26CSS/Módulo%201/Screenshots/abbr.PNG)
+![Screenshot](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/abbr.PNG)
 
 - __*&lt;bdo&gt;*__ - inverte o texto.
 
@@ -636,7 +636,7 @@ código:
 
 Resultado:
 
-![Screenshot](https://github.com/luisredskill/Curso-em-video/blob/main/HTML%26CSS/Módulo%201/Screenshots/audio_controller1.PNG)
+![Screenshot](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/audio_controller1.PNG)
 
 ### 11.4- Otimização de Áudios nos sites.
 
