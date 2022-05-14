@@ -766,15 +766,26 @@ Código com arquivos de backup em vários formatos garantindo a compatibilidade:
 
 #### 11.3.5 Incorporando vídeos externos
 
-As vatagens do Youtube são melhores codecs de vídeo, deixando o vídeo mais leve permitindo o usuário reproduzir em velocidades mais baixas de internet.
+As vatagens do __*Youtube*__ são melhores codecs de vídeo, deixando o vídeo mais leve permitindo o usuário reproduzir em velocidades mais baixas de internet.
 
-Youtube passo-a-passo:
+__*Youtube*__ passo-a-passo:
 
 ![barra_yt](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/barra_yt.PNG)
 
 ![selecao_yt](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/selecao_yt.PNG)
 
 ![incorporado_yt](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/incorporado_yt.PNG)
+
+As vantagens do __*Vimeo*__ são a qualidade do vídeo, porém tem vídeos maiores, se o usuário tiver uma internet pior o vídeo pode travar. Ele também permite uma maior privacidade, sendo a melhor opção quando queremos uma plataforma com vídeos próprios que não podem ser públicos.
+
+__*Vimeo*__ passo-a-passo:
+
+![barra_vimeo](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/barra_vimeo.PNG)
+
+![selecao_vimeo](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/selecao_vimeo.PNG)
+
+![incorporado_vimeo](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/incorporado_vimeo.PNG)
+
 
 
 
