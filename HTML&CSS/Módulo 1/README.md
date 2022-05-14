@@ -664,6 +664,27 @@ Dentro do parâmetro preload, podemos receber 3 valores:
 
 Podemos deixar o áudio tocando em loop adicionando o parâmetro __*loop*__ dentro da tag &lt;audio&gt;.
 
+#### 11.3.3 __*IMPORTANTE*__ Adicionando backups
+
+Para garantir a compatibilidade em todos os navegadores, devemos ter alternativas de carregamento para nossas mídias! Podemos fazer isso utilizando a tag &lt;audio&gt;, porém em vez de indicar o caminho dentro da própria tag pelo parâmetro __*src=""*__, fazemos isso indicando entre as tag. Exemplo:
+
+Código com apenas um arquivo de vídeo em apenas um formato:
+
+```
+<audio src="meu_audio.mp3"></audio>
+```
+Código com arquivos de backup em vários formatos garantindo a compatibilidade:
+
+```
+    <audio>
+        <source src="meu_audio.mp3" type="audio/mpeg">
+        <source src="meu_audio.wav" type="audio/wav">
+        <source src="meu_audio.ogv" type="audio/ogg">
+    </audio>
+```
+
+    Note que ele vai tentar carregar as midias de cima para baixo, ou seja, é interessante que o menor arquivo seja colocado primeiro.
+
 ### 11.3 - Vídeos
 
 Os videos são adicionados por meio da tag &lt;video&gt;, porém diferente dos audios ele é sim renderizado.
@@ -703,17 +724,45 @@ As vezes, a largura de um vídeo pode ser muito grande para a página em que ele
 Código:
 
 ```
-<video src="meu_video.mp4" controls></video>
+<video src="meu_video.mp4" controls width = "500"></video>
 ```
 
 Resultado:
 
 ![video_controls_width_700](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/video_controls_width_700.PNG)
 
+#### 11.3.3 __*IMPORTANTE*__ Adicionando Thumbnails
 
+Podemos adicionar uma thumbnail ao vídeo pelo parâmetro __*poster=""*__.
 
+```
+ <video src="meu_video.mp4" controls poster="minha_thumb.jpg"></video>
+```
 
+Resultado:
 
+![poster_700](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/poster_700.PNG)
+
+#### 11.3.4 __*IMPORTANTE*__ Adicionando backups
+
+Para garantir a compatibilidade em todos os navegadores, devemos ter alternativas de carregamento para nossas mídias! Podemos fazer isso utilizando a tag &lt;video&gt;, porém em vez de indicar o caminho dentro da própria tag pelo parâmetro __*src=""*__, fazemos isso indicando entre as tags. Exemplo:
+
+Código com apenas um arquivo de vídeo em apenas um formato:
+
+```
+<video src="meu_video.mp4"></video>
+```
+Código com arquivos de backup em vários formatos garantindo a compatibilidade:
+
+```
+    <video controls>
+        <source src="meu_video.mp4" type="video/mp4">
+        <source src="meu_video.webm" type="video/webm">
+        <source src="meu_video.ogv" type="video/ogv">
+    </video>
+```
+
+    Note que ele vai tentar carregar as midias de cima para baixo, ou seja, é interessante que o menor arquivo seja colocado primeiro.
 
 ------------------------------------------------------------------------------
 
