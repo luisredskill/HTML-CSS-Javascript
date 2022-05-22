@@ -858,4 +858,56 @@ Note que esta tag altera não apenas um elemento, mas todos os elementos da pág
 
 ## 12 - Estilização CSS
 
+Já abordado em aulas anteriores
+
+Conteúdo de apoio presente no [PDF do capítulo 12](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/12%20-%20Trabalhando%20com%20estilos.pdf).
+
+## 13 - Estilização CSS
+
+Já abordado em aulas anteriores
+
+Conteúdo de apoio presente no [PDF do capítulo 13](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/13%20-%20Cores.pdf).
+
+## 14 - Estilização CSS
+
+Já abordado em aulas anteriores
+
+Conteúdo de apoio presente no [PDF do capítulo 14](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/13%20-%20Fontes.pdf).
+
+## 15 - Estilização CSS
+
+Já abordado em aulas anteriores
+
+Conteúdo de apoio presente no [PDF do capítulo 15](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/15%20-Seletores%20personalizados.pdf).
+
+## 16 - Estilização CSS
+
+Já abordado em aulas anteriores
+
+Conteúdo de apoio presente no [PDF do capítulo 16](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/16%20-%20Modelo%20de%20Caixas.pdf).
+
+## 17 - Estilização CSS
+
+Já abordado em aulas anteriores
+
+Conteúdo de apoio presente no [PDF do capítulo 17](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/17%20-%20Primeiro%20mini-projeto.pdf).
+
+## 18 - Estilização CSS
+
+Já abordado em aulas anteriores
+
+Conteúdo de apoio presente no [PDF do capítulo 18](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/18%20-%20Aprendendo%20Git%20e%20GitHub.pdf).
+
+## 19 - Estilização CSS
+
+Já abordado em aulas anteriores
+
+Conteúdo de apoio presente no [PDF do capítulo 19](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/19%20-%20Imagens%20de%20Fundo.pdf).
+
+## 20 - Estilização CSS
+
+Já abordado em aulas anteriores
+
+Conteúdo de apoio presente no [PDF do capítulo 20](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/20%20-%20Mini-projeto%20Cordel.pdf).
+
 ------------------------------------------------------------------------------
