@@ -823,21 +823,39 @@ __*Vimeo*__ passo-a-passo:
 Dentro de uma tag podemos editar o estilo da seguinte forma:
 
 ```
-<MARK style="background-color: green;">
+<p style="background-color: green;"></p>
 ```
 
 Utilizamos a tag style.
 
-### 8.2 Tag style no HEAD
+### 8.2 - Tag style no HEAD
 
 ```
-    <style>
-        mark {
-            background-color: green;
-        }
-    </style>
+    <head>
+        <style>
+            mark {
+                background-color: green;
+            }
+        </style>
+    </head>
+```
+
+### 8.3 - Arquivo externo
+
+```
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
 ```
 
 Note que esta tag altera não apenas um elemento, mas todos os elementos da página atual!
+
+## 9 - Aula exclusiva de HTML
+
+## 10 - Aula exclusiva de HTML
+
+## 11 - Aula exclusiva de HTML
+
+## 12 - Estilização CSS
 
 ------------------------------------------------------------------------------
