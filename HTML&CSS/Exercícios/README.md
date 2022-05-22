@@ -892,7 +892,7 @@ A representação por nome é feita chamando um nome predefinido de cor no CSS, 
 
 Já abordado em aulas anteriores
 
-Conteúdo de apoio presente no [PDF do capítulo 14](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/13%20-%20Fontes.pdf).
+Conteúdo de apoio presente no [PDF do capítulo 14](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/14%20-%20Fontes.pdf).
 
 ## 15 - Estilização CSS
 
