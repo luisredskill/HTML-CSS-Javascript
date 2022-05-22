@@ -791,34 +791,45 @@ __*Vimeo*__ passo-a-passo:
 
 ------------------------------------------------------------------------------
 
-# Módulo 1 - CSS
+# Módulo 2 - CSS
+
+## Comandos CSS
+
+__*background-color*__ - muda a cor de fundo do elemento. Exemplo:
+
+```
+<p style="background-color: green;">Esta linha tem o fundo verde utilizando a propriedade background-color</p>
+```
+
+Resultado:
+
+![background-color](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/background_color.PNG)
+
+__*color*__ - muda a cor da fonte do texto do elemento selecionado
+
+```
+<p style="background-color: green;">Esta linha tem a letra verde utilizando a propriedade color</p>
+```
+
+Resultado:
+
+![background-color](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/font_color.PNG)
+
+__*font-size*__ - muda o tamanho do texto do elemento selecionado
+
+```
+<p style="background-color: green;">Esta linha tem a letra verde utilizando a propriedade color</p>
+```
+
+Resultado:
+
+![background-color](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/font_size.PNG)
 
 
 
-## 1 - Aula exclusiva de HTML
+## 12 - Estilização CSS
 
-
-## 2 - Aula exclusiva de HTML
-
-
-## 3 - Aula exclusiva de HTML
-
-
-## 4 - Aula exclusiva de HTML
-
-
-## 5 - Aula exclusiva de HTML
-
-
-## 6 - Aula exclusiva de HTML
-
-
-## 7 - Aula exclusiva de HTML
-
-
-## 8 - Tipos de edição de Estilo no CSS ✨
-
-### 8.1 - Edição inline 
+### 12.1 - Edição inline 
 
 Dentro de uma tag podemos editar o estilo da seguinte forma:
 
@@ -828,7 +839,7 @@ Dentro de uma tag podemos editar o estilo da seguinte forma:
 
 Utilizamos a tag style.
 
-### 8.2 - Tag style no HEAD
+### 12.2 - Tag style no HEAD
 
 ```
     <head>
@@ -840,7 +851,7 @@ Utilizamos a tag style.
     </head>
 ```
 
-### 8.3 - Arquivo externo
+### 12.3 - Arquivo externo
 
 ```
 <head>
@@ -850,23 +861,32 @@ Utilizamos a tag style.
 
 Note que esta tag altera não apenas um elemento, mas todos os elementos da página atual!
 
-## 9 - Aula exclusiva de HTML
-
-## 10 - Aula exclusiva de HTML
-
-## 11 - Aula exclusiva de HTML
-
-## 12 - Estilização CSS
-
 Já abordado em aulas anteriores
 
 Conteúdo de apoio presente no [PDF do capítulo 12](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/12%20-%20Trabalhando%20com%20estilos.pdf).
 
-## 13 - Estilização CSS
+## 13 - Representando cores
 
-Já abordado em aulas anteriores
+Há várias formas de representar cores dentro de um arquivo de CSS.
 
-Conteúdo de apoio presente no [PDF do capítulo 13](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/13%20-%20Cores.pdf).
+### 13.1 - Nome
+
+A representação por nome é feita chamando um nome predefinido de cor no CSS, exemplo:
+```
+    <h2 style="background-color: blue; color: white;">Exemplo de cores</h2>
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 14 - Estilização CSS
 
