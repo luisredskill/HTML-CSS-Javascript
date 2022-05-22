@@ -5,11 +5,11 @@
 
 ## 1 - História da internet 🌐
 
-Anotações desnecessárias devido a conhecimento prévio - todo conteúdo presente no [PDF do capítulo 1](https://github.com/luisredskill/Curso-em-video/blob/main/HTML%26CSS/Módulo%201/PDFs/01%20-%20História%20da%20Internet.pdf).
+Anotações desnecessárias devido a conhecimento prévio - todo conteúdo presente no [PDF do capítulo 1](https://github.com/luisredskill/Curso-em-video/blob/main/HTML%26CSS/PDFs/01%20-%20História%20da%20Internet.pdf).
 
 ## 2 - Como a internet funciona? 🕵️
 
-Conteúdo de apoio presente no [PDF do capítulo 2](https://github.com/luisredskill/Curso-em-video/blob/main/HTML%26CSS/Módulo%201/PDFs/02%20-%20Como%20funciona%20a%20Internet.pdf).
+Conteúdo de apoio presente no [PDF do capítulo 2](https://github.com/luisredskill/Curso-em-video/blob/main/HTML%26CSS/PDFs/02%20-%20Como%20funciona%20a%20Internet.pdf).
 
 ### 2.1 - Resumo
 
@@ -109,17 +109,17 @@ google.com  </pre>
 
 ## 3 - Como funciona HTML e CSS? 🧑🏽‍💻
  
-Anotações desnecessárias devido a conhecimento prévio - todo conteúdo presente no [PDF do capítulo 3](https://github.com/luisredskill/Curso-em-video/blob/main/HTML%26CSS/Módulo%201/PDFs/03%20-%20Como%20funciona%20HTML%20e%20CSS.pdf).
+Anotações desnecessárias devido a conhecimento prévio - todo conteúdo presente no [PDF do capítulo 3](https://github.com/luisredskill/Curso-em-video/blob/main/HTML%26CSS/PDFs/03%20-%20Como%20funciona%20HTML%20e%20CSS.pdf).
 
 ## 4 - Primeiros passos HTML. 🖥️
 
-Anotações desnecessárias devido a conhecimento prévio - todo conteúdo presente no [PDF do capítulo 4](https://github.com/luisredskill/Curso-em-video/blob/main/HTML%26CSS/Módulo%201/PDFs/04%20-%20Primeiros%20passos%20HTML.pdf).
+Anotações desnecessárias devido a conhecimento prévio - todo conteúdo presente no [PDF do capítulo 4](https://github.com/luisredskill/Curso-em-video/blob/main/HTML%26CSS/PDFs/04%20-%20Primeiros%20passos%20HTML.pdf).
 
 
 
 ## 5 - Caracteres, parágrafos e quebras de linha. 📝
 
-Conteúdo de apoio presente no [PDF do capítulo 5](https://github.com/luisredskill/Curso-em-video/blob/main/HTML%26CSS/Módulo%201/PDFs/05%20-%20Caracteres%2C%20parágrafos%20e%20quebras%20de%20linha.pdf).
+Conteúdo de apoio presente no [PDF do capítulo 5](https://github.com/luisredskill/Curso-em-video/blob/main/HTML%26CSS/PDFs/05%20-%20Caracteres%2C%20parágrafos%20e%20quebras%20de%20linha.pdf).
 
 
 ### 5.1 - Resumo
@@ -200,7 +200,7 @@ Note que para funcionar deve-se acrescentar o ; no final do código.
 
 ## 6 - Imagens 📷
 
-Conteúdo de apoio presente no [PDF do capítulo 6](https://github.com/luisredskill/Curso-em-video/blob/main/HTML%26CSS/Módulo%201/PDFs/06%20-%20Imagens%20e%20Favicon.pdf).
+Conteúdo de apoio presente no [PDF do capítulo 6](https://github.com/luisredskill/Curso-em-video/blob/main/HTML%26CSS/PDFs/06%20-%20Imagens%20e%20Favicon.pdf).
 
 ### 6.1 Resumo
 
@@ -256,13 +256,13 @@ Sites que facilitam a criação de favicons
 
 ## 7 - Hierarquia de Títulos. 📑
 
-Anotações desnecessárias devido a conhecimento prévio - todo conteúdo presente no [PDF do capítulo 7](https://github.com/luisredskill/Curso-em-video/blob/main/HTML%26CSS/Módulo%201/PDFs/07%20-%20Hierarquia%20de%20títulos.pdf).
+Anotações desnecessárias devido a conhecimento prévio - todo conteúdo presente no [PDF do capítulo 7](https://github.com/luisredskill/Curso-em-video/blob/main/HTML%26CSS/PDFs/07%20-%20Hierarquia%20de%20títulos.pdf).
 
 
 
 ## 8 - Formatação de textos. 📖
 
-Conteúdo de apoio presente no [PDF do capítulo 8](https://github.com/luisredskill/Curso-em-video/blob/main/HTML%26CSS/Módulo%201/PDFs/08%20-%20Formatação%20de%20Textos.pdf).
+Conteúdo de apoio presente no [PDF do capítulo 8](https://github.com/luisredskill/Curso-em-video/blob/main/HTML%26CSS/PDFs/08%20-%20Formatação%20de%20Textos.pdf).
 
 ### 8.1 - Comandos de Fromatação de texto TAGs
 
@@ -309,7 +309,7 @@ Note que ainda existe o parâmetro cite="link" para citar a fonte do texto.
 
 - __*&lt;abbr&gt;*__ - abreviações, ao passar o mouse em cima mostra o nome completo.
 
-![Screenshot](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/abbr.PNG)
+![Screenshot](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/abbr.PNG)
 
 - __*&lt;bdo&gt;*__ - inverte o texto.
 
@@ -317,7 +317,7 @@ Note que ainda existe o parâmetro cite="link" para citar a fonte do texto.
 
 ## 9 - Listas. 📜
 
-Conteúdo de apoio presente no [PDF do capítulo 9](https://github.com/luisredskill/Curso-em-video/blob/main/HTML%26CSS/Módulo%201/PDFs/09%20-%20Listas%20HTML.pdf).
+Conteúdo de apoio presente no [PDF do capítulo 9](https://github.com/luisredskill/Curso-em-video/blob/main/HTML%26CSS/PDFs/09%20-%20Listas%20HTML.pdf).
 
 ### 9.1 - Listas ordenadas ou Ordered list
 
@@ -518,7 +518,7 @@ Resultado:
 
 ## 10 - Links e Âncoras. 🔗
 
-Conteúdo de apoio presente no [PDF do capítulo 10](https://github.com/luisredskill/Curso-em-video/blob/main/HTML%26CSS/Módulo%201/PDFs/10%20-%20Ligações%20em%20toda%20parte.pdf).
+Conteúdo de apoio presente no [PDF do capítulo 10](https://github.com/luisredskill/Curso-em-video/blob/main/HTML%26CSS/PDFs/10%20-%20Ligações%20em%20toda%20parte.pdf).
 
 ### 10.1 - Como fazer um link no HTML?
 
@@ -582,7 +582,7 @@ Lista de [MEDIA TYPES](https://www.iana.org/assignments/media-types/media-types.
 
 ## 11 - Vídeos, áudios e imagens dinâmicas.
 
-Conteúdo de apoio presente no [PDF do capítulo 11](https://github.com/luisredskill/Curso-em-video/blob/main/HTML%26CSS/Módulo%201/PDFs/11%20-%20Imagens%20dinâmicas%2C%20áudios%20e%20vídeos.pdf).
+Conteúdo de apoio presente no [PDF do capítulo 11](https://github.com/luisredskill/Curso-em-video/blob/main/HTML%26CSS/PDFs/11%20-%20Imagens%20dinâmicas%2C%20áudios%20e%20vídeos.pdf).
 
 ### 11.1 - Como trocar a imagem sozinha baseada no tamanho de tela?
 
@@ -636,7 +636,7 @@ código:
 
 Resultado:
 
-![Screenshot](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/audio_controller1.PNG)
+![Screenshot](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/audio_controller1.PNG)
 
 #### 11.2.2- Otimização de Áudios nos sites.
 
@@ -695,7 +695,7 @@ Os videos são adicionados por meio da tag &lt;video&gt;, porém diferente dos a
 
 Resultado:
 
-![video_nocontrols](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/video_nocontrols_700.PNG)
+![video_nocontrols](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/video_nocontrols_700.PNG)
 
     Note que o vídeo apenas é mostrado na tela, o usuário não consegue interagir com ele.
 
@@ -715,7 +715,7 @@ Código:
 
 Resultado:
 
-![video_controls](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/video_controls_700.PNG)
+![video_controls](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/video_controls_700.PNG)
 
 #### 11.3.2 - Mudando o tamanho dos vídeos.
 
@@ -729,7 +729,7 @@ Código:
 
 Resultado:
 
-![video_controls_width_700](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/video_controls_width_700.PNG)
+![video_controls_width_700](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/video_controls_width_700.PNG)
 
 #### 11.3.3 Adicionando Thumbnails
 
@@ -741,7 +741,7 @@ Podemos adicionar uma thumbnail ao vídeo pelo parâmetro __*poster=""*__.
 
 Resultado:
 
-![poster_700](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/poster_700.PNG)
+![poster_700](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/poster_700.PNG)
 
 #### 11.3.4 __*IMPORTANTE!*__ Adicionando backups
 
@@ -770,21 +770,21 @@ As vatagens do __*Youtube*__ são melhores codecs de vídeo, deixando o vídeo m
 
 __*Youtube*__ passo-a-passo:
 
-![barra_yt](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/barra_yt.PNG)
+![barra_yt](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/barra_yt.PNG)
 
-![selecao_yt](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/selecao_yt.PNG)
+![selecao_yt](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/selecao_yt.PNG)
 
-![incorporado_yt](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/incorporado_yt.PNG)
+![incorporado_yt](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/incorporado_yt.PNG)
 
 As vantagens do __*Vimeo*__ são a qualidade do vídeo, porém tem vídeos maiores, se o usuário tiver uma internet pior o vídeo pode travar. Ele também permite uma maior privacidade, sendo a melhor opção quando queremos uma plataforma com vídeos próprios que não podem ser públicos.
 
 __*Vimeo*__ passo-a-passo:
 
-![barra_vimeo](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/barra_vimeo.PNG)
+![barra_vimeo](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/barra_vimeo.PNG)
 
-![selecao_vimeo](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/selecao_vimeo.PNG)
+![selecao_vimeo](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/selecao_vimeo.PNG)
 
-![incorporado_vimeo](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/incorporado_vimeo.PNG)
+![incorporado_vimeo](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/incorporado_vimeo.PNG)
 
 
 
@@ -803,7 +803,7 @@ __*background-color*__ - muda a cor de fundo do elemento. Exemplo:
 
 Resultado:
 
-![background-color](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/background_color.PNG)
+![background-color](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/background_color.PNG)
 
 __*color*__ - muda a cor da fonte do texto do elemento selecionado
 
@@ -813,7 +813,7 @@ __*color*__ - muda a cor da fonte do texto do elemento selecionado
 
 Resultado:
 
-![background-color](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/font_color.PNG)
+![background-color](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/font_color.PNG)
 
 __*font-size*__ - muda o tamanho do texto do elemento selecionado
 
@@ -823,7 +823,7 @@ __*font-size*__ - muda o tamanho do texto do elemento selecionado
 
 Resultado:
 
-![background-color](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Módulo%201/Screenshots/font_size.PNG)
+![background-color](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/font_size.PNG)
 
 
 
