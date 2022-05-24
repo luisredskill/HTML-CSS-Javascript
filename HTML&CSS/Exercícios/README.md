@@ -876,6 +876,36 @@ A representação por nome é feita chamando um nome predefinido de cor no CSS, 
     <h2 style="background-color: blue; color: white;">Exemplo de cores</h2>
 ```
 
+### 13.2 - Código Hexadecimal
+
+#### 13.2.1 - Código 
+
+O código hexadecimal é representada por 6 dígitos cada um deles podento ter uma variedade de 16 carcteres que variam do 0 ao F e normalmente sendo acompanhado pelo símbolo de #. Sendo eles:
+
+0 1 2 3 4 5 6 7 8 9 A B C D E F
+
+Exemplo : #B156AD
+
+     O código hexadecimal é dividido em três partes, cada uma delas representando uma cor primária.
+
+![hexadecimal](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/hexadecimal.PNG)
+
+ O vermelho é representado pelos dois primeiros digitos. 
+
+ Vermelho puro: FF0000 
+ ![hexadecimal_red](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/hexadecimal_red.PNG)
+
+ O verde pelos dois dígitos centrais. 
+
+ Verde puro: 00FF00
+  ![hexadecimal_green](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/hexadecimal_green.PNG)
+
+ E o azul pelos dois últimos digitos. 
+
+ Azul puro: 0000FF
+  ![hexadecimal_blue](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/hexadecimal_blue.PNG)
+
+
 
 
 
