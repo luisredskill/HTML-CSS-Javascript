@@ -829,6 +829,8 @@ Resultado:
 
 ## 12 - Estilização CSS
 
+Conteúdo de apoio presente no [PDF do capítulo 12](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/12%20-%20Trabalhando%20com%20estilos.pdf).
+
 ### 12.1 - Edição inline 
 
 Dentro de uma tag podemos editar o estilo da seguinte forma:
@@ -863,9 +865,12 @@ Note que esta tag altera não apenas um elemento, mas todos os elementos da pág
 
 Já abordado em aulas anteriores
 
-Conteúdo de apoio presente no [PDF do capítulo 12](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/12%20-%20Trabalhando%20com%20estilos.pdf).
+
 
 ## 13 - Representando cores
+
+Conteúdo de apoio presente no [PDF do capítulo 14](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/13%20-%20Cores.pdf).
+
 
 Há várias formas de representar cores dentro de um arquivo de CSS.
 
@@ -941,7 +946,7 @@ Tanto os modos RGB e Hexadecimal, possuem transparência acessível pelo editor 
 
 
 
-## 14 - Estilização CSS
+## 14 - Harmonia de cores
 
 Já abordado em aulas anteriores
 
