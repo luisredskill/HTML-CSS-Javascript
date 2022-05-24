@@ -892,17 +892,17 @@ Exemplo : #B156AD
 
  O vermelho é representado pelos dois primeiros digitos. 
 
- Vermelho puro: FF0000 
+ Vermelho puro: FF0000  
  ![hexadecimal_red](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/hexadecimal_red.PNG)
 
  O verde pelos dois dígitos centrais. 
 
- Verde puro: 00FF00
+ Verde puro: 00FF00  
   ![hexadecimal_green](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/hexadecimal_green.PNG)
 
  E o azul pelos dois últimos digitos. 
 
- Azul puro: 0000FF
+ Azul puro: 0000FF  
   ![hexadecimal_blue](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/hexadecimal_blue.PNG)
 
 
