@@ -892,20 +892,43 @@ Exemplo : #B156AD
 
  O vermelho é representado pelos dois primeiros digitos. 
 
- Vermelho puro: FF0000  
+ Vermelho puro: #FF0000  
  ![hexadecimal_red](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/hexadecimal_red.PNG)
 
  O verde pelos dois dígitos centrais. 
 
- Verde puro: 00FF00  
+ Verde puro: #00FF00  
   ![hexadecimal_green](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/hexadecimal_green.PNG)
 
  E o azul pelos dois últimos digitos. 
 
- Azul puro: 0000FF  
+ Azul puro: #0000FF  
   ![hexadecimal_blue](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/hexadecimal_blue.PNG)
 
+#### 13.2.2 Como funciona?
 
+Cada campo do código de cor hexadecimal define a intensidade da sua cor respectivamente, sendo a mais fraca ou ausência de cor 00, e a mais forte FF.
+
+Como o código é feito na base 16, cada campo representativo de cor possui 16x16 combinações possíveis, na base decimal seria convertido do 0 ao 255. Exemplo:
+
+#FFFF00 representa respectivamente, 255 de vermelho, 255 de verde e 0 de azul resultando na cor amarela:  
+
+![cor](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/cor.PNG)
+
+### 13.3 - RGB
+
+representa em código RGB, respectivamente vermelho, verde e Azul. A representação é dada do 0 ao 255. Exemplo:
+
+255,255,255 - representa a cor branca.
+255,0,0 - representa o vermelho puro.
+0,255,0 - representa o verde puro.
+0,0,255 - representa o azul puro.
+
+### 13.4 - Transparência
+
+Tanto os modos RGB e Hexadecimal, possuem transparência acessível pelo editor VScode. Para acessar as configurações basta passar o mouse por cima da cor que deseja adicionar a transparência e, na janela agora aberta, mover o cursor ao lado da barra de cores.
+
+![opcoes_cor](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/opcoes_cor.PNG)
 
 
 
