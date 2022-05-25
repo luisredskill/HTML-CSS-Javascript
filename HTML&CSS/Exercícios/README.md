@@ -1045,10 +1045,23 @@ Usando a mesma ferramenta podemos utilizar a ferramenta __*Extrair tema*__, ela 
 
 ![extrairtema](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/extrairtema.PNG)
 
-Ainda podemos formar um gradiente baseado na imagem inserida:
+Ainda podemos formar um gradiente com a ferramenta __*Extrair Gradiente*__ baseado na imagem inserida:
 
 ![extrairgradiente](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/extrairgradiente.PNG)
 
+#### 13.3.3 - Paletas prontas
+
+Na aba explorar do [adobe Color](https://color.adobe.com/pt/create/color-wheel), podemos achar uma paleta pronta de cores para ser utilizada.
+
+![explorar](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/explorar.PNG)
+
+Ainda dentro do explorar, podemos observar uma opção para mostrar as paletas mais usadas:
+
+![menuexplorar](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/menuexplorar.PNG)
+
+Resultado:
+
+![paletasmaisusadas](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/paletasmaisusadas.PNG)
 
 
 
