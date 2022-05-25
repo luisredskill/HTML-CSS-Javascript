@@ -869,7 +869,7 @@ Já abordado em aulas anteriores
 
 ## 13 - Representando cores
 
-Conteúdo de apoio presente no [PDF do capítulo 14](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/13%20-%20Cores.pdf).
+Conteúdo de apoio presente no [PDF do capítulo 13](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/13%20-%20Cores.pdf).
 
 
 Há várias formas de representar cores dentro de um arquivo de CSS.
