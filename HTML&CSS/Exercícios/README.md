@@ -941,7 +941,7 @@ Tanto os modos RGB e Hexadecimal, possuem transparência acessível pelo editor 
 
 Cada cor pode ser associada a um tipo de sentimento ou estado, deve-se levar em consideração o que cada cor representa antes de usá-la em um projeto.
 
-![associacoes](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/associacoes.PNG)
+![associacoes](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/associacoes.png)
 
 #### 13.2.2 - Circulo cromático
 
@@ -965,11 +965,9 @@ Dentre essas classificações temos as cores secundárias: Verde,Violeta e Laran
 
 Essas cores também são conhecidas por serem um pouco difíceis de se trabalhar por serem cores muito "duras". 
 
-##### 13.2.2.3- Cores Terciária
+##### 13.2.2.3- Cores Terciárias
 
 São o resultado de todas as cores vindas da mistura de uma cor primária e secundária
-
-![terciarias](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/terciarias.jpg)
 
 Essas cores geralmente são largamente utilizadas em projetos. Toda cor terciária fica entre uma cor primária e uma secundária, sendo nomeada com o nome da cor primária e, logo depois, a cor secundária. Exemplos:
 
@@ -999,7 +997,7 @@ As cores complementares são as cores que possuem mais contraste entre si, geral
 
 As cores análogas são o oposto das cores complementares, mas também trabalham bem juntas. Elas são as cores que possuem um contraste muito baixo entre si e tem uma harmonia natural.
 
-![complementar](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/complementar.PNG)
+![complementar](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/complementar.jpg)
 
 ##### 13.2.2.7 - Cores Análogas e uma complementar.
 
@@ -1007,17 +1005,6 @@ Esta é uma tecnica muito utilizado no design, consiste em pegar 3 cores análog
 
 ![analogascomplementar](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/analogascomplementar.PNG)
 
-##### 13.2.2.8 - Cores Análogas relacionadas
-
-Esta técnica geralmente é utilizada quando quemos uma paleta de cor que tem a missão de representar um negócio definido, por exemplo um fastfood normalmente teria a seguinte paleta de cor:
-
-![analogasrelacionada](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/analogasrelacionada.PNG)
-
-##### 13.2.2.8 - Cores Análogas relacionadas
-
-Esta técnica geralmente é utilizada quando quemos uma paleta de cor que tem a missão de representar um negócio definido, por exemplo um fastfood normalmente teria a seguinte paleta de cor:
-
-![analogasrelacionada](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/analogasrelacionada.PNG)
 
 ##### 13.2.2.8 - Cores Triádicas
 
