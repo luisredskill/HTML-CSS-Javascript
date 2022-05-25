@@ -969,7 +969,7 @@ Essas cores também são conhecidas por serem um pouco difíceis de se trabalhar
 
 São o resultado de todas as cores vindas da mistura de uma cor primária e secundária
 
-![terciarias](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/terciarias.JPEG)
+![terciarias](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/terciarias.jpg)
 
 Essas cores geralmente são largamente utilizadas em projetos. Toda cor terciária fica entre uma cor primária e uma secundária, sendo nomeada com o nome da cor primária e, logo depois, a cor secundária. Exemplos:
 
@@ -980,7 +980,7 @@ Vermelho-arroxeado
 Vermelho-alaranjado
 Amarelo-alaranjado
 
-![terciarias2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/terciarias2.webp.JPEG)
+![terciarias2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/terciarias2.webp)
 
 ##### 13.2.2.4 - Temperatura de cor
 
