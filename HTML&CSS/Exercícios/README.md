@@ -984,7 +984,7 @@ Amarelo-alaranjado
 
 As cores podem lembrar temperaturas específicas e passar a sensação de algo frio ou quente baseado apenas na tonalidade das cores.
 
-![hotcold](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/hotcold.PNG)
+![hotcold](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/hotcold.png)
 
 
 ##### 13.2.2.5 - Complementares.
