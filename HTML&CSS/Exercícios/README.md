@@ -1021,11 +1021,13 @@ Neste método, trabalhamos apenas com um tipo de cor em tônalidades diferentes,
 
 
 
-##### 13.3 - Paleta de cores
+#### 13.3 - Paleta de cores
+
+#### 13.3.1 - Criando uma paleta
 
 A paleta de cores de um projeto deve possuir de 3 a 5 cores no máximo e, geralmente, é escolhida através de um dos métodos relacionados ao círculo cromático.
 
-Para criação de uma paleta podemos utilizar o serviço da [adobe Color](https://color.adobe.com/pt/create/color-wheel)
+Para criação de uma paleta podemos utilizar o serviço da [adobe Color](https://color.adobe.com/pt/create/color-wheel).
 
 Este site permite a visualização das cores análogas, complementares, etc.
 
@@ -1036,6 +1038,19 @@ Exemplo de cores análogas:
 Exemplo de cores complementares:
 
 ![adobe color2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/adobecolor2.PNG)
+
+#### 13.3.2 - Extraindo uma paleta e formando um gradiente.
+
+Usando a mesma ferramenta podemos utilizar a ferramenta __*Extrair tema*__, ela gera uma paleta de cores baseado na imagem inserida.
+
+![extrairtema](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/extrairtema.PNG)
+
+Ainda podemos formar um gradiente baseado na imagem inserida:
+
+![extrairgradiente](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/extrairgradiente.PNG)
+
+
+
 
 
 
