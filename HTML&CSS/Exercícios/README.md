@@ -991,7 +991,7 @@ As cores podem lembrar temperaturas específicas e passar a sensação de algo f
 
 As cores complementares são as cores que possuem mais contraste entre si, geralmente elas trabalham bem juntas, mas deve-se tomar cuidado para que os tons não parecem muito fortes deixando a visualização desagradável. Também é um dos modelos de escolhas de cor mais comuns e geralmente utilizados.
 
-![complementar](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/complementar.PNG)
+![complementar](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/complementar1.PNG)
 
 ##### 13.2.2.6 - Análogas.
 
