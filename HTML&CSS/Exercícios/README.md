@@ -1013,6 +1013,12 @@ Esse esquema gera sempre um triângulo equilátero e cria uma opção que sempre
 
 ![analogasrelacionada](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/triadicas.PNG)
 
+##### 13.2.2.9 - Monocromia
+
+Neste método, trabalhamos apenas com um tipo de cor em tônalidades diferentes, alterando apenas a saturação e o brilho. Exemplo:
+
+![monocromia](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/monocromia.PNG)
+
 
 
 ##### 13.3 - Paleta de cores
