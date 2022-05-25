@@ -1111,7 +1111,7 @@ Note que diferente do senso comum, a porcentagem nesse caso não indica a quanti
 Código:
 
 ```
-background-image: linear-gradient(90deg, #710CE8 70%, #0113DB 50%, #0C92E8 100%);
+background-image: linear-gradient(90deg, #710CE8 70%, #0113DB , #0C92E8 );
 ```
 
 Resultado:
@@ -1149,11 +1149,47 @@ Resultado:
 
 
 
-## 14 - Harmonia de cores
+## 14 - Fontes
 
-Já abordado em aulas anteriores
+### 14.1 - História da Tipografia
+
+História da tipografia, explicação sobre os estudos da tipografia presentes no conteúdo do pdf.
 
 Conteúdo de apoio presente no [PDF do capítulo 14](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/14%20-%20Fontes.pdf).
+
+### 14.2 - Fontes no CSS
+
+A fonte padrão dos navegadores é a __*Times New Roman*__.
+
+Para alterar a fonte de um texto devemos selecionar o elemento no qual ele está inserido e utilizar o seguinte código:
+
+```
+seletor{
+    font-family: 'fontName';
+}
+```
+
+Respectivamente, fonte sem alteração e com alteração:
+
+![couriernew](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/couriernew.PNG)
+
+![timesnewroman](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/timesnewroman.PNG)
+
+- __*IMPORTANTE*__ - Esse comando utiliza a fonte já presente no dispositivo, isso quer dizer que se o dispositivo atual não tiver essa fonte, ele vai voltar à padrão. Para evitar essa situação podemos indicar fontes secundárias caso a primeira opção não esteja disponível:
+
+Exemplo:
+
+```
+body{
+  font-family: Arial, Verdana, sans-serif;
+}
+```
+
+Respectivamente, resultado esperado, resultado secundário caso a primeira fonte não esteja disponivel no dispositivo atual e última opção.
+
+![arial](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/arial.PNG)
+![verdana](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/verdana.PNG)
+![sans](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/sans.PNG)
 
 ## 15 - Estilização CSS
 
