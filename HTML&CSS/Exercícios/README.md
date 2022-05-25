@@ -991,19 +991,19 @@ As cores podem lembrar temperaturas específicas e passar a sensação de algo f
 
 As cores complementares são as cores que possuem mais contraste entre si, geralmente elas trabalham bem juntas, mas deve-se tomar cuidado para que os tons não parecem muito fortes deixando a visualização desagradável. Também é um dos modelos de escolhas de cor mais comuns e geralmente utilizados.
 
-![complementar](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/complementar1.PNG)
+![complementar](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/complementar1.png)
 
 ##### 13.2.2.6 - Análogas.
 
 As cores análogas são o oposto das cores complementares, mas também trabalham bem juntas. Elas são as cores que possuem um contraste muito baixo entre si e tem uma harmonia natural.
 
-![complementar](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/complementar.jpg)
+![analogas](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/analogas.png)
 
 ##### 13.2.2.7 - Cores Análogas e uma complementar.
 
 Esta é uma tecnica muito utilizado no design, consiste em pegar 3 cores análogas e uma complementar gerando assim uma paleta de cores harmônica.
 
-![analogascomplementar](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/analogascomplementar.PNG)
+![analogascomplementar](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/analogascomplementar.jpeg)
 
 
 ##### 13.2.2.8 - Cores Triádicas
@@ -1011,7 +1011,7 @@ Esta é uma tecnica muito utilizado no design, consiste em pegar 3 cores análog
 Técnica bastante utilizada e que garante uma grande riqueza de cores, onde escolhemos três pontos equidistantes no círculo cromático.
 Esse esquema gera sempre um triângulo equilátero e cria uma opção que sempre possui um ótimo contraste entre as cores.:
 
-![analogasrelacionada](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/analogasrelacionada.PNG)
+![analogasrelacionada](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/triadicas.PNG)
 
 
 
