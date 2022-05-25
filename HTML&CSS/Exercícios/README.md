@@ -825,6 +825,8 @@ Resultado:
 
 ![background-color](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/font_size.PNG)
 
+__* * *__ - O seletor * é uma configuração global, ou seja, afeta o documento inteiro.
+
 
 
 ## 12 - Estilização CSS
@@ -1063,7 +1065,45 @@ Resultado:
 
 ![paletasmaisusadas](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/paletasmaisusadas.PNG)
 
+### 13.4 - Salvar cores no navegador
 
+Para evitar trabalho desnecessário utilizamos uma extensão chamada [CollorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=pt-BR) no chrome.
+
+### 13.5 - Como criar um degradê no CSS 
+
+Para criar um degradê no css utilizamos o __*background-image*__. Este que receberá um função de nome __*linear-gradient*__.
+
+Esta função recebe 3 argumentos, o primeiro é a direção do degradê podendo ser representado por direções ou graus, os outros dois são as cores.
+
+Código:
+
+```
+body{
+        background-image: linear-gradient(to right, white, blue)
+           
+    }
+div{
+        background-image: linear-gradient(90deg,#0000ff,#ffffff)
+}
+```
+Resultado:
+
+![gradiente](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/gradiente.PNG)
+
+Podemos adicionar mais cores a essa função:
+
+![gradiente2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/gradiente2.PNG)
+
+Note que é necessário usar o __*background-attachment: fixed;*__ nos casos em que o degradê não é para a direita ou para a esquerda e também a configuração global para deixar o body com 100% da altura da tela.
+
+Respectivamente:
+
+````
+*{
+    height: 100%;
+    background-attachment:fixed;
+}
+````
 
 
 
