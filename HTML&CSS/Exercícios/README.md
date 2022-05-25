@@ -1023,8 +1023,19 @@ Neste método, trabalhamos apenas com um tipo de cor em tônalidades diferentes,
 
 ##### 13.3 - Paleta de cores
 
-A paleta de cores de um projeto deve possuir de 3 a 5 cores no máximo e, geralmente, é escolhida através de um dos métodos relacionados ao círculo cromático
+A paleta de cores de um projeto deve possuir de 3 a 5 cores no máximo e, geralmente, é escolhida através de um dos métodos relacionados ao círculo cromático.
 
+Para criação de uma paleta podemos utilizar o serviço da [adobe Color](https://color.adobe.com/pt/create/color-wheel)
+
+Este site permite a visualização das cores análogas, complementares, etc.
+
+Exemplo de cores análogas:
+
+![adobe color](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/adobecolor.PNG)
+
+Exemplo de cores complementares:
+
+![adobe color2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/adobecolor2.PNG)
 
 
 
