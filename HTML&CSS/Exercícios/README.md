@@ -1169,7 +1169,7 @@ seletor{
 }
 ```
 
-Respectivamente, fonte sem alteração e com alteração:
+Respectivamente, fonte com alteração e sem.
 
 ![couriernew](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/couriernew.PNG)
 
@@ -1187,9 +1187,9 @@ body{
 
 Respectivamente, resultado esperado, resultado secundário caso a primeira fonte não esteja disponivel no dispositivo atual e última opção.
 
-![arial](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/arial.PNG)
+![helvetica](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/helvetica.PNG)
 ![verdana](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/verdana.PNG)
-![sans](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/sans.PNG)
+![franklin](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/franklin.PNG)
 
 ## 15 - Estilização CSS
 
