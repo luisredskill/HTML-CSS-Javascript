@@ -1071,6 +1071,8 @@ Para evitar trabalho desnecessário utilizamos uma extensão chamada [CollorZill
 
 ### 13.5 - Como criar um degradê no CSS 
 
+#### 13.5.1 Degradê linear
+
 Para criar um degradê no css utilizamos o __*background-image*__. Este que receberá um função de nome __*linear-gradient*__.
 
 Esta função recebe 3 argumentos, o primeiro é a direção do degradê podendo ser representado por direções ou graus, os outros dois são as cores.
@@ -1094,6 +1096,32 @@ Podemos adicionar mais cores a essa função:
 
 ![gradiente2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/gradiente2.PNG)
 
+Podemos indicar qual a porcentagem de tela que cada cor terá:
+
+```
+background-image: linear-gradient(90deg, #710CE8 33%, #0113DB 50%, #0C92E8);
+````
+
+Resultado:
+
+![gradiente4](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/gradiente4.PNG)
+
+Note que diferente do senso comum, a porcentagem nesse caso não indica a quantidade de tela a ser tomada pela cor, mas sim o espaço restante que ainda não foi tomado por cores anteriores. Isso quer dizer que se a primeira cor tomar 70% do espaço, mesmo que a próxima ocupe 50%, o valor real ocupado do espaço horizontal será de apenas 15%.
+
+Código:
+
+```
+background-image: linear-gradient(90deg, #710CE8 70%, #0113DB 50%, #0C92E8 100%);
+```
+
+Resultado:
+
+![gradiente5](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/gradiente5.PNG)
+
+
+
+
+
 Note que é necessário usar o __*background-attachment: fixed;*__ nos casos em que o degradê não é para a direita ou para a esquerda e também a configuração global para deixar o body com 100% da altura da tela.
 
 Respectivamente:
@@ -1105,7 +1133,18 @@ Respectivamente:
 }
 ````
 
+#### 13.5.2 - Degradê radial
 
+Para criar um degradê radial no css utilizamos Para criar um degradê no css utilizamos o __*background-image*__. Este que receberá um função de nome __*radial-gradient*__.
+
+Código:
+
+```
+background-image: radial-gradient(circle, #710CE8, #370CF2, #0113DB, #0C5CF2, #0C92E8);
+```
+Resultado:
+
+![gradiente3](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/gradiente3.PNG)
 
 
 
