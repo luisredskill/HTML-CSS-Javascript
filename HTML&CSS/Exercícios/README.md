@@ -867,23 +867,23 @@ Já abordado em aulas anteriores
 
 
 
-## 13 - Representando cores
+## 13 - Cores
 
 Conteúdo de apoio presente no [PDF do capítulo 13](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/13%20-%20Cores.pdf).
 
 
-Há várias formas de representar cores dentro de um arquivo de CSS.
+### 13.1 - Representando as cores dentro do CSS
 
-### 13.1 - Nome
+#### 13.1.1 - Nome
 
 A representação por nome é feita chamando um nome predefinido de cor no CSS, exemplo:
 ```
     <h2 style="background-color: blue; color: white;">Exemplo de cores</h2>
 ```
 
-### 13.2 - Código Hexadecimal
+#### 13.1.2 - Código Hexadecimal
 
-#### 13.2.1 - Código 
+##### 13.1.2.1 - Código 
 
 O código hexadecimal é representada por 6 dígitos cada um deles podento ter uma variedade de 16 carcteres que variam do 0 ao F e normalmente sendo acompanhado pelo símbolo de #. Sendo eles:
 
@@ -910,7 +910,7 @@ Exemplo : #B156AD
  Azul puro: #0000FF  
   ![hexadecimal_blue](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/hexadecimal_blue.PNG)
 
-#### 13.2.2 Como funciona?
+##### 13.1.2.2 Como funciona?
 
 Cada campo do código de cor hexadecimal define a intensidade da sua cor respectivamente, sendo a mais fraca ou ausência de cor 00, e a mais forte FF.
 
@@ -920,7 +920,7 @@ Como o código é feito na base 16, cada campo representativo de cor possui 16x1
 
 ![cor](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/cor.PNG)
 
-### 13.3 - RGB
+#### 13.1.3 - RGB
 
 representa em código RGB, respectivamente vermelho, verde e Azul. A representação é dada do 0 ao 255. Exemplo:
 
@@ -929,16 +929,108 @@ representa em código RGB, respectivamente vermelho, verde e Azul. A representa�
 0,255,0 - representa o verde puro.
 0,0,255 - representa o azul puro.
 
-### 13.4 - Transparência
+#### - 13.1.4 - Transparência
 
 Tanto os modos RGB e Hexadecimal, possuem transparência acessível pelo editor VScode. Para acessar as configurações basta passar o mouse por cima da cor que deseja adicionar a transparência e, na janela agora aberta, mover o cursor ao lado da barra de cores.
 
 ![opcoes_cor](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/opcoes_cor.PNG)
 
+### 13.2 Harmonia de Cores
+
+#### 13.2.1 - Associações
+
+Cada cor pode ser associada a um tipo de sentimento ou estado, deve-se levar em consideração o que cada cor representa antes de usá-la em um projeto.
+
+![associacoes](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/associacoes.PNG)
+
+#### 13.2.2 - Circulo cromático
+
+O circulo cromático é uma representação das cores em formato de círculo.
+
+![circulo_cromatico](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/circulo_cromatico.PNG)
+
+##### 13.2.2.1 - Cores Primárias
+
+Dentre essas classificações temos as cores primárias: Azul,Vermelho e Amarelo.
+
+![primarias](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/primarias.PNG)
+
+Essas cores são conhecidas por serem um pouco difíceis de se trabalhar por serem cores primárias e muito "duras".
+
+##### 13.2.2.2 - Cores Secundárias
+
+Dentre essas classificações temos as cores secundárias: Verde,Violeta e Laranja.
+
+![secundarias](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/secundarias.PNG)
+
+Essas cores também são conhecidas por serem um pouco difíceis de se trabalhar por serem cores muito "duras". 
+
+##### 13.2.2.3- Cores Terciária
+
+São o resultado de todas as cores vindas da mistura de uma cor primária e secundária
+
+![terciarias](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/terciarias.JPEG)
+
+Essas cores geralmente são largamente utilizadas em projetos. Toda cor terciária fica entre uma cor primária e uma secundária, sendo nomeada com o nome da cor primária e, logo depois, a cor secundária. Exemplos:
+
+Amarelo-esverdeado
+Azul-esverdeado
+Azul-arroxeado
+Vermelho-arroxeado
+Vermelho-alaranjado
+Amarelo-alaranjado
+
+![terciarias2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/terciarias2.webp.JPEG)
+
+##### 13.2.2.4 - Temperatura de cor
+
+As cores podem lembrar temperaturas específicas e passar a sensação de algo frio ou quente baseado apenas na tonalidade das cores.
+
+![hotcold](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/hotcold.PNG)
+
+
+##### 13.2.2.5 - Complementares.
+
+As cores complementares são as cores que possuem mais contraste entre si, geralmente elas trabalham bem juntas, mas deve-se tomar cuidado para que os tons não parecem muito fortes deixando a visualização desagradável. Também é um dos modelos de escolhas de cor mais comuns e geralmente utilizados.
+
+![complementar](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/complementar.PNG)
+
+##### 13.2.2.6 - Análogas.
+
+As cores análogas são o oposto das cores complementares, mas também trabalham bem juntas. Elas são as cores que possuem um contraste muito baixo entre si e tem uma harmonia natural.
+
+![complementar](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/complementar.PNG)
+
+##### 13.2.2.7 - Cores Análogas e uma complementar.
+
+Esta é uma tecnica muito utilizado no design, consiste em pegar 3 cores análogas e uma complementar gerando assim uma paleta de cores harmônica.
+
+![analogascomplementar](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/analogascomplementar.PNG)
+
+##### 13.2.2.8 - Cores Análogas relacionadas
+
+Esta técnica geralmente é utilizada quando quemos uma paleta de cor que tem a missão de representar um negócio definido, por exemplo um fastfood normalmente teria a seguinte paleta de cor:
+
+![analogasrelacionada](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/analogasrelacionada.PNG)
+
+##### 13.2.2.8 - Cores Análogas relacionadas
+
+Esta técnica geralmente é utilizada quando quemos uma paleta de cor que tem a missão de representar um negócio definido, por exemplo um fastfood normalmente teria a seguinte paleta de cor:
+
+![analogasrelacionada](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/analogasrelacionada.PNG)
+
+##### 13.2.2.8 - Cores Triádicas
+
+Técnica bastante utilizada e que garante uma grande riqueza de cores, onde escolhemos três pontos equidistantes no círculo cromático.
+Esse esquema gera sempre um triângulo equilátero e cria uma opção que sempre possui um ótimo contraste entre as cores.:
+
+![analogasrelacionada](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/analogasrelacionada.PNG)
 
 
 
+##### 13.3 - Paleta de cores
 
+A paleta de cores de um projeto deve possuir de 3 a 5 cores no máximo e, geralmente, é escolhida através de um dos métodos relacionados ao círculo cromático
 
 
 
