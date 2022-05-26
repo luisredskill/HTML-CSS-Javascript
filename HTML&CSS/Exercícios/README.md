@@ -1159,6 +1159,8 @@ Conteúdo de apoio presente no [PDF do capítulo 14](https://github.com/luisreds
 
 ### 14.2 - Fontes no CSS
 
+#### 14.2.1 - Alterando fontes
+
 A fonte padrão dos navegadores é a __*Times New Roman*__.
 
 Para alterar a fonte de um texto devemos selecionar o elemento no qual ele está inserido e utilizar o seguinte código:
@@ -1188,8 +1190,47 @@ body{
 Respectivamente, resultado esperado, resultado secundário caso a primeira fonte não esteja disponivel no dispositivo atual e última opção.
 
 ![helvetica](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/helvetica.PNG)
-![verdana](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/verdana.PNG)
+![verdana](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/Verdana.PNG)
 ![franklin](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/franklin.PNG)
+
+#### 14.2.2 - Garantindo a usabilidade da fonte
+
+Visto o problema exposto no tópico anterior, podemos evitar esse problema usando combinações de fontes que existem na maioria dos dispositivos por padrão. Para acha-las podemos utilizar o site W3School no tópico [CSS Web Safe Fonts](https://www.w3schools.com/cssref/css_websafe_fonts.asp).
+
+### 14.3 - Alterando o tamanho das fontes
+
+Para alterar o tamanho das fonts, selecionamos o elemento a ser alterado e utiliza-mos o comando __*font-size*__:
+
+```
+seletor{
+    font-size: ;
+}
+```
+
+- __*IMPORTANTE*__ - Este comando pode receber medidas absolutas ou relativas.
+
+|       Absolutas    |  Equivalente | Relativas| Equivalentes |
+| --------------- | ----------- | -------------------- ||
+|  cm   |  centímetro | em||
+|  mm |  milímetro | ex ||
+|  in |  polegada | rem ||
+|  px |  pixel | vw |viewWidth|
+|  pt |  ponto| vh |viewHeight|
+
+
+No geral as medidas __*absolutas*__ não são recomendáveis, principalmente pt pois não se adapta bem ao desenvolvimento web.
+
+- __*em*__ - medida relativa ao tamanho da fonte, utiliza a altura da letra M maiúcula como base.
+
+- __*ex*__ - medida relativa ao tamanho da fonte, utiliza a altura da letra x minúscula como base.
+
+- __*rem*__ - medida relativa ao tamanho da fonte, utiliza a o tamanho da fonte do arquivo HTML como base.
+
+- __*vw*__ - medida relativa à largura da tela, utiliza a tela visível, ou seja todos os pixels visíveis atualmente na janela aberta.
+
+- __*vh*__ - medida relativa à altura da tela, utiliza a tela visível, ou seja todos os pixels visíveis atualmente na janela aberta.
+
+
 
 ## 15 - Estilização CSS
 
