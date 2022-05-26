@@ -1207,15 +1207,16 @@ seletor{
 }
 ```
 
-- __*IMPORTANTE*__ - Este comando pode receber medidas absolutas ou relativas.
+- __*IMPORTANTE*__ - Este comando pode receber medidas absolutas ou relativas.  
+
 
 |       Absolutas    |  Equivalente | Relativas| Equivalentes |
-| --------------- | ----------- | -------------------- ||
-|  cm   |  centímetro | em||
-|  mm |  milímetro | ex ||
-|  in |  polegada | rem ||
-|  px |  pixel | vw |viewWidth|
-|  pt |  ponto| vh |viewHeight|
+| --- | ----------- | --- | -----------|
+|  cm |  centímetro | em  | em|
+|  mm |  milímetro  | ex  | ex |
+|  in |  polegada   | rem | rem |
+|  px |  pixel      | vw  | viewWidth |
+|  pt |  ponto      | vh  | viewHeight |
 
 
 No geral as medidas __*absolutas*__ não são recomendáveis, principalmente pt pois não se adapta bem ao desenvolvimento web.
