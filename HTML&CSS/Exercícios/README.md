@@ -1233,7 +1233,9 @@ No geral as medidas __*absolutas*__ não são recomendáveis, principalmente pt 
 
 - __*vh*__ - medida relativa à altura da tela, utiliza a tela visível, ou seja todos os pixels visíveis atualmente na janela aberta.
 
-### 14.4 - Como adicionar negrito?
+### 14.4 - Como adicionar negrito, itálico e sublinhado?
+
+#### 14.4.1 - Negrito.
 
 Para alterar o peso de uma fonte utilizamos o comando:
 
@@ -1259,7 +1261,7 @@ Este comando pode receber uma variedade de argumentos, assim podemos ter:
 
 __*IMPORTANTE*__ - note que nem todas as fontes possuem esse espectro de peso! Algumas não possuem nem mesmo o negrito, apenas a fonte NORMAL ou 400.
 
-### 14.5 - Como adicionar Itálico?
+#### 14.4.2 - Itálico.
 
 Para adicionarmos itálico a um texto utilizamos o comando:
 
@@ -1270,7 +1272,7 @@ seletor{
 ```
 __*IMPORTANTE*__ - note que nem todas as fontes possuem o itálico!
 
-### 14.6 - Como adicionar Sublinhado?
+#### 14.4.3 - Sublinhado.
 
 Para adicionarmos sublinhado a um texto utilizamos o comando:
 
@@ -1281,7 +1283,7 @@ seletor{
 ```
 __*IMPORTANTE*__ - note que nem todas as fontes possuem o sublinhado!
 
-### 14.7 - Fonte, tamanho, peso e estilo em uma única linha.
+### 14.5 - Fonte, tamanho, peso e estilo em uma única linha.
 
 O CSS possibilita que declaremos todos esses aspectos em uma única linha. Isso é feito da seguinte forma:
 
@@ -1307,6 +1309,89 @@ seletor{
 
 O resultado é o mesmo.
 
+### 14.6 - Como importar uma fonte externa online?
+
+Para importar uma fonte externa devemos importá-la usando a declaração __*@import*__ dentro do CSS antes de qualquer outra declaração. Exemplo:
+````
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+````
+
+Podemos utilizar o [Google Fonts](https://fonts.google.com) para achar fontes para nossos projetos.
+
+Podemos importar uma fonte do google fonts diretamente para o CSS. Depois de selecionar a fonte desejada, clicamos no __*Select this style*__.
+
+![select](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/select.PNG)
+
+Depois clicamos neste ícone:
+
+![select2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/select2.PNG)
+
+Finalmente, selecionando a opção import.
+
+![select3](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/select3.PNG)
+
+
+### 14.7 - Como importar uma fonte externa local? Servidor.
+
+Primeiramente temos que baixar o arquivo de fonte, normalmente os formatos de fonte são __*.ttf*__ ou __*.otf*__, as diferenças entre eles são majoritariamente de compatibilidade com certos navegadores.
+
+Para __*baixar*__ arquivos é recomendado o uso do [Google Fonts](https://fonts.google.com) para fontes gratuitas ou, para mais opções de fontes, é recomendado o [dafont](https://www.dafont.com/pt/).
+
+Depois de baixados e extraidos:
+
+Para importar uma fonte local utilizamos a declaração __*@font-face*__ no começo do arquivo CSS. Ela trabalha de forma a criar uma fonte nova a partir de um arquivo de fonte: 
+
+````
+@font-face{
+
+}
+````
+
+Dentro do @font-face, declaramos o nome do arquivo que será importado:
+__*IMPORTANTE*__ - o nome declarado deve conter o nome exato, com espaços e símbolos.
+
+````
+@font-face{
+src: url('fonts/love story.ttf')
+}
+````
+
+Na mesma linha, declaramos o formato que é um parâmetro de compatibilidade não-obrigatório, porém recomendado:
+
+````
+@font-face{
+src: url('love story.ttf') format ('truetype')
+}
+````
+Note que o formato não é um padrão, mas __*NORMALMENTE*__ a melhor seleção de compatibilidade é:
+
+| tipo              | formato     | 
+| ---               | ----------- | 
+| ttf               |   truetype  |
+| otf               |   opentype  | 
+| embedded-opentype |             |
+| truetype-att      |             | 
+| svg               |             | 
+
+Finalmente, criamos o nome da fonte que não necessáriamente precisa ser o mesmo nome. Exemplo:
+
+````
+@font-face{
+font-family: 'Anger';
+src: url('fonts/love story.ttf') format ('truetype')
+}
+````
+Assim, chamaremos essa fonte dentro de nosso código CSS de __*Anger*__, não de __*love story*__.
+
+````
+body{
+font-family: 'Anger';
+}
+````
+
+Resultado:
+
+![Anger](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/Anger.PNG)
 
 ## 15 - Estilização CSS
 

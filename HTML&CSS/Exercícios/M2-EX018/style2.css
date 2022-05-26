@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Anger';
+    src: url('fonts/love story ttf.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+font-family: 'Anger';
+}
+
