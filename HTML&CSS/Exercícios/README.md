@@ -202,7 +202,7 @@ Note que para funcionar deve-se acrescentar o ; no final do código.
 
 Conteúdo de apoio presente no [PDF do capítulo 6](https://github.com/luisredskill/Curso-em-video/blob/main/HTML%26CSS/PDFs/06%20-%20Imagens%20e%20Favicon.pdf).
 
-### 6.1 Resumo
+### 6.1 - Resumo
 
 - Imagens gratuitas para usar no seu site.
 - Informações sobre formatos de imagens na web.
@@ -244,7 +244,7 @@ Imagem depois a opção redimencionar imagem
 
 Ferramenta de corte, dimensionar corte, apertar ENTER.
 
-### 6.6 Favicon  
+### 6.6 - Favicon.  
 
 Favicon é um ícone que aparece nas abas do navegador logo do lado do nome do site.
 
@@ -264,7 +264,7 @@ Anotações desnecessárias devido a conhecimento prévio - todo conteúdo prese
 
 Conteúdo de apoio presente no [PDF do capítulo 8](https://github.com/luisredskill/Curso-em-video/blob/main/HTML%26CSS/PDFs/08%20-%20Formatação%20de%20Textos.pdf).
 
-### 8.1 - Comandos de Fromatação de texto TAGs
+### 8.1 - TAGs de formatação.
 
 - __*&lt;strong&gt;*__ - <strong>negrito</strong>, destaque
 
@@ -319,7 +319,7 @@ Note que ainda existe o parâmetro cite="link" para citar a fonte do texto.
 
 Conteúdo de apoio presente no [PDF do capítulo 9](https://github.com/luisredskill/Curso-em-video/blob/main/HTML%26CSS/PDFs/09%20-%20Listas%20HTML.pdf).
 
-### 9.1 - Listas ordenadas ou Ordered list
+### 9.1 - Listas ordenadas ou Ordered list.
 
 - A lista ordenada é por padrão uma lista númérica, ela ainda pode receber os argumentos __*type*__  e __*start*__.
 
@@ -446,7 +446,7 @@ Resultado:
 
 ---
 
-### 9.3 - Listas de Definição ou Definition lists
+### 9.3 - Listas de Definição ou Definition lists.
 
 - São utilizadas para definir um termo, muito usadas quando queremos definir vários termos em sequência. Valorizada pelo algorítimo do google quando pesquisado por definições.Exemplo: 
 
@@ -477,7 +477,7 @@ Resultado:
 
 ---
 
-### 9.4 - Junção de listas
+### 9.4 - Junção de listas.
 
 - As listas podem ser aninhadas.
 
@@ -616,7 +616,7 @@ Maior para o menor:
     </picture>
 ```
 
-### 11.2 - Áudios
+### 11.2 - Áudios.
 
 Os áudios são adicionados por meio da tag &lt;audio&gt;, porém ele não é renderizado, apenas carregado na página.
 
@@ -638,7 +638,7 @@ Resultado:
 
 ![Screenshot](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/audio_controller1.PNG)
 
-#### 11.2.2- Otimização de Áudios nos sites.
+#### 11.2.2 - Otimização de Áudios nos sites.
 
 Os áudios exigem ainda mais otimização na hora de adiconá-los em um site, uma música por exemplo, tem por volta de 5 MB de informação, o que já é muito mais pesado que qualquer imagem.
 
@@ -660,11 +660,11 @@ Dentro do parâmetro preload, podemos receber 3 valores:
 | --------------- | ----------- | -------------------- |
 |  Carrega todo o áudio e só considera o carregamento da página completa após o carregamento.    |  Carrega apenas as informações essenciais como nome, tipo de arquivo e tamanho. | Não carrega nada, apenas por comandos do usuário ou JS. |
 
-#### 11.2.3 - Áudio em loop
+#### 11.2.3 - Áudio em loop.
 
 Podemos deixar o áudio tocando em loop adicionando o parâmetro __*loop*__ dentro da tag &lt;audio&gt;.
 
-#### 11.3.3 __*IMPORTANTE*__ Adicionando backups
+#### 11.3.3 - __*IMPORTANTE*__ Adicionando backups.
 
 Para garantir a compatibilidade em todos os navegadores, devemos ter alternativas de carregamento para nossas mídias! Podemos fazer isso utilizando a tag &lt;audio&gt;, porém em vez de indicar o caminho dentro da própria tag pelo parâmetro __*src=""*__, fazemos isso indicando entre as tag. Exemplo:
 
@@ -764,7 +764,7 @@ Código com arquivos de backup em vários formatos garantindo a compatibilidade:
 
     Note que ele vai tentar carregar as midias de cima para baixo, ou seja, é interessante que o menor arquivo seja colocado primeiro.
 
-#### 11.3.5 Incorporando vídeos externos
+#### 11.3.5 - Incorporando vídeos externos.
 
 As vatagens do __*Youtube*__ são melhores codecs de vídeo, deixando o vídeo mais leve permitindo o usuário reproduzir em velocidades mais baixas de internet.
 
@@ -833,7 +833,7 @@ __* * *__ - O seletor * é uma configuração global, ou seja, afeta o documento
 
 Conteúdo de apoio presente no [PDF do capítulo 12](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/12%20-%20Trabalhando%20com%20estilos.pdf).
 
-### 12.1 - Edição inline 
+### 12.1 - Como adicionar CSS na linha? 
 
 Dentro de uma tag podemos editar o estilo da seguinte forma:
 
@@ -843,7 +843,7 @@ Dentro de uma tag podemos editar o estilo da seguinte forma:
 
 Utilizamos a tag style.
 
-### 12.2 - Tag style no HEAD
+### 12.2 - Como adicionar CSS dentro do HEAD?
 
 ```
     <head>
@@ -855,7 +855,7 @@ Utilizamos a tag style.
     </head>
 ```
 
-### 12.3 - Arquivo externo
+### 12.3 - Como adicionar CSS por arquivo externo?
 
 ```
 <head>
@@ -869,23 +869,23 @@ Já abordado em aulas anteriores
 
 
 
-## 13 - Cores
+## 13 - Cores.
 
 Conteúdo de apoio presente no [PDF do capítulo 13](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/13%20-%20Cores.pdf).
 
 
-### 13.1 - Representando as cores dentro do CSS
+### 13.1 - Como utilizar cores dentro do CSS?
 
-#### 13.1.1 - Nome
+#### 13.1.1 - Representação por nome.
 
 A representação por nome é feita chamando um nome predefinido de cor no CSS, exemplo:
 ```
     <h2 style="background-color: blue; color: white;">Exemplo de cores</h2>
 ```
 
-#### 13.1.2 - Código Hexadecimal
+#### 13.1.2 - Representação por código hexadecimal.
 
-##### 13.1.2.1 - Código 
+##### 13.1.2.1 - Código hexadecimal. 
 
 O código hexadecimal é representada por 6 dígitos cada um deles podento ter uma variedade de 16 carcteres que variam do 0 ao F e normalmente sendo acompanhado pelo símbolo de #. Sendo eles:
 
@@ -912,7 +912,7 @@ Exemplo : #B156AD
  Azul puro: #0000FF  
   ![hexadecimal_blue](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/hexadecimal_blue.PNG)
 
-##### 13.1.2.2 Como funciona?
+##### 13.1.2.2 - Como funciona o código hexadecimal?
 
 Cada campo do código de cor hexadecimal define a intensidade da sua cor respectivamente, sendo a mais fraca ou ausência de cor 00, e a mais forte FF.
 
@@ -922,7 +922,7 @@ Como o código é feito na base 16, cada campo representativo de cor possui 16x1
 
 ![cor](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/cor.PNG)
 
-#### 13.1.3 - RGB
+#### 13.1.3 - Representação por RGB.
 
 representa em código RGB, respectivamente vermelho, verde e Azul. A representação é dada do 0 ao 255. Exemplo:
 
@@ -931,27 +931,27 @@ representa em código RGB, respectivamente vermelho, verde e Azul. A representa�
 0,255,0 - representa o verde puro.
 0,0,255 - representa o azul puro.
 
-#### - 13.1.4 - Transparência
+#### - 13.1.4 - Transparência no CSS.
 
 Tanto os modos RGB e Hexadecimal, possuem transparência acessível pelo editor VScode. Para acessar as configurações basta passar o mouse por cima da cor que deseja adicionar a transparência e, na janela agora aberta, mover o cursor ao lado da barra de cores.
 
 ![opcoes_cor](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/opcoes_cor.PNG)
 
-### 13.2 Harmonia de Cores
+### 13.2 Harmonia de cores e sua importância.
 
-#### 13.2.1 - Associações
+#### 13.2.1 - O que representa cada cor?
 
 Cada cor pode ser associada a um tipo de sentimento ou estado, deve-se levar em consideração o que cada cor representa antes de usá-la em um projeto.
 
 ![associacoes](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/associacoes.png)
 
-#### 13.2.2 - Circulo cromático
+#### 13.2.2 - O que é círculo cromático?
 
 O circulo cromático é uma representação das cores em formato de círculo.
 
 ![circulo_cromatico](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/circulo_cromatico.PNG)
 
-##### 13.2.2.1 - Cores Primárias
+##### 13.2.2.1 - Cores primárias.
 
 Dentre essas classificações temos as cores primárias: Azul,Vermelho e Amarelo.
 
@@ -959,7 +959,7 @@ Dentre essas classificações temos as cores primárias: Azul,Vermelho e Amarelo
 
 Essas cores são conhecidas por serem um pouco difíceis de se trabalhar por serem cores primárias e muito "duras".
 
-##### 13.2.2.2 - Cores Secundárias
+##### 13.2.2.2 - Cores secundárias.
 
 Dentre essas classificações temos as cores secundárias: Verde,Violeta e Laranja.
 
@@ -967,7 +967,7 @@ Dentre essas classificações temos as cores secundárias: Verde,Violeta e Laran
 
 Essas cores também são conhecidas por serem um pouco difíceis de se trabalhar por serem cores muito "duras". 
 
-##### 13.2.2.3- Cores Terciárias
+##### 13.2.2.3 - Cores terciárias.
 
 São o resultado de todas as cores vindas da mistura de uma cor primária e secundária
 
@@ -982,7 +982,7 @@ Amarelo-alaranjado
 
 ![terciarias2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/terciarias2.webp)
 
-##### 13.2.2.4 - Temperatura de cor
+##### 13.2.2.4 - Temperatura de cor.
 
 As cores podem lembrar temperaturas específicas e passar a sensação de algo frio ou quente baseado apenas na tonalidade das cores.
 
@@ -1001,14 +1001,14 @@ As cores análogas são o oposto das cores complementares, mas também trabalham
 
 ![analogas](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/analogas.png)
 
-##### 13.2.2.7 - Cores Análogas e uma complementar.
+##### 13.2.2.7 - Cores análogas e uma complementar.
 
 Esta é uma tecnica muito utilizado no design, consiste em pegar 3 cores análogas e uma complementar gerando assim uma paleta de cores harmônica.
 
 ![analogascomplementar](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/analogascomplementar.jpeg)
 
 
-##### 13.2.2.8 - Cores Triádicas
+##### 13.2.2.8 - Cores triádicas.
 
 Técnica bastante utilizada e que garante uma grande riqueza de cores, onde escolhemos três pontos equidistantes no círculo cromático.
 Esse esquema gera sempre um triângulo equilátero e cria uma opção que sempre possui um ótimo contraste entre as cores.:
@@ -1023,9 +1023,9 @@ Neste método, trabalhamos apenas com um tipo de cor em tônalidades diferentes,
 
 
 
-#### 13.3 - Paleta de cores
+### 13.3 - O que é uma paleta de cores?
 
-#### 13.3.1 - Criando uma paleta
+#### 13.3.1 - Criando uma paleta de cores!
 
 A paleta de cores de um projeto deve possuir de 3 a 5 cores no máximo e, geralmente, é escolhida através de um dos métodos relacionados ao círculo cromático.
 
@@ -1041,7 +1041,7 @@ Exemplo de cores complementares:
 
 ![adobe color2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/adobecolor2.PNG)
 
-#### 13.3.2 - Extraindo uma paleta e formando um gradiente.
+#### 13.3.2 - Tem uma logo? Aqui está como ter acesso a sua paleta!
 
 Usando a mesma ferramenta podemos utilizar a ferramenta __*Extrair tema*__, ela gera uma paleta de cores baseado na imagem inserida.
 
@@ -1051,7 +1051,7 @@ Ainda podemos formar um gradiente com a ferramenta __*Extrair Gradiente*__ basea
 
 ![extrairgradiente](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/extrairgradiente.PNG)
 
-#### 13.3.3 - Paletas prontas
+#### 13.3.3 - Paletas prontas para serem usadas!
 
 Na aba explorar do [adobe Color](https://color.adobe.com/pt/create/color-wheel), podemos achar uma paleta pronta de cores para ser utilizada.
 
@@ -1065,13 +1065,13 @@ Resultado:
 
 ![paletasmaisusadas](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/paletasmaisusadas.PNG)
 
-### 13.4 - Salvar cores no navegador
+### 13.4 - Salvando cores no navegador.
 
 Para evitar trabalho desnecessário utilizamos uma extensão chamada [CollorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=pt-BR) no chrome.
 
-### 13.5 - Como criar um degradê no CSS 
+### 13.5 - Como criar um degradê no CSS? 
 
-#### 13.5.1 Degradê linear
+#### 13.5.1 - Degradê linear.
 
 Para criar um degradê no css utilizamos o __*background-image*__. Este que receberá um função de nome __*linear-gradient*__.
 
@@ -1133,7 +1133,7 @@ Respectivamente:
 }
 ````
 
-#### 13.5.2 - Degradê radial
+#### 13.5.2 - Degradê radial.
 
 Para criar um degradê radial no css utilizamos Para criar um degradê no css utilizamos o __*background-image*__. Este que receberá um função de nome __*radial-gradient*__.
 
@@ -1149,17 +1149,17 @@ Resultado:
 
 
 
-## 14 - Fontes
+## 14 - Como funcionam as fontes no CSS?
 
-### 14.1 - História da Tipografia
+### 14.1 - História da tipografia.
 
 História da tipografia, explicação sobre os estudos da tipografia presentes no conteúdo do pdf.
 
 Conteúdo de apoio presente no [PDF do capítulo 14](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/14%20-%20Fontes.pdf).
 
-### 14.2 - Fontes no CSS
+### 14.2 - Fontes no CSS.
 
-#### 14.2.1 - Alterando fontes
+#### 14.2.1 - Como alterar uma fonte no CSS?
 
 A fonte padrão dos navegadores é a __*Times New Roman*__.
 
@@ -1193,11 +1193,13 @@ Respectivamente, resultado esperado, resultado secundário caso a primeira fonte
 ![verdana](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/Verdana.PNG)
 ![franklin](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/franklin.PNG)
 
-#### 14.2.2 - Garantindo a usabilidade da fonte
+#### 14.2.2 - Como garantir que a minha fonte poderá ser usada?
 
 Visto o problema exposto no tópico anterior, podemos evitar esse problema usando combinações de fontes que existem na maioria dos dispositivos por padrão. Para acha-las podemos utilizar o site W3School no tópico [CSS Web Safe Fonts](https://www.w3schools.com/cssref/css_websafe_fonts.asp).
 
-### 14.3 - Alterando o tamanho das fontes
+Ainda temos a opção de importar as fonts do google fonts.
+
+### 14.3 - Como alterar o tamanho da minha fonte?
 
 Para alterar o tamanho das fonts, selecionamos o elemento a ser alterado e utiliza-mos o comando __*font-size*__:
 
@@ -1231,7 +1233,7 @@ No geral as medidas __*absolutas*__ não são recomendáveis, principalmente pt 
 
 - __*vh*__ - medida relativa à altura da tela, utiliza a tela visível, ou seja todos os pixels visíveis atualmente na janela aberta.
 
-### 14.4 - Negrito e light
+### 14.4 - Como adicionar negrito?
 
 Para alterar o peso de uma fonte utilizamos o comando:
 
@@ -1257,7 +1259,7 @@ Este comando pode receber uma variedade de argumentos, assim podemos ter:
 
 __*IMPORTANTE*__ - note que nem todas as fontes possuem esse espectro de peso! Algumas não possuem nem mesmo o negrito, apenas a fonte NORMAL ou 400.
 
-### 14.5 Itálico
+### 14.5 - Como adicionar Itálico?
 
 Para adicionarmos itálico a um texto utilizamos o comando:
 
@@ -1268,7 +1270,7 @@ seletor{
 ```
 __*IMPORTANTE*__ - note que nem todas as fontes possuem o itálico!
 
-### 14.6 Sublinhado
+### 14.6 - Como adicionar Sublinhado?
 
 Para adicionarmos sublinhado a um texto utilizamos o comando:
 
@@ -1279,7 +1281,7 @@ seletor{
 ```
 __*IMPORTANTE*__ - note que nem todas as fontes possuem o sublinhado!
 
-### 14.7 Fonte, tamanho, peso e estilo em uma única linha
+### 14.7 - Fonte, tamanho, peso e estilo em uma única linha.
 
 O CSS possibilita que declaremos todos esses aspectos em uma única linha. Isso é feito da seguinte forma:
 
