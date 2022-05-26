@@ -1231,7 +1231,7 @@ No geral as medidas __*absolutas*__ não são recomendáveis, principalmente pt 
 
 - __*vh*__ - medida relativa à altura da tela, utiliza a tela visível, ou seja todos os pixels visíveis atualmente na janela aberta.
 
-### 14.4 - Negrito, light e itálico.
+### 14.4 - Negrito e light
 
 Para alterar o peso de uma fonte utilizamos o comando:
 
@@ -1255,6 +1255,55 @@ Este comando pode receber uma variedade de argumentos, assim podemos ter:
 | 800 |             |
 | 900 |   bolder    | 
 
+__*IMPORTANTE*__ - note que nem todas as fontes possuem esse espectro de peso! Algumas não possuem nem mesmo o negrito, apenas a fonte NORMAL ou 400.
+
+### 14.5 Itálico
+
+Para adicionarmos itálico a um texto utilizamos o comando:
+
+```
+seletor{
+    font-style: italic;
+}
+```
+__*IMPORTANTE*__ - note que nem todas as fontes possuem o itálico!
+
+### 14.6 Sublinhado
+
+Para adicionarmos sublinhado a um texto utilizamos o comando:
+
+```
+seletor{
+   text-decoration: underline;
+}
+```
+__*IMPORTANTE*__ - note que nem todas as fontes possuem o sublinhado!
+
+### 14.7 Fonte, tamanho, peso e estilo em uma única linha
+
+O CSS possibilita que declaremos todos esses aspectos em uma única linha. Isso é feito da seguinte forma:
+
+font-style &rarr; font-weight &rarr; font-size &rarr; font-family
+
+O que antes seria um bloco de código:
+
+```
+seletor{
+  font-family: 'Work Sans';
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 16px;
+}
+```
+É condensado em apenas uma linha:
+```
+seletor{
+  font: italic bolder 3em 'Work Sans';
+}
+
+```
+
+O resultado é o mesmo.
 
 
 ## 15 - Estilização CSS
