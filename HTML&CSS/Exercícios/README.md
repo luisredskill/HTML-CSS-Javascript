@@ -1231,6 +1231,30 @@ No geral as medidas __*absolutas*__ não são recomendáveis, principalmente pt 
 
 - __*vh*__ - medida relativa à altura da tela, utiliza a tela visível, ou seja todos os pixels visíveis atualmente na janela aberta.
 
+### 14.4 - Negrito, light e itálico.
+
+Para alterar o peso de uma fonte utilizamos o comando:
+
+```
+seletor{
+    font-weight: ;
+}
+```
+
+Este comando pode receber uma variedade de argumentos, assim podemos ter:
+
+| Numérico |  Semântico| 
+| --- | ----------- | 
+| 100 |   lighter   |
+| 200 |             | 
+| 300 |             |
+| 400 |   normal    | 
+| 500 |             | 
+| 600 |             |
+| 700 |   bold      | 
+| 800 |             |
+| 900 |   bolder    | 
+
 
 
 ## 15 - Estilização CSS
