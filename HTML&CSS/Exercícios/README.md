@@ -1416,6 +1416,9 @@ No google chrome, [Fonts Ninja](https://chrome.google.com/webstore/detail/fonts-
 
 ## 15 - Comandos CSS
 
+Conteúdo de apoio presente no [PDF do capítulo 15](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/15%20-Seletores%20personalizados.pdf).
+
+
 ### 15.1 - Alinhamento de texto
 
 O padrão de alinhamento de texto é alinhamento à __*esquerda*__.
@@ -1434,6 +1437,7 @@ Existem 4 argumentos principais para a declaração:
 
 - left, alinhamento à __*esquerda*__ padrão para todos os textos.
 
+
 ````
 seletor{
     text-align: left ;
@@ -1442,7 +1446,9 @@ seletor{
 
 ![left](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/left.PNG)
 
+
 - right, alinhamento à __*direita*__.
+
 
 ````
 seletor{
@@ -1452,7 +1458,9 @@ seletor{
 
 ![right](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/right.PNG)
 
+
 - center, alinhamento __*centralizado*__.
+
 
 ````
 seletor{
@@ -1462,7 +1470,9 @@ seletor{
 
 ![center](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/center.PNG)
 
+
 - justify, alinhamento __*justificado*__.
+
 
 ````
 seletor{
@@ -1475,7 +1485,6 @@ seletor{
 
 
 
-Conteúdo de apoio presente no [PDF do capítulo 15](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/15%20-Seletores%20personalizados.pdf).
 
 ## 16 - Estilização CSS
 
