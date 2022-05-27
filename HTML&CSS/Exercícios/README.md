@@ -1149,7 +1149,7 @@ Resultado:
 
 
 
-## 14 - Como funcionam as fontes no CSS?
+## 14 - Fontes
 
 ### 14.1 - História da tipografia.
 
@@ -1157,9 +1157,7 @@ História da tipografia, explicação sobre os estudos da tipografia presentes n
 
 Conteúdo de apoio presente no [PDF do capítulo 14](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/14%20-%20Fontes.pdf).
 
-### 14.2 - Fontes no CSS.
-
-#### 14.2.1 - Como alterar uma fonte no CSS?
+### 14.2 - Como alterar uma fonte no CSS?
 
 A fonte padrão dos navegadores é a __*Times New Roman*__.
 
@@ -1193,13 +1191,13 @@ Respectivamente, resultado esperado, resultado secundário caso a primeira fonte
 ![verdana](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/Verdana.PNG)
 ![franklin](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/franklin.PNG)
 
-#### 14.2.2 - Como garantir que a minha fonte poderá ser usada?
+#### 14.3 - Como garantir que a minha fonte poderá ser usada?
 
 Visto o problema exposto no tópico anterior, podemos evitar esse problema usando combinações de fontes que existem na maioria dos dispositivos por padrão. Para acha-las podemos utilizar o site W3School no tópico [CSS Web Safe Fonts](https://www.w3schools.com/cssref/css_websafe_fonts.asp).
 
 Ainda temos a opção de importar as fonts do google fonts.
 
-### 14.3 - Como alterar o tamanho da minha fonte?
+### 14.4 - Como alterar o tamanho da minha fonte?
 
 Para alterar o tamanho das fonts, selecionamos o elemento a ser alterado e utiliza-mos o comando __*font-size*__:
 
@@ -1233,7 +1231,7 @@ No geral as medidas __*absolutas*__ não são recomendáveis, principalmente pt 
 
 - __*vh*__ - medida relativa à altura da tela, utiliza a tela visível, ou seja todos os pixels visíveis atualmente na janela aberta.
 
-### 14.4 - Como adicionar negrito, itálico e sublinhado?
+### 14.5 - Como adicionar negrito, itálico e sublinhado?
 
 #### 14.4.1 - Negrito.
 
@@ -1309,7 +1307,10 @@ seletor{
 
 O resultado é o mesmo.
 
-### 14.6 - Como importar uma fonte externa online?
+### 14.6 - Como importar uma fonte?
+
+#### 14.6.1 - Como importar uma fonte externa online?
+
 
 Para importar uma fonte externa devemos importá-la usando a declaração __*@import*__ dentro do CSS antes de qualquer outra declaração. Exemplo:
 ````
@@ -1331,7 +1332,7 @@ Finalmente, selecionando a opção import.
 ![select3](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/select3.PNG)
 
 
-### 14.7 - Como importar uma fonte externa local? Servidor.
+### 14.6.2 - Como importar uma fonte baixada? Servidor.
 
 Primeiramente temos que baixar o arquivo de fonte, normalmente os formatos de fonte são __*.ttf*__ ou __*.otf*__, as diferenças entre eles são majoritariamente de compatibilidade com certos navegadores.
 
@@ -1347,7 +1348,7 @@ Para importar uma fonte local utilizamos a declaração __*@font-face*__ no come
 }
 ````
 
-Dentro do @font-face, declaramos o nome do arquivo que será importado:
+Dentro do @font-face, declaramos o nome do arquivo que será importado:  
 __*IMPORTANTE*__ - o nome declarado deve conter o nome exato, com espaços e símbolos.
 
 ````
@@ -1393,9 +1394,86 @@ Resultado:
 
 ![Anger](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/Anger.PNG)
 
-## 15 - Estilização CSS
+### 14.7 - Como identificar uma fonte de qualquer site?
 
-Já abordado em aulas anteriores
+#### 14.7.1 - Indentificando fontes textuais
+
+As fontes de um site estão presentes no seu CSS e podem ser recuperadas por programas terceiros.
+
+Para isso podemos utilizar extensões de navegadores especializadas e que podem recuperar essas informações.
+  
+No google chrome, [Fonts Ninja](https://chrome.google.com/webstore/detail/fonts-ninja/eljapbgkmlngdpckoiiibecpemleclhh).
+
+![fontsninja](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/fontsninja.PNG)
+
+#### 14.7.2 - Indentificando fontes de imagens.
+
+[Whatfontis](https://www.whatfontis.com)   
+[Font Squirrel](https://www.fontsquirrel.com/matcherator)   
+[MyFonts](https://www.myfonts.com/WhatTheFont/)  
+
+
+
+## 15 - Comandos CSS
+
+### 15.1 - Alinhamento de texto
+
+O padrão de alinhamento de texto é alinhamento à __*esquerda*__.
+
+A declaração utilizada para mudar o alinhamento de texto é o __*text-align*__.
+
+Código:
+
+````
+seletor{
+    text-align: ;
+}
+````
+
+Existem 4 argumentos principais para a declaração:
+
+- left, alinhamento à __*esquerda*__ padrão para todos os textos.
+
+````
+seletor{
+    text-align: left ;
+}
+````
+
+![left](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/left.PNG)
+
+- right, alinhamento à __*direita*__.
+
+````
+seletor{
+    text-align: right ;
+}
+````
+
+![right](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/right.PNG)
+
+- center, alinhamento __*centralizado*__.
+
+````
+seletor{
+    text-align: center ;
+}
+````
+
+![center](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/center.PNG)
+
+- justify, alinhamento __*justificado*__.
+
+````
+seletor{
+    text-align: justify ;
+}
+````
+
+![justify](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/justify.PNG)
+
+
+
 
 Conteúdo de apoio presente no [PDF do capítulo 15](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/15%20-Seletores%20personalizados.pdf).
 
