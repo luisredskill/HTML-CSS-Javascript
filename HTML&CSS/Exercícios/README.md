@@ -1435,7 +1435,7 @@ seletor{
 
 Existem 4 argumentos principais para a declaração:
 
-- left, alinhamento à __*esquerda*__ padrão para todos os textos.  <br>
+1.left, alinhamento à __*esquerda*__ padrão para todos os textos.
 
 
 ````
@@ -1447,7 +1447,7 @@ seletor{
 ![left](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/left.PNG)
 
 
-- right, alinhamento à __*direita*__.  <br>
+2.right, alinhamento à __*direita*__.  <br>
 
 
 ````
@@ -1459,7 +1459,7 @@ seletor{
 ![right](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/right.PNG)
 
 
-- center, alinhamento __*centralizado*__.  <br>
+3.center, alinhamento __*centralizado*__.  <br>
 
 
 ````
@@ -1471,7 +1471,7 @@ seletor{
 ![center](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/center.PNG)
 
 
-- justify, alinhamento __*justificado*__.  <br>
+4.justify, alinhamento __*justificado*__.  <br>
 
 
 ````
