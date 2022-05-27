@@ -829,7 +829,7 @@ __* * *__ - O seletor * é uma configuração global, ou seja, afeta o documento
 
 
 
-## 12 - Estilização CSS
+## 12 - Tipos de estilização CSS.
 
 Conteúdo de apoio presente no [PDF do capítulo 12](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/12%20-%20Trabalhando%20com%20estilos.pdf).
 
@@ -866,6 +866,12 @@ Utilizamos a tag style.
 Note que esta tag altera não apenas um elemento, mas todos os elementos da página atual!
 
 Já abordado em aulas anteriores
+
+### 12.4 - Hierarquia de tipos de estilização.
+
+inline &rarr; HTML &rarr; extern
+
+Inline prevalece sobre a alteração interna do HTML que, por sua vez, prevalece sobre a alteração feita no arquivo CSS externo.
 
 
 
@@ -1412,14 +1418,7 @@ No google chrome, [Fonts Ninja](https://chrome.google.com/webstore/detail/fonts-
 [Font Squirrel](https://www.fontsquirrel.com/matcherator)   
 [MyFonts](https://www.myfonts.com/WhatTheFont/)  
 
-
-
-## 15 - Comandos CSS
-
-Conteúdo de apoio presente no [PDF do capítulo 15](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/15%20-Seletores%20personalizados.pdf).
-
-
-### 15.1 - Alinhamento de texto
+### 14.8 - Como alinhar texto?
 
 O padrão de alinhamento de texto é alinhamento à __*esquerda*__.
 
@@ -1435,7 +1434,7 @@ seletor{
 
 Existem 4 argumentos principais para a declaração:
 
-1.left, alinhamento à __*esquerda*__ padrão para todos os textos.
+1 - left, alinhamento à __*esquerda*__ padrão para todos os textos.
 
 
 ````
@@ -1447,7 +1446,7 @@ seletor{
 ![left](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/left.PNG)
 
 
-2.right, alinhamento à __*direita*__.  <br>
+2 - right, alinhamento à __*direita*__.  <br>
 
 
 ````
@@ -1459,7 +1458,7 @@ seletor{
 ![right](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/right.PNG)
 
 
-3.center, alinhamento __*centralizado*__.  <br>
+3 - center, alinhamento __*centralizado*__.  <br>
 
 
 ````
@@ -1471,7 +1470,7 @@ seletor{
 ![center](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/center.PNG)
 
 
-4.justify, alinhamento __*justificado*__.  <br>
+4 - justify, alinhamento __*justificado*__.  <br>
 
 
 ````
@@ -1482,7 +1481,138 @@ seletor{
 
 ![justify](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/justify.PNG)
 
+### 14.9 - Como criar um recuo de parágrafo?
 
+Para fazer um recuo em todo parágrafo utilizamos a declaração __*text-indent*__.
+
+Código:
+
+````
+seletor{
+    text-indent: 20px;
+}
+````
+
+Resultado:
+
+![indent](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/indent.PNG)
+
+
+__*IMPORTANTE*__ - Note que todos os elementos inclusos terão o recuo!
+
+
+## 15 - Seletores CSS
+
+Conteúdo de apoio presente no [PDF do capítulo 15](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/15%20-Seletores%20personalizados.pdf).
+
+### 15.1 - Como selecionar um elemento?
+
+Para selecionar um elemento HTML que sofrerá alterações no CSS, utilizamos os seletores CSS.
+
+Os seletores CSS utilizam as TAGS HTML para selecionar todos os elementos que serão alterados.
+
+Dentro do arquivo CSS, basta escrever o nome da TAG seguida por {}, todas as declarações dentro das {} serão aplicadas aos elementos selecionados.
+
+Exemplo:
+
+HTML
+
+````
+    <h1>Selecionando com CSS</h1>
+    <h1>Aprendendo a Selecionar</h1>
+````
+
+CSS 
+
+````
+h1{
+    color: red;
+}
+````
+
+Resultado:
+
+![seletores](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/seletores.PNG)
+
+Note ambos os títulos foram alterados.
+
+### 15.2 - Como selecionar por ID? 
+
+O primeiro passo para selecionar um elemento por ID é garantir que o elemento HTML possui este ID, ou seja, colocaremos o ID no elemento desejado.
+
+Exemplo:
+
+````
+    <h1 id = "principal">Selecionando com CSS</h1>
+    <h1>Aprendendo a Selecionar</h1>
+````
+
+Depois, no CSS, selecionaremos este elemento HTML pelo ID. Dentro do CSS o ID é representado pelo sinal de #. Isso quer dizer que estamos selecionando o elemento &lt;H1&gt; de ID principal.
+
+````
+h1#principal{
+    color: red;
+}
+````
+
+Resultado:
+
+![seletores2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/seletores2.PNG)
+
+### 15.3 - Como selecionar por classe?
+
+A representação de classe no CSS é feito por ".".
+
+No CSS a seleção por classes serve para alterar inúmeros elementos ao mesmo tempo, enquanto um elemento pode ter apenas um ID, vários elementos podem ter a mesma classe.
+
+Primeiro adicionamos uma classe ao HTML
+
+````
+<h1 class = "nomeClasse">Selecionando uma classe</h1>
+<h2 class = "nomeClasse">Subtítulo 1</h1>
+<h2 class = "nomeClasse">Subtítulo 2</h1>
+````
+
+Depois selecionamos esta classe, declarando suas alterações
+
+````
+.nomeClasse{
+color: blue;
+}
+````
+
+Resultado:
+
+![class](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/class.PNG)
+
+__*IMPORTANTE*__ - Várias classes podem ser adicionadas ao mesmo elemento separadas por " ".
+
+HTML
+
+````
+<h1 class = "classeUm classeDois">Adicionando várias classes em um elemento</h1>
+
+````
+
+CSS
+
+````
+.classeUm{
+color: white;
+}
+.classeDois{
+    background-color: blueviolet;
+}
+````
+Resultado:
+
+![class2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/class2.PNG)
+
+### 15.4 - Hierarquia Class x ID.
+
+ID &rarr; Class
+
+As alterações no ID prevalecem sobre as alterações por class.
 
 
 
