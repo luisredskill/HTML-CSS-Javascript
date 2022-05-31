@@ -1505,11 +1505,15 @@ __*IMPORTANTE*__ - Note que todos os elementos inclusos terão o recuo!
 
 Conteúdo de apoio presente no [PDF do capítulo 15](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/15%20-Seletores%20personalizados.pdf).
 
-### 15.1 - Como selecionar um elemento?
+### 15.1 - Hierarquia Class x ID.
 
-Para selecionar um elemento HTML que sofrerá alterações no CSS, utilizamos os seletores CSS.
+ID &rarr; Class
 
-Os seletores CSS utilizam as TAGS HTML para selecionar todos os elementos que serão alterados.
+As alterações no ID prevalecem sobre as alterações por class.
+
+### 15.2 - Como selecionar um elemento?
+
+Para selecionar um elemento HTML que sofrerá alterações no CSS, utilizamos os seletores CSS. Os seletores CSS utilizam as TAGS HTML para selecionar todos os elementos que serão alterados.
 
 Dentro do arquivo CSS, basta escrever o nome da TAG seguida por {}, todas as declarações dentro das {} serão aplicadas aos elementos selecionados.
 
@@ -1534,9 +1538,9 @@ Resultado:
 
 ![seletores](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/seletores.PNG)
 
-Note ambos os títulos foram alterados.
+Note, ambos os títulos foram alterados.
 
-### 15.2 - Como selecionar por ID? 
+### 15.3 - Como selecionar por ID? 
 
 O primeiro passo para selecionar um elemento por ID é garantir que o elemento HTML possui este ID, ou seja, colocaremos o ID no elemento desejado.
 
@@ -1559,13 +1563,13 @@ Resultado:
 
 ![seletores2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/seletores2.PNG)
 
-### 15.3 - Como selecionar por classe?
+### 15.4 - Como selecionar por classe?
 
 A representação de classe no CSS é feito por ".".
 
-No CSS a seleção por classes serve para alterar inúmeros elementos ao mesmo tempo, enquanto um elemento pode ter apenas um ID, vários elementos podem ter a mesma classe.
+No CSS, a seleção por classes serve para alterar inúmeros elementos ao mesmo tempo, enquanto um elemento pode ter apenas um ID, vários elementos podem ter a mesma classe.
 
-Primeiro adicionamos uma classe ao HTML
+Primeiro adicionamos uma classe aos elementos HTML:
 
 ````
 <h1 class = "nomeClasse">Selecionando uma classe</h1>
@@ -1573,7 +1577,7 @@ Primeiro adicionamos uma classe ao HTML
 <h2 class = "nomeClasse">Subtítulo 2</h1>
 ````
 
-Depois selecionamos esta classe, declarando suas alterações
+Depois selecionamos esta classe, declarando suas alterações:
 
 ````
 .nomeClasse{
@@ -1587,7 +1591,7 @@ Resultado:
 
 __*IMPORTANTE*__ - Várias classes podem ser adicionadas ao mesmo elemento separadas por " ".
 
-HTML
+HTML.
 
 ````
 <h1 class = "classeUm classeDois">Adicionando várias classes em um elemento</h1>
@@ -1608,11 +1612,103 @@ Resultado:
 
 ![class2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/class2.PNG)
 
-### 15.4 - Hierarquia Class x ID.
+### 15.5 - Como selecionar elementos filho?
 
-ID &rarr; Class
+Para selecionar elementos filho usamos o sinal de &gt;.
 
-As alterações no ID prevalecem sobre as alterações por class.
+````
+  div > p{
+            display: none;
+        }
+````
+
+Neste caso estamos selecionando todos os parágrafos que estão dentro de divs.
+
+
+
+### 15.6 - Como selecionar uma pseudo-classe? Interatividade CSS!
+
+As pseudo-classes são estados de elementos, ou seja, quando selecionamos uma pseudo-classe, estamos dizendo que aquelas declarações só entrarão em efeito quando o estado específicado do elemento selecionado estiver sendo executado.
+
+Selecionamos o elemento juntamento com a pseudo-classe desejada:
+
+````
+div:hover{
+
+}
+````
+
+#### 15.6.1 - Hover
+````
+div{
+    display: inline-block;
+    background-color: lightgray;
+    height: 200px;
+    width: 200px;
+}
+div:hover{
+    background-color: yellow;
+}
+````
+
+Neste caso estamos selecionando todas as divs, logo depois selecionamos a pseudo-classe (estado atual das divs) que terá a função de alterar a cor do função apenas quando o mouse estiver em cima da div.
+
+Sem o mouse:
+
+![hover](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/hover.PNG)
+
+Com o mouse em cima da div 01:
+
+![hover2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/hover2.PNG)
+
+### 15.6 - Exemplos práticos
+
+Quando vemos as possibilidades de código a nossa frente é difícil pensar em como usá-los, aqui estão alguns exemplos simples, mas que podem abrir a sua mente para as possibilidades:
+
+#### 15.6.1 - Parágrafo escondido?
+
+
+
+````
+    <style>
+        div:hover{                             /* 01 */
+            color: red;                        /* 02 */
+        }
+
+        div > p{                               /* 03 */
+            display: none;                     /* 04 */
+        }
+
+        div:hover > p{                         /* 05 */
+            display: block;                    /* 06 */
+            color: white;                      /* 07 */
+            background-color: red;             /* 08 */
+        }
+    </style>
+
+
+
+    <h1>Exemplo de hover</h1>                  /* 09 */
+    <p>Passe o mouse sobre o texto abaixo</p>  /* 10 */
+    <div>Passe o mouse aqui                    /* 11 */
+        <p>Texto escondido</p>                 /* 12 */
+    </div>
+
+````
+
+O código acima cria um HTML com um título(09), uma parágrafo abaixo(10) e uma div(11) contendo um parágrafo(12).
+
+Acima do HTML, no CSS temos 3 seletores, o primeiro seleciona os elementos div juntamento com a pseudo-classe hover(01), o segundo seleciona todos os parágrafos contidos em divs(03), o terceiro seleciona todos os elementos div enquanto o mouse estiver sobre eles, porém altera apenas os parágrafos dentro deles(05).
+
+Sendo assim quando passamos o mouse sobre a div(11), acionamos o terceiro seletor que altera a visualização do parágrafo interno desta div para "block", mostrando o parágrafo ao passarmos o mouse e alterando a cor da letra(07) e a cor do fundo(08). Gerando o seguinte resultado:
+
+Sem o mouse em cima da div(11).
+
+![exemplohover](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/exemplohover.PNG)
+
+Com o mouse em cima da div(11) ativando o seletor(05).
+
+![exemplohover2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/exemplohover2.PNG)
 
 
 
