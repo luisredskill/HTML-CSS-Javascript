@@ -1756,7 +1756,14 @@ Alterando a sua largura e altura:
 
 ![caixa2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/caixa2.PNG)
 
-### 16.1 - O que é border?
+### 16.1 - Como transformar um elemento box-level em inline-level e vice-versa?
+
+````
+display: block;
+display: inline;
+````
+
+### 16.2 - O que é border?
 
 Toda caixa possui uma delimitação de seu espaço interno, essa delimitação é chamada de border. Podemos observar em preto a borda:
 
@@ -1771,7 +1778,9 @@ groove: 3D
 - border-color - define a cor da borda
 - border-width - define a largura da borda
 
-#### 16.1.1 - Border ShortHand.
+#### 16.2.1 - Border ShortHand.
+
+O shorthand é feito na seguinte ordem: border-width, border-style, border-color.
 
 ````
 seletor{ 
@@ -1779,7 +1788,7 @@ seletor{
 }
 ````
 
-### 16.2 - O que é padding?
+### 16.3 - O que é padding?
 
 Padding é o espaço entre o conteúdo de uma caixa e a sua borda, isso quer dizer que quando adicionamos um padding a um elemento, seu conteúdo se afastará da borda. Exemplo:
 
@@ -1790,7 +1799,7 @@ Padding é o espaço entre o conteúdo de uma caixa e a sua borda, isso quer diz
 - padding- bottom - define o padding inferior
 - padding-right - define o padding direito
 
-#### 16.2.1 - padding ShortHad.
+#### 16.3.1 - padding ShortHad.
 
 Define todos os paddings para a medida:
 
@@ -1825,7 +1834,7 @@ span{
 
 ![padding3](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/padding3.PNG)
 
-### 16.3 - O que é margin?
+### 16.4 - O que é margin?
 
 Margin é o espaço entre a borda de uma caixa e seu elemento mais próximo, isso quer dizer que quando adicionamos um margin a um elemento, esse elemento se afastará dos elementos mais próximos a ele.
 
@@ -1836,7 +1845,7 @@ Margin é o espaço entre a borda de uma caixa e seu elemento mais próximo, iss
 - margin-bottom - define o margin inferior
 - margin-right - define o margin direito
 
-#### 16.2.1 - margin ShortHad.
+#### 16.4.1 - margin ShortHad.
 
 Define todos as margins para a medida:
 
@@ -1870,6 +1879,41 @@ span{
 ````
 
 ![margin3](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/margin3.PNG)
+
+#### 16.4.2 - Margin auto.
+
+Centraliza horizontalmente elementos box-level que ocupam a linha inteira independente da largura de tela.
+````
+span{
+            margin: auto;
+        }
+````
+
+### 16.5 - Sombra no CSS(shadow).
+
+A sombra no CSS pode ser feita em caixas pelo declaração __*shadow-box*__. Esse comando é um ShortHand, sendo assim ele recebe mais de um argumento. Sendo eles: deslocamento horizontal, deslocamento vertical, espalhamento e cor.
+
+Código:
+
+````
+seletor{
+    box-shadow: 10px 50px 0px black;
+}
+````
+
+Resultado:
+
+![shadowbox](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/shadowbox.PNG)
+
+Outro exemplo:
+
+````
+seletor{
+   box-shadow: 50px 10px 30px black;
+}
+````
+
+![shadowbox2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/shadowbox2.PNG)
 
 ## 17 - Estilização CSS
 
