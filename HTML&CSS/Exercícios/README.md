@@ -1762,9 +1762,22 @@ Toda caixa possui uma delimitação de seu espaço interno, essa delimitação �
 
 ![borda](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/borda.PNG)
 
-- border-style
-- border-color
-- border-width
+- border-style - define o estilo da borda podendo ser:
+dashed: traços 
+dotted: pontinhada
+double: borda dupla
+groove: 3D
+
+- border-color - define a cor da borda
+- border-width - define a largura da borda
+
+#### 16.1.1 - Border ShortHand.
+
+````
+seletor{ 
+    border: 10px solid black;
+}
+````
 
 ### 16.2 - O que é padding?
 
@@ -1772,11 +1785,84 @@ Padding é o espaço entre o conteúdo de uma caixa e a sua borda, isso quer diz
 
 ![padding](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/padding.PNG)
 
+- padding-top - define o padding superior
+- padding-lef - define o padding esquerdo
+- padding- bottom - define o padding inferior
+- padding-right - define o padding direito
+
+#### 16.2.1 - padding ShortHad.
+
+Define todos os paddings para a medida:
+
+````
+seletor{ 
+    padding: 10px;
+}
+````
+
+Define as medidas na seguinte ordem: superior, direita, inferior, esquerda.
+
+````
+span{
+            border: 2px solid black;
+            font-size: 100px;
+            padding: 10px 20px 30px 40px;
+        }
+````
+
+![padding2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/padding2.PNG)
+
+Define as medidas em duplas: Superior e Inferior/ Esquerda e direita
+
+````
+span{
+            border: 2px solid black;
+            font-size: 100px;
+            padding: 10px 20px;
+        }
+````
 ### 16.3 - O que é margin?
 
 Margin é o espaço entre a borda de uma caixa e seu elemento mais próximo, isso quer dizer que quando adicionamos um margin a um elemento, esse elemento se afastará dos elementos mais próximos a ele.
 
 ![margin](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/margin.PNG)
+
+- margin-top - define o margin superior
+- margin-lef - define o margin esquerdo
+- margin-bottom - define o margin inferior
+- margin-right - define o margin direito
+
+#### 16.2.1 - margin ShortHad.
+
+Define todos as margins para a medida:
+
+````
+seletor{ 
+    margin: 10px;
+}
+````
+
+Define as medidas na seguinte ordem: superior, direita, inferior, esquerda.
+
+````
+span{
+            border: 2px solid black;
+            font-size: 100px;
+            margin: 10px 20px 30px 40px;
+        }
+````
+
+![margin2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/margin2.PNG)
+
+Define as medidas em duplas: Superior e Inferior/ Esquerda e direita
+
+````
+span{
+            border: 2px solid black;
+            font-size: 100px;
+            margin: 10px 20px;
+        }
+````
 
 ## 17 - Estilização CSS
 
