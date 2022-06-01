@@ -1915,6 +1915,18 @@ seletor{
 
 ![shadowbox2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/shadowbox2.PNG)
 
+Exemplo usável:
+
+````
+seletor{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
+}
+````
+
+![shadowbox3](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/shadowbox3.PNG)
+
+Note que a sombra, nesse caso é parcialmente transparente para dar um efeito mais agradável visualmente. Note também que ela tem mais de 50% de transparencia gerando melhores resultados.
+
 ## 17 - Estilização CSS
 
 Já abordado em aulas anteriores
