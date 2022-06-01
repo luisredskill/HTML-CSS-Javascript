@@ -1626,7 +1626,7 @@ Neste caso estamos selecionando todos os parágrafos que estão dentro de divs.
 
 
 
-### 15.6 - Como selecionar uma pseudo-classe? Interatividade CSS!
+### 15.6 - O que é uma pseudo-classe? Interatividade CSS!
 
 As pseudo-classes são estados de elementos, ou seja, quando selecionamos uma pseudo-classe, estamos dizendo que aquelas declarações só entrarão em efeito quando o estado específicado do elemento selecionado estiver sendo executado.
 
@@ -1638,7 +1638,7 @@ div:hover{
 }
 ````
 
-#### 15.6.1 - Hover
+#### 15.6.1 - Como funciona uma pseudo-classe? Hover.
 ````
 div{
     display: inline-block;
@@ -1661,11 +1661,31 @@ Com o mouse em cima da div 01:
 
 ![hover2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/hover2.PNG)
 
-### 15.6 - Exemplos práticos
+### 15.6.2 - Procurando por uma pseudo-classe?
+
+- __*visited*__ - altera um link que já foi visitado anteriormente
+
+- __*active*__ - altera um elemento que está ativo.
+
+### 15.7 - O que são pseudo-elementos?
+
+Pseudo-elementos são elementos novos adicionados por CSS, normalmente utilizamos ele quando vamos repetir uma formatação em vários elementos. Eles são selecionados pelo símbolo de __*::*__.
+
+````
+a::before{
+            content: '»';
+        }
+````
+Neste exemplo, seria adicionado um pseudo elemento » antes de todos os links, exemplo:
+
+![link](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/link.PNG)
+
+
+### 15.8 - Exemplos práticos
 
 Quando vemos as possibilidades de código a nossa frente é difícil pensar em como usá-los, aqui estão alguns exemplos simples, mas que podem abrir a sua mente para as possibilidades:
 
-#### 15.6.1 - Parágrafo escondido?
+#### 15.8.1 - Parágrafo escondido?
 
 
 
@@ -1712,11 +1732,23 @@ Com o mouse em cima da div(11) ativando o seletor(05).
 
 
 
-## 16 - Estilização CSS
+## 16 - O que é modelo de caixas? Box-model.
 
 Já abordado em aulas anteriores
 
 Conteúdo de apoio presente no [PDF do capítulo 16](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/16%20-%20Modelo%20de%20Caixas.pdf).
+
+O modelo de caixas se utiliza de aninhamento, ou seja, existe uma hierarquia de elementos dentro dos arquivos que utilizam o __*modelo de caixas*__. Ambas as linguagens CSS e HTML5 utilizam este sistema.
+
+Para facilitar o entendimento será utilizado apenas HTML para a explicação e todas as cores de fundo serão alteradas para facilitar a visualização.
+
+Todo elemento aparente em um site é contido em uma caixa, ou seja, quando criamos um elemento HTML, por exemplo um parágrafo, estamos criando uma caixa e inserindo texto dentro dela. Esta caixa estaria delimitada pela tag &lt;p&gt;.
+
+````
+<p>Este elemento está contido em uma caixa</p>
+````
+
+![caixa](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/caixa.PNG)
 
 ## 17 - Estilização CSS
 
