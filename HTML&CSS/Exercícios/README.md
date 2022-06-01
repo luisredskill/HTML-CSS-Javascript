@@ -1799,6 +1799,7 @@ seletor{
     padding: 10px;
 }
 ````
+![padding1](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/padding1.PNG)
 
 Define as medidas na seguinte ordem: superior, direita, inferior, esquerda.
 
@@ -1821,6 +1822,9 @@ span{
             padding: 10px 20px;
         }
 ````
+
+![padding3](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/padding3.PNG)
+
 ### 16.3 - O que é margin?
 
 Margin é o espaço entre a borda de uma caixa e seu elemento mais próximo, isso quer dizer que quando adicionamos um margin a um elemento, esse elemento se afastará dos elementos mais próximos a ele.
@@ -1841,6 +1845,7 @@ seletor{
     margin: 10px;
 }
 ````
+![margin1](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/margin1.PNG)
 
 Define as medidas na seguinte ordem: superior, direita, inferior, esquerda.
 
@@ -1863,6 +1868,8 @@ span{
             margin: 10px 20px;
         }
 ````
+
+![margin3](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/margin3.PNG)
 
 ## 17 - Estilização CSS
 
