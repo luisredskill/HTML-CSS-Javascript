@@ -1750,6 +1750,34 @@ Todo elemento aparente em um site é contido em uma caixa, ou seja, quando criam
 
 ![caixa](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/caixa.PNG)
 
+Note que esta caixa ocupa toda a linha, possui tanto uma altura quanto uma largura.
+
+Alterando a sua largura e altura:
+
+![caixa2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/caixa2.PNG)
+
+### 16.1 - O que é border?
+
+Toda caixa possui uma delimitação de seu espaço interno, essa delimitação é chamada de border. Podemos observar em preto a borda:
+
+![borda](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/borda.PNG)
+
+- border-style
+- border-color
+- border-width
+
+### 16.2 - O que é padding?
+
+Padding é o espaço entre o conteúdo de uma caixa e a sua borda, isso quer dizer que quando adicionamos um padding a um elemento, seu conteúdo se afastará da borda. Exemplo:
+
+![padding](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/padding.PNG)
+
+### 16.3 - O que é margin?
+
+Margin é o espaço entre a borda de uma caixa e seu elemento mais próximo, isso quer dizer que quando adicionamos um margin a um elemento, esse elemento se afastará dos elementos mais próximos a ele.
+
+![margin](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/margin.PNG)
+
 ## 17 - Estilização CSS
 
 Já abordado em aulas anteriores
