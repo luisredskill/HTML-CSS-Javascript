@@ -1838,7 +1838,7 @@ seletor{
 }
 ````
 
-![borda4](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/borda4.PNG)
+![borda5](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/borda5.PNG)
 
 Resultado:
 
