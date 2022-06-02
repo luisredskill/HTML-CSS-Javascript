@@ -1824,6 +1824,16 @@ Resultado:
 
 ![borda5](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/borda5.PNG)
 
+Da mesma forma que o margin, podemos alterar em pares. Sendo eles: superior esquerdo/inferior direito, superior direito/inferior esquerdo
+
+Código:
+
+````
+seletor{
+    border-radius: 10px 40px;
+}
+````
+
 
 
 
