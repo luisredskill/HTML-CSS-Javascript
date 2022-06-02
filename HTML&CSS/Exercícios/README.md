@@ -1820,7 +1820,9 @@ seletor{
 }
 ````
 
-![borda4](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/borda4.PNG)
+Resultado:
+
+![borda5](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/borda4.PNG)
 
 
 
@@ -1838,7 +1840,7 @@ seletor{
 }
 ````
 
-![borda5](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/borda5.PNG)
+![borda4](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/borda5.PNG)
 
 Resultado:
 
