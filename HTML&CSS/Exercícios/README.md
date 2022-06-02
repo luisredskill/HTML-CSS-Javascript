@@ -1834,6 +1834,10 @@ seletor{
 }
 ````
 
+Resultado:
+
+![borda7](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/borda7.PNG)
+
 
 
 
