@@ -1769,24 +1769,78 @@ Toda caixa possui uma delimitação de seu espaço interno, essa delimitação �
 
 ![borda](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/borda.PNG)
 
+#### 16.2.1 Adicionando uma borda.
+
+A propriedade border é padrão de todas as divs, porém ela não é visível, para permitir que ela esteja visível temos que configurar sua cor, largura e estilo.
+
+Código:
+
+````
+seletor{
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    border-style: solid;
+}
+````
+
+Resultado:
+
+![borda2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/borda2.PNG)
+
 - border-style - define o estilo da borda podendo ser:
+
 dashed: traços 
 dotted: pontinhada
 double: borda dupla
 groove: 3D
 
-- border-color - define a cor da borda
-- border-width - define a largura da borda
+#### 16.2.2 Arredondando uma borda.
 
-#### 16.2.1 - Border ShortHand.
+- border-radius - define o raio da borda
+
+Código:
+
+````
+seletor{
+    border-radius: 10px;
+}
+````
+
+Resultado:
+
+![borda3](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/borda3.PNG)
+
+- __*ShortHand*__ - define cada borda individualmente. Em ordem: superior esquerdo, superior direito, inferior direito, inferior esquerdo.
+
+Código:
+
+````
+seletor{
+    border-radius: 10px 20px 40px 80px;
+}
+````
+
+![borda4](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/borda4.PNG)
+
+
+
+
+
+#### 16.2.3 - Border ShortHand.
 
 O shorthand é feito na seguinte ordem: border-width, border-style, border-color.
 
+Código:
+
 ````
 seletor{ 
-    border: 10px solid black;
+    border: 10px solid white;
 }
 ````
+
+![borda4](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/borda4.PNG)
+
+Resultado:
 
 ### 16.3 - O que é padding?
 
