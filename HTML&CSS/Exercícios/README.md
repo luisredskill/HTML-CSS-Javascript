@@ -2017,6 +2017,81 @@ O segundo passo é criar uma versão mais fiel do site, com cores e muito próxi
 
 ![figma](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/figma.PNG)
 
+### 17.2 - Configurações globais CSS.
+
+Para alterar todo o documento de uma vez utiliza-se o seletor __* * *__.
+
+````
+*{
+
+}
+````
+
+Normalmente, as configurações mais comuns são:
+
+````
+*{
+    margin: 0px;
+    padding: 0px;
+}
+````
+
+Essas configurações, resetam as pré-configurações dos navegadores e impedem que a criação de espaços indesejados.
+
+
+
+### 17.3 - Variáveis no CSS, para que servem?
+
+As variáveis no CSS facilitam o uso contínuo de atributos usados frequentemente no projeto, por exemplo: fontes e cores. 
+
+Elas são criadas normalmente dentro do seletor __*:root*__.
+
+Exemplo:
+
+````
+:root{
+
+}
+````
+
+Dentro deste seletor, declaramos as variáveis que poderão ser chamadas em todo o arquivo CSS. Toda variável CSS começa com "--".
+
+````
+:root{
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', 'cursive';
+    --fonte-android: 'Android', 'cursive';
+}
+````
+
+ Assim que uma variável for __*mudada*__, todo o arquivo CSS é mudado.
+
+````
+body{
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+}
+````
+
+Se, por exemplo, a fonte padrão for alterada, todos os elementos que receberam a variável --fonte-padrao serrão mudados, economizando tempo.
+
+### 17.4 - Responsividade CSS.
+
+#### 17.4.1 - Window resizer
+
+O [Window Resizer](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=pt-br) é uma extensão do chrome que facilita a visualização da responsividade.
+
+![windowresizer](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/windowresizer.PNG)
+
+
+
 ## 18 - Estilização CSS
 
 Já abordado em aulas anteriores
