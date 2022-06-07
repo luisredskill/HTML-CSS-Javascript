@@ -1824,7 +1824,7 @@ Resultado:
 
 ![borda5](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/borda5.PNG)
 
-Da mesma forma que o margin, podemos alterar em pares. Sendo eles: superior esquerdo/inferior direito, superior direito/inferior esquerdo
+Da mesma forma que o margin, podemos __*alterar em pares*__. Sendo eles: superior esquerdo/inferior direito, superior direito/inferior esquerdo.
 
 Código:
 
@@ -1857,6 +1857,10 @@ seletor{
 ![borda4](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/borda4.PNG)
 
 Resultado:
+
+#### 16.2.4 - Bodas decoradas
+
+
 
 ### 16.3 - O que é padding?
 
@@ -1997,11 +2001,15 @@ seletor{
 
 Note que a sombra, nesse caso é parcialmente transparente para dar um efeito mais agradável visualmente. Note também que ela tem mais de 50% de transparencia gerando melhores resultados.
 
-## 17 - Estilização CSS
-
-Já abordado em aulas anteriores
+## 17 - Criando um site
 
 Conteúdo de apoio presente no [PDF do capítulo 17](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/17%20-%20Primeiro%20mini-projeto.pdf).
+
+### 17.1 - Criando o design no seu side
+
+Foi recomendado durante o curso a ferramenta [mockflow](https://www.mockflow.com).
+
+![mock](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/mock.PNG)
 
 ## 18 - Estilização CSS
 
