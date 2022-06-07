@@ -2005,11 +2005,17 @@ Note que a sombra, nesse caso é parcialmente transparente para dar um efeito ma
 
 Conteúdo de apoio presente no [PDF do capítulo 17](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/17%20-%20Primeiro%20mini-projeto.pdf).
 
-### 17.1 - Criando o design no seu side
+### 17.1 - Criando o design no seu site
 
 Foi recomendado durante o curso a ferramenta [mockflow](https://www.mockflow.com).
 
+Essa ferramenta é boa para estrurar a primeira versão do site, ainda sem cores. Uma versão extremamente simples.
+
 ![mock](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/mock.PNG)
+
+O segundo passo é criar uma versão mais fiel do site, com cores e muito próxima da versão real, para isso é recomendado o uso do [figma](https://www.figma.com).
+
+![figma](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/figma.PNG)
 
 ## 18 - Estilização CSS
 
