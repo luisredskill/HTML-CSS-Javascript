@@ -1511,7 +1511,7 @@ ID &rarr; Class
 
 As alterações no ID prevalecem sobre as alterações por class.
 
-### 15.2 - Como selecionar um elemento?
+### 15.2 - Como selecionar um elemento HTML por TAG?
 
 Para selecionar um elemento HTML que sofrerá alterações no CSS, utilizamos os seletores CSS. Os seletores CSS utilizam as TAGS HTML para selecionar todos os elementos que serão alterados.
 
@@ -1540,7 +1540,7 @@ Resultado:
 
 Note, ambos os títulos foram alterados.
 
-### 15.3 - Como selecionar por ID? 
+### 15.3 - Como selecionar um elemento por ID? 
 
 O primeiro passo para selecionar um elemento por ID é garantir que o elemento HTML possui este ID, ou seja, colocaremos o ID no elemento desejado.
 
@@ -1563,7 +1563,7 @@ Resultado:
 
 ![seletores2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/seletores2.PNG)
 
-### 15.4 - Como selecionar por classe?
+### 15.4 - Como selecionar um elemento por classe?
 
 A representação de classe no CSS é feito por ".".
 
@@ -1622,7 +1622,28 @@ Para selecionar elementos filho usamos o sinal de &gt;.
         }
 ````
 
-Neste caso estamos selecionando todos os parágrafos que estão dentro de divs.
+Neste caso estamos selecionando todos os parágrafos que são __*diretamente*__ filhos de divs. Note que a seguinte linha não seria afetada:
+
+````
+    <div>
+        <article>
+            <p>Parágrafo que não é afetado pelo div, pois não é filho direto de uma div</p>
+        </article>
+    </div>
+
+````
+
+#### 15.5.1 - Como selecionar todos os elementos dentro de uma tag.
+
+Como foi apresentado no exemplo acima, se um elemento não for filho, não será afetado. Porém, para resolver isso podemos utilizar o seguinte código:
+
+````
+  div p{
+            display: none;
+        }
+````
+
+Assim, todos os parágrafos dentro de divs serão afetados.
 
 
 
@@ -2084,11 +2105,62 @@ Se, por exemplo, a fonte padrão for alterada, todos os elementos que receberam 
 
 ### 17.4 - Responsividade CSS.
 
-#### 17.4.1 - Window resizer
+#### 17.4.1 - Como facilitarr o trabalho de responsividade?
 
 O [Window Resizer](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=pt-br) é uma extensão do chrome que facilita a visualização da responsividade.
 
 ![windowresizer](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/windowresizer.PNG)
+
+#### 17.4.2 - Como automatizar a centralização de um elemento?
+
+Para centralizar um elemento utilizamos a função automática da propriedade CSS __*margin*__.
+
+Sem margin auto:
+
+````
+seletor{
+            width: 300px;
+            height: 300px;
+            background-color: gray;
+        }
+````
+
+![marginauto](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/marginauto.PNG)
+
+Com margin auto:
+
+````
+seletor{
+            width: 300px;
+            height: 300px;
+            background-color: gray;
+            margin: auto;
+        }
+````
+
+![marginauto2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/marginauto2.PNG)
+
+__*IMPORTANTE*__ - Como a div por padrão é um elemento blocklevel, ela ocupa a linha inteira, sendo assim o margin auto espaça as margens de forma igual de ambos os lados baseado na largura atual da tela, o que não ocorre com um elemento inlinelevel por não possuir margem.
+
+#### 17.4.3 - Como deixar imagens responsivas?
+
+O uso mais comum para se deixar imagens responsivas é atrelar a sua largura a largura do elemento pai. 
+
+Exemplo:
+
+CSS:
+
+````
+div > img{
+    width: 100%;
+}
+````
+
+Assim, quando alteramos a largura da __*div*__ alteramos a largura da imagem.
+
+![giphy](https://media.giphy.com/media/0p70j2PKjoTjMDkzQe/giphy.gif)
+
+
 
 
 
