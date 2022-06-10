@@ -1495,11 +1495,26 @@ seletor{
 
 Resultado:
 
-![indent](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/indent.PNG)
+![espacoentrelinhas](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/espacoentrelinhas.PNG)
 
 
 __*IMPORTANTE*__ - Note que todos os elementos inclusos terão o recuo!
 
+### 14.10 - Como alterar a altura da linha?
+
+Para alterar a altura da linha utilizamos a declaração __*line-height*__.
+
+Código:
+
+````
+seletor{
+    line-height: 2em;
+}
+````
+
+Resultado:
+
+![indent](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/indent.PNG)
 
 ## 15 - Seletores CSS
 
@@ -1700,6 +1715,24 @@ a::before{
 Neste exemplo, seria adicionado um pseudo elemento » antes de todos os links, exemplo:
 
 ![link](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/link.PNG)
+
+Para adicionar emojis o correto é trocar U+1F600 por \1F600. 
+
+````
+a::before{
+            content: '\1F600';
+        }
+````
+
+__*IMPORTANTE*__ - O símbolo é uma contra barra!
+
+Para adicionar um espaço entre o seguinte código é utilizado: \00A0
+
+````
+seletor::after{
+    content: '\00A0\1F517'
+}
+````
 
 
 ### 15.8 - Exemplos práticos
@@ -2038,30 +2071,9 @@ O segundo passo é criar uma versão mais fiel do site, com cores e muito próxi
 
 ![figma](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/figma.PNG)
 
-### 17.2 - Configurações globais CSS.
+### 17.2 - Organização do projeto.
 
-Para alterar todo o documento de uma vez utiliza-se o seletor __* * *__.
-
-````
-*{
-
-}
-````
-
-Normalmente, as configurações mais comuns são:
-
-````
-*{
-    margin: 0px;
-    padding: 0px;
-}
-````
-
-Essas configurações, resetam as pré-configurações dos navegadores e impedem que a criação de espaços indesejados.
-
-
-
-### 17.3 - Variáveis no CSS, para que servem?
+#### 17.2.1 - Para que servem as variáveis CSS.
 
 As variáveis no CSS facilitam o uso contínuo de atributos usados frequentemente no projeto, por exemplo: fontes e cores. 
 
@@ -2103,9 +2115,32 @@ body{
 
 Se, por exemplo, a fonte padrão for alterada, todos os elementos que receberam a variável --fonte-padrao serrão mudados, economizando tempo.
 
+
+### 17.3 - Configurações globais CSS.
+
+Para alterar todo o documento de uma vez utiliza-se o seletor __* * *__.
+
+````
+*{
+
+}
+````
+
+Normalmente, as configurações mais comuns são:
+
+````
+*{
+    margin: 0px;
+    padding: 0px;
+}
+````
+
+Essas configurações, resetam as pré-configurações dos navegadores e impedem que a criação de espaços indesejados.
+
+
 ### 17.4 - Responsividade CSS.
 
-#### 17.4.1 - Como facilitarr o trabalho de responsividade?
+#### 17.4.1 - Como facilitar o trabalho de responsividade?
 
 O [Window Resizer](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=pt-br) é uma extensão do chrome que facilita a visualização da responsividade.
 
@@ -2142,6 +2177,24 @@ seletor{
 
 __*IMPORTANTE*__ - Como a div por padrão é um elemento blocklevel, ela ocupa a linha inteira, sendo assim o margin auto espaça as margens de forma igual de ambos os lados baseado na largura atual da tela, o que não ocorre com um elemento inlinelevel por não possuir margem.
 
+### 17.4 - Container responsivo a largura de tela?
+
+Para deixar qualquer container responsivo a maneira mais fácil é utilizando o __*max-width*__ e __*min-width*__.
+
+Declaramos os valores máximos e minimos para aquele container.
+
+Exemplo:
+
+````
+seletor{
+    min-width: 300px;
+    max-width: 1000px;  
+}
+````
+
+Quando a largura de tela aumento acima de 1000px não há alteração, variando apenas entre 1000px e 300px.
+
+
 #### 17.4.3 - Como deixar imagens responsivas?
 
 O uso mais comum para se deixar imagens responsivas é atrelar a sua largura a largura do elemento pai. 
@@ -2158,8 +2211,114 @@ div > img{
 
 Assim, quando alteramos a largura da __*div*__ alteramos a largura da imagem.
 
-![giphy](https://media.giphy.com/media/0p70j2PKjoTjMDkzQe/giphy.gif)
+![giphy](https://giphy.com/gifs/0p70j2PKjoTjMDkzQe)
 
+### 17.4.4 - Como deixar um video responsivo? (aspect ratio).
+
+#### 17.4.4.1 - Video externo
+
+Um dos jeitos mais comuns que temos no CSS para tornar um video responsivo é criar uma div que comportará nosso vídeo.
+
+Esta div, por sua vez, fará o papel de se manter proporcional ao aspect ratio desejado(16:9).
+
+Assim sendo, a div já possui por padrão a mesma largura do elemento pai, restando para nós ligarmos esta largura a altura da div. Faremos isto por um padding:
+
+````
+seletor{
+            background-color: green;
+            padding-bottom: 56.25%;
+}
+````
+
+Note que o número utilizado é exatamente 9/16 = 0.5625.
+
+- 16/9 - 56.25%
+- 18/9 - 50%
+- 21/9 - 42.85%
+
+Como resultado do código temos uma div de aspect ratio 16:9 responsiva a largura do elemento pai:
+
+![aspect](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/aspect.PNG)
+
+Agora só falta ligar o aspect ratio dessa div ao nosso vídeo integrado, faremos isso com o position:
+
+````
+div{
+    padding-bottom: 56.25%; 
+    position: relative;
+}
+
+video{
+    position: absolute;
+
+    top: 5%; // margem de 5% do valor total da altura
+    left: 5%; // margem de 5% do valor total da largura
+
+    width: 90%; // largura de 90% da largura do elemento pai
+    height: 90%; // altura de 90% da altura do elemento pai
+}
+````
+![videoexterno](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/videoexterno.PNG)
+
+#### 17.4.4.2 - Video local
+
+Para um video local o processo é mais simples, basta indicar a __*porcentagem*__ horizontal que o vídeo irá ocupar, assim a altura irá acompanhar.
+
+````
+ div {
+            background-color: green;
+        }
+video{
+            width: 95%;
+            padding: 2.5%;
+        }
+````
+
+![videolocal](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/videolocal.PNG)
+
+
+
+### 17.5 - Variáveis CSS
+
+As variáveis no CSS facilitam o uso contínuo de atributos usados frequentemente no projeto, por exemplo: fontes e cores. 
+
+Elas são criadas normalmente dentro do seletor __*:root*__.
+
+Exemplo:
+
+````
+:root{
+
+}
+````
+
+Dentro deste seletor, declaramos as variáveis que poderão ser chamadas em todo o arquivo CSS. Toda variável CSS começa com "--".
+
+````
+:root{
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', 'cursive';
+    --fonte-android: 'Android', 'cursive';
+}
+````
+
+ Assim que uma variável for __*mudada*__, todo o arquivo CSS é mudado.
+
+````
+body{
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+}
+````
+
+Se, por exemplo, a fonte padrão for alterada, todos os elementos que receberam a variável --fonte-padrao serrão mudados, economizando tempo.
 
 
 
