@@ -2187,7 +2187,7 @@ seletor{
 
 __*IMPORTANTE*__ - Como a div por padrão é um elemento blocklevel, ela ocupa a linha inteira, sendo assim o margin auto espaça as margens de forma igual de ambos os lados baseado na largura atual da tela, o que não ocorre com um elemento inlinelevel por não possuir margem.
 
-### 17.4 - Container responsivo a largura de tela?
+### 17.4.3 - Container responsivo a largura de tela?
 
 Para deixar qualquer container responsivo a maneira mais fácil é utilizando o __*max-width*__ e __*min-width*__.
 
