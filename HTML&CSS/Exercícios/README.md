@@ -40,14 +40,14 @@ Conteúdo de apoio presente no [PDF do capítulo 2](https://github.com/luisredsk
 
 </dl>
 
-|       Dados     |   Múltiplo  | Equivalente em bytes | 
-| --------------- | ----------- | -------------------- |
-|  1024 bytes     |  1 Kilobyte | 1.024 |
-|  1024 Kilobytes |  1 Megabyte | 1.048.576 |
-|  1024 Megabytes |  1 Gigabyte | 1.073.741.824 |
-|  1024 Gigabytes |  1 Terabyte | 1.099.511.627.776 |
-|  1024 Terabytes |  1 Petabyte | 1.125.899.906.842.624 |
-|  1024 Petabytes |  1 Exabyte  | 1.152.921.504.606.846.976 |
+| Dados          | Múltiplo   | Equivalente em bytes      |
+| -------------- | ---------- | ------------------------- |
+| 1024 bytes     | 1 Kilobyte | 1.024                     |
+| 1024 Kilobytes | 1 Megabyte | 1.048.576                 |
+| 1024 Megabytes | 1 Gigabyte | 1.073.741.824             |
+| 1024 Gigabytes | 1 Terabyte | 1.099.511.627.776         |
+| 1024 Terabytes | 1 Petabyte | 1.125.899.906.842.624     |
+| 1024 Petabytes | 1 Exabyte  | 1.152.921.504.606.846.976 |
 
 
 
@@ -656,9 +656,9 @@ Dentro da tag audio, utilizados o parâmetro __*preload*__.
 
 Dentro do parâmetro preload, podemos receber 3 valores:
 
-|      auto    |   metadata  | none | 
-| --------------- | ----------- | -------------------- |
-|  Carrega todo o áudio e só considera o carregamento da página completa após o carregamento.    |  Carrega apenas as informações essenciais como nome, tipo de arquivo e tamanho. | Não carrega nada, apenas por comandos do usuário ou JS. |
+| auto                                                                                       | metadata                                                                       | none                                                    |
+| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | ------------------------------------------------------- |
+| Carrega todo o áudio e só considera o carregamento da página completa após o carregamento. | Carrega apenas as informações essenciais como nome, tipo de arquivo e tamanho. | Não carrega nada, apenas por comandos do usuário ou JS. |
 
 #### 11.2.3 - Áudio em loop.
 
@@ -1216,13 +1216,13 @@ seletor{
 - __*IMPORTANTE*__ - Este comando pode receber medidas absolutas ou relativas.  
 
 
-|       Absolutas    |  Equivalente | Relativas| Equivalentes |
-| --- | ----------- | --- | -----------|
-|  cm |  centímetro | em  | em|
-|  mm |  milímetro  | ex  | ex |
-|  in |  polegada   | rem | rem |
-|  px |  pixel      | vw  | viewWidth |
-|  pt |  ponto      | vh  | viewHeight |
+| Absolutas | Equivalente | Relativas | Equivalentes |
+| --------- | ----------- | --------- | ------------ |
+| cm        | centímetro  | em        | em           |
+| mm        | milímetro   | ex        | ex           |
+| in        | polegada    | rem       | rem          |
+| px        | pixel       | vw        | viewWidth    |
+| pt        | ponto       | vh        | viewHeight   |
 
 
 No geral as medidas __*absolutas*__ não são recomendáveis, principalmente pt pois não se adapta bem ao desenvolvimento web.
@@ -1251,17 +1251,17 @@ seletor{
 
 Este comando pode receber uma variedade de argumentos, assim podemos ter:
 
-| Numérico |  Semântico| 
-| --- | ----------- | 
-| 100 |   lighter   |
-| 200 |             | 
-| 300 |             |
-| 400 |   normal    | 
-| 500 |             | 
-| 600 |             |
-| 700 |   bold      | 
-| 800 |             |
-| 900 |   bolder    | 
+| Numérico | Semântico |
+| -------- | --------- |
+| 100      | lighter   |
+| 200      |           |
+| 300      |           |
+| 400      | normal    |
+| 500      |           |
+| 600      |           |
+| 700      | bold      |
+| 800      |           |
+| 900      | bolder    |
 
 __*IMPORTANTE*__ - note que nem todas as fontes possuem esse espectro de peso! Algumas não possuem nem mesmo o negrito, apenas a fonte NORMAL ou 400.
 
@@ -1382,13 +1382,13 @@ src: url('love story.ttf') format ('truetype')
 ````
 Note que o formato não é um padrão, mas __*NORMALMENTE*__ a melhor seleção de compatibilidade é:
 
-| tipo              | formato     | 
-| ---               | ----------- | 
-| ttf               |   truetype  |
-| otf               |   opentype  | 
-| embedded-opentype |             |
-| truetype-att      |             | 
-| svg               |             | 
+| tipo              | formato  |
+| ----------------- | -------- |
+| ttf               | truetype |
+| otf               | opentype |
+| embedded-opentype |          |
+| truetype-att      |          |
+| svg               |          |
 
 Finalmente, criamos o nome da fonte que não necessáriamente precisa ser o mesmo nome. Exemplo:
 
