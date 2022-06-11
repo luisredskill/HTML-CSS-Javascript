@@ -1285,6 +1285,16 @@ seletor{
    text-decoration: underline;
 }
 ```
+
+Retirando sublinhado:
+
+```
+seletor{
+   text-decoration: none;
+}
+```
+
+
 __*IMPORTANTE*__ - note que nem todas as fontes possuem o sublinhado!
 
 ### 14.5 - Fonte, tamanho, peso e estilo em uma única linha.
@@ -1495,7 +1505,7 @@ seletor{
 
 Resultado:
 
-![espacoentrelinhas](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/espacoentrelinhas.PNG)
+![indent](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/indent.PNG))
 
 
 __*IMPORTANTE*__ - Note que todos os elementos inclusos terão o recuo!
@@ -1514,7 +1524,7 @@ seletor{
 
 Resultado:
 
-![indent](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/indent.PNG)
+![espacoentrelinhas](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/Screenshots/espacoentrelinhas.PNG)
 
 ## 15 - Seletores CSS
 
@@ -2211,7 +2221,7 @@ div > img{
 
 Assim, quando alteramos a largura da __*div*__ alteramos a largura da imagem.
 
-![giphy](https://giphy.com/gifs/0p70j2PKjoTjMDkzQe)
+![giphy](https://media.giphy.com/media/0p70j2PKjoTjMDkzQe/giphy.gif)
 
 ### 17.4.4 - Como deixar um video responsivo? (aspect ratio).
 
