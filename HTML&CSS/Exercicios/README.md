@@ -2333,11 +2333,15 @@ Se, por exemplo, a fonte padrão for alterada, todos os elementos que receberam 
 
 
 
-## 18 - Estilização CSS
+## 18 - Github e Git
 
-Já abordado em aulas anteriores
+Boa parte do conteúdo já foi estudado anteriormente.
 
 Conteúdo de apoio presente no [PDF do capítulo 18](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/18%20-%20Aprendendo%20Git%20e%20GitHub.pdf).
+
+Link de download para o [Github Desktop](https://desktop.github.com). Ferramenta que facilita a utilização do git.
+
+### 18.1 - Criando um site pelo Github pages!
 
 ## 19 - Estilização CSS
 
