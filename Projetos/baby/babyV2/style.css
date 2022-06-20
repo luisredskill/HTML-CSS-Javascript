@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Indie+Flower&family=Roboto:wght@100&family=Rock+Salt&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 200px;
+}
+
+header > h1{
+    padding-top: 30px;
+    font-family: 'Indie Flower';
+    font-size: 3em;
+}
+
+header > p{
+    padding-top: 30px;
+    font-family: 'Rock Salt';
+    font-size: 1.5em;
+}
+
+body{
+    background-color: #F2f2f2;
+}
+
+main{
+    max-width: 800px;
+    margin: auto;
+}

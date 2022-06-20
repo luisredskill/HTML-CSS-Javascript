@@ -2343,6 +2343,21 @@ Link de download para o [Github Desktop](https://desktop.github.com). Ferramenta
 
 ### 18.1 - Criando um site pelo Github pages!
 
+Para criarmos um site no github pages, vamos utilizar até o repositório no qual desejamos criar a página ou criaremos um repositório novo diretamente no [github](https://github.com). Seguindo os seguintes passos:
+
+![github.com](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/github.PNG)
+![github2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/github2.PNG)
+![github3](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/github3.PNG)
+
+Dentro de pages, selecionaremos a branch onde o projeto está e o diretório raiz.
+
+![github4](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/github4.PNG)
+
+Depois, a página ficará disponível no endereço usuário.github.io/repositório. Dentro deste exemplo: https://luisredskill.github.io/HTML-CSS-Javascript/
+
+
+
+
 ## 19 - Estilização CSS
 
 Já abordado em aulas anteriores

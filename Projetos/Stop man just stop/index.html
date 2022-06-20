@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let´s go</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>Stop this!</h1>
+    <div>
+        <input type="text" id="txt" onkeyup="trocando()">
+    </div>
+    
+    <div id="escolhas" onclick="trocando()">
+        <input type="checkbox" class="seletor">
+        <label>Frutas</label>
+
+        <input type="checkbox" class="seletor">
+        <label>Nomes</label>
+
+        <input type="checkbox" class="seletor">
+        <label>MSE</label>
+
+        <input type="checkbox" class="seletor">
+        <label>Alimentos</label>
+
+        <input type="checkbox" class="seletor">
+        <label>Animais</label>
+
+        <input type="checkbox" class="seletor">
+        <label>Celebridades</label>
+
+        <input type="checkbox" class="seletor">
+        <label>Carros</label> 
+    </div>
+    <div id="res">
+        <table name = "table">
+            
+        </table>
+    </div>
+    <h1>Cadastrar nova categoria</h1>
+    <div>
+         <input type="text" id = "confirmandoInput" onkeyup="Confirmando()">
+         <input type="button" value = "Cadastrar"><br>
+         <input type="button" value="Começar Cadastro" onclick="Cadastrando()">
+    </div>
+    <div id = "res1"></div>
+    <div id = "res2"></div>
+   
+</body>
+<script src="script.js"></script>
+
+</html>
