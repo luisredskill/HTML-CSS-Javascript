@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de conteúdo</title>
+</head>
+
+<!-------------------- STYLE ------------------ -->
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+    *,
+    *:before,
+    *:after {
+        padding: 0;
+        margin: 0;
+        box-sizing: 0;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 45px;
+        font-weight: 500;
+    }
+
+    body {
+        background-color: #0e6ffc;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrapper {       
+        box-sizing: content-box;
+        background-color: #ffffff;
+        height: 70px;
+        padding: 50px 30px;
+        display: flex;
+        box-shadow: 0 20px 25px rgba(0, 0, 0, 0.2);
+        border-radius: 30px;
+    }
+.words{
+    overflow: hidden;
+}
+p{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+    span {
+        display: block;
+        height: 100%;
+        padding-left: 10px;
+        color: #0e6ffc;       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: spin_words 6s infinite;
+    }
+
+    @keyframes spin_words {
+        10% {
+            transform: translateY(-112%);
+
+        }
+
+        25% {
+            transform: translateY(-100%);
+        }
+
+        35% {
+            transform: translateY(-212%);
+        }
+
+        50% {
+            transform: translateY(-200%);
+        }
+
+        60% {
+            transform: translateY(-312%);
+        }
+        75% {
+            transform: translateY(-300%);
+        }
+        85% {
+            transform: translateY(-412%);
+        }
+        100% {
+            transform: translateY(-400%);
+        }
+    }
+</style>
+
+<!-------------------- CONTENT ------------------ -->
+
+<body>
+    <div class="wrapper">
+        <p>Coding is</p>
+        <div class="words">
+            <span>fantastic</span>
+            <span>interesting</span>
+            <span>awesome</span>
+            <span>incredible</span>
+            <span>fantastic</span>
+        </div>
+    </div>
+</body>
+<script>
+
+</script>
+
+</html>

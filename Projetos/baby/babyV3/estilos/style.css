@@ -30,6 +30,7 @@
     font-weight: normal;
     font-size: 24px;
     text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.507);
+    scroll-behavior: smooth;
 }
 
 
@@ -146,12 +147,18 @@ div.opcao{
     align-items: center;
 }
 
+body{
+    background: linear-gradient(90deg, var(--roxo2) 0%, rgba(194, 141, 255, 0) 48.9%, var(--roxo2) 100%);
+}
+
+
 div#opcao01{
     background-color: var(--roxo2);
     width: 45%;
     box-shadow: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.479);
     transition: width 0.5s ease-out 100ms; 
+    
 }
 
 div#opcao02{

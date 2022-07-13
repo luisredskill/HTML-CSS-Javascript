@@ -20,7 +20,7 @@ function senha2(){
 }
 
 function pularpag(){
-
+  window.location.href = "Senha-eu_te_amo_muito_muito.html";
 }
 
 function pag03(){
@@ -33,5 +33,10 @@ function pag04(){
 
 function comovocesesente(){
   window.location.href = "Senha-eu_te_amo_muito_muito.html";
+}
+
+function pageScroll() {
+  scrollTo(0,480)
+
 }
 
