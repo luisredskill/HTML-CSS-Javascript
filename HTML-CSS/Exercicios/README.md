@@ -2358,9 +2358,31 @@ Depois, a página ficará disponível no endereço usuário.github.io/repositór
 
 
 
-## 19 - Estilização CSS
+## 19 - Imagens de Fundo
 
-Já abordado em aulas anteriores
+### 19.1 - Adicionando um fundo a um elemento CSS.
+
+Para adicionar uma imagem de background em um elemento CSS utilizamos o background-image:
+
+```
+div#A1{
+background-color: skyblue;
+}
+
+div#A2{
+    background-image: linear-gradient(to bottom, yellow, red);
+}
+
+/* NOTE que a div A3 possui uma imagem de background*/
+
+div#A3{
+    background-image: url('imagens/pattern003.png');
+}
+```
+
+Resultado:
+
+![fundo](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/fundo.PNG)
 
 Conteúdo de apoio presente no [PDF do capítulo 19](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/19%20-%20Imagens%20de%20Fundo.pdf).
 
