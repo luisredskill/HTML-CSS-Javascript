@@ -2360,7 +2360,9 @@ Depois, a página ficará disponível no endereço usuário.github.io/repositór
 
 ## 19 - Imagens de Fundo
 
-### 19.1 - Adicionando um fundo a um elemento CSS.
+Conteúdo de apoio presente no [PDF do capítulo 19](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/19%20-%20Imagens%20de%20Fundo.pdf).
+
+### 19.1 - Como adicionar uma imagem ao fundo a um elemento CSS?
 
 Para adicionar uma imagem de background em um elemento CSS utilizamos o background-image:
 
@@ -2384,7 +2386,68 @@ Resultado:
 
 ![fundo](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/fundo.PNG)
 
-Conteúdo de apoio presente no [PDF do capítulo 19](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/19%20-%20Imagens%20de%20Fundo.pdf).
+### 19.2 - Repetição de fundo.
+
+#### 19.2.1 - Como repetir uma imagem de fundo?
+
+A repetição de fundo no CSS é o padrão, ou seja, toda imagem que não cobrir a página inteira será repetida até cobrir. Exemplo:
+
+![CSS3](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/CSS3.PNG)
+
+#### 19.2.2 - Como alterar o tamanho de uma imagem de fundo?
+
+Podemos forçar um tamanho de imagem pela seguinte forma:
+
+```
+body{
+    background-image: url('../imagens/CSS3.png');
+    background-size: 100px 141px;
+}
+```
+
+Resultado:
+
+![CSS3_2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/CSS3_2.PNG)
+
+#### 19.2.3 - Como NÃO repetir uma imagem de fundo?
+
+```
+body{
+    background-repeat: no-repeat;
+}
+```
+
+Resultado:
+
+![CSS3_3](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/CSS3_3.PNG)
+
+#### 19.2.3 - Como repetir apenas verticalmente/horizontalmente?
+
+Para repetir um fundo _*horizontalmente*_ utilizamos:
+
+```
+body{
+    background-repeat: repeat-x;
+}
+```
+
+Resultado:
+
+![CSS3_4](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/CSS3_4.PNG)
+
+Para repetir um fundo _*verticalmente*_ utilizamos:
+
+```
+body{
+    background-repeat: repeat-x;
+}
+```
+
+Resultado:
+
+![CSS3_5](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/CSS3_5.PNG)
+
+
 
 ## 20 - Estilização CSS
 
