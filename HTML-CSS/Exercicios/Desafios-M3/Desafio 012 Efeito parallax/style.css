@@ -1,0 +1,105 @@
+
+/* ---------------PRÉ CONFIGURAÇÕES--------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --fonte-padrao: 'Sriracha', cursive;
+    --fonte-titulo: 'Passion One', cursive;
+}
+
+/* ---------------GLOBAL--------------- */
+
+body{
+    font: normal 500 4vw var(--fonte-padrao);
+}
+
+
+section{
+padding: 100px 00px 100px 30px;
+}
+
+section > div{
+    padding-left: 10px;
+}
+
+
+
+/* ---------------HEADER--------------- */
+
+header{
+    background-color: black;
+    color: white;
+}
+
+header > h1 {
+    font: normal 500 10vw var(--fonte-titulo);
+    text-align: center;
+    padding-top: 50px;
+}
+
+header > p{
+    font: normal normal 0.5em Verdana;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+/* ---------------PARALLAX 01--------------- */
+
+#parallax{
+    background: black url('imagens/background001.jpg') center center no-repeat fixed;
+}
+
+#parallax > div{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.514);
+    width: 55%;
+}
+
+/* ---------------PARALLAX 02--------------- */
+
+#parallax2{
+    background: black url('imagens/background002.jpg') center center no-repeat fixed;
+}
+
+#parallax2 > div{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.514);
+    width: 55%;
+}
+
+/* ---------------FOOTER--------------- */
+
+footer{
+    background-color: black;
+    color: white;
+    font: normal normal 0.3em 'Verdana';
+    padding: 10px;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
