@@ -23,11 +23,16 @@ body{
 
 section{
 padding: 100px 00px 100px 30px;
+margin: auto;
+max-width: 800px;
+text-align: center;
 }
 
 section > div{
     padding-left: 10px;
 }
+
+
 
 
 
@@ -64,24 +69,28 @@ header a:hover{
 
 #parallax{
     background: black url('imagens/background001.jpg') center center no-repeat fixed;
+    max-width: 1920px;
 }
 
 #parallax > div{
     color: white;
     background-color: rgba(0, 0, 0, 0.514);
     width: 55%;
+    margin: auto;
 }
 
 /* ---------------PARALLAX 02--------------- */
 
 #parallax2{
     background: black url('imagens/background002.jpg') center center no-repeat fixed;
+    max-width: 1920px;
 }
 
 #parallax2 > div{
     color: white;
     background-color: rgba(0, 0, 0, 0.514);
     width: 55%;
+    margin: auto;
 }
 
 /* ---------------FOOTER--------------- */
