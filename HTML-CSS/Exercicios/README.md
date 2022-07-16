@@ -2495,6 +2495,8 @@ Vamos supor que nós temos uma imagem de _*300x300*_, e o navegador esteja sendo
 
  ### 19.4 - Alterando o tamanho da imagem de background.
 
+ #### 19.4.1 - Alteração por medidas absolutas.
+
 Para alterar o tamanho de uma imagem de background utilizamos o _*background-size*_.
 
 O _*background-size*_ define o tamanho horizontal e vertical que o fundo irá ocupar distorcendo a imagem para ocupar exatamente as proporções definidas.
@@ -2511,6 +2513,8 @@ Resultado:
 
  ![tamanhobg](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/tamanhobg.PNG)
 
+ #### 19.4.2 - Alteração por medidas relativas.
+
  Podemos também utilizar valores em porcentagem. Note que eles sempre ocuparão aquela porcentagem da _*altura*_ e da _*largura*_ deixando o background responsivo, porém distorcendo a imagem.
 
  ````
@@ -2522,6 +2526,38 @@ body{
 
 ![tamanhobg3](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/tamanhobg3.PNG)
 
+ #### 19.4.1 - Como deixar o background responsivo? (cover, contain)
+
+ As declarações mais utilizadas quando falamos de responsividade para fundos são o _*cover*_ e o _*contain*_:
+
+ - Cover - Adapta o conteúdo para cobrir a tela inteira independente do tamanho e mantendo a resolução da imagem de fundo. Para isso, corta partes da imagem afim de manter a resolução.
+
+ Código:
+
+ ````
+body{
+    background-size: cover;  
+}
+````
+
+Resultado:
+
+![tamanhobg4](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/tamanhobg4.PNG)
+
+- Contain - Adapta o conteúdo para mostrar toda a imagem sem distorcê-la. Para isso, permite a criação de espaços vazios laterais.
+
+ Código:
+
+ ````
+body{
+    background-size: contain;  
+}
+````
+
+Resultado:
+
+![tamanhobg5](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/tamanhobg5.PNG)
+![tamanhobg6](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/tamanhobg6.PNG)
 
 ## 20 - Estilização CSS
 
