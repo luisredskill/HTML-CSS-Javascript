@@ -2559,6 +2559,33 @@ Resultado:
 ![tamanhobg5](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/tamanhobg5.PNG)
 ![tamanhobg6](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/tamanhobg6.PNG)
 
+### 19.5 - Alterando a fixação do background (scroll, fixed)
+
+Podemos alterar o comportamento da imagem de background para ela rolar junto com o conteúdo(padrão) ou ser fixa e apenas o conteúdo rolar através do _*background-attachment*_:
+
+Código:
+
+ ````
+body{
+     background-attachment: scroll;  
+}
+````
+Resultado:
+
+![scroll](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/gifs/scroll.gif)
+
+Código:
+
+ ````
+body{
+     background-attachment: fixed;  
+}
+````
+Resultado:
+
+![fixed](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/gifs/fixed.gif)
+
+
 ## 20 - Estilização CSS
 
 Já abordado em aulas anteriores
