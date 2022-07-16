@@ -2491,7 +2491,7 @@ Alterar a referência de uma imagem de fundo diz ao site qual parte do seu fundo
 
 Vamos supor que nós temos uma imagem de 300x300, e o navegador esteja sendo dimensionado em 200x200. As seguintes porções do fundo seriam mostradas:
 
- ![posicaobg4](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/posicaobg4.jpg)
+ ![posicaobg4](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/posicaobg4.PNG)
 
 ## 20 - Estilização CSS
 
