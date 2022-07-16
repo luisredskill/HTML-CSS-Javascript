@@ -2585,6 +2585,33 @@ Resultado:
 
 ![fixed](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/gifs/fixed.gif)
 
+### 19.6 - Background ShortHand
+
+Existe um shorthand para o background que inclui:
+
+color &rarr; image &rarr; position &rarr; repeat &rarr; size &rarr; attachment.
+
+Exemplo:
+
+````
+background: black url('../imagens/wallpaper002.jpg') center center no-repeat cover fixed;
+````
+*IMPORTANTE* - a declaração size atualmente não funciona na maioria dos navegadores, para poder ser utilizada de forma correta devemos utilizar o shorthand da seguinte forma:
+
+color &rarr; image &rarr; position &rarr; repeat &rarr; attachment.
+
+size
+
+````
+    background: black url('../imagens/wallpaper002.jpg') center center no-repeat fixed;
+    
+    background-size: cover;
+````
+
+Resultado:
+
+![fixed](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/gifs/fixed.gif)
+
 
 ## 20 - Estilização CSS
 
