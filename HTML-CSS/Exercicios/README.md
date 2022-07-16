@@ -2489,9 +2489,39 @@ Resultado e imagem de referência:
 
 Alterar a referência de uma imagem de fundo diz ao site qual parte do seu fundo é a mais importante e que sempre deve ser mostrada. Isso quer dizer que as dimensões de altura e largura partirão sempre do ponto de referência.
 
-Vamos supor que nós temos uma imagem de 300x300, e o navegador esteja sendo dimensionado em 200x200. As seguintes porções do fundo seriam mostradas:
+Vamos supor que nós temos uma imagem de _*300x300*_, e o navegador esteja sendo _*dimensionado*_ em _*200x200*_. As seguintes porções do fundo seriam mostradas:
 
  ![posicaobg4](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/posicaobg4.PNG)
+
+ ### 19.4 - Alterando o tamanho da imagem de background.
+
+Para alterar o tamanho de uma imagem de background utilizamos o _*background-size*_.
+
+O _*background-size*_ define o tamanho horizontal e vertical que o fundo irá ocupar distorcendo a imagem para ocupar exatamente as proporções definidas.
+
+Exemplo 500x500:
+
+````
+body{
+    background-size: 500px 500px;  
+}
+````
+
+Resultado:
+
+ ![tamanhobg](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/tamanhobg.PNG)
+
+ Podemos também utilizar valores em porcentagem. Note que eles sempre ocuparão aquela porcentagem da _*altura*_ e da _*largura*_ deixando o background responsivo, porém distorcendo a imagem.
+
+ ````
+body{
+    background-size: 100% 100%;  
+}
+````
+![tamanhobg2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/tamanhobg2.PNG)
+
+![tamanhobg3](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/tamanhobg3.PNG)
+
 
 ## 20 - Estilização CSS
 
