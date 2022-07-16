@@ -45,7 +45,7 @@ header > h1 {
 }
 
 header > p{
-    font: normal normal 0.5em Verdana;
+    font: normal normal 16px 'Verdana';
     text-align: center;
     padding-bottom: 50px;
 }
@@ -89,7 +89,7 @@ header a:hover{
 footer{
     background-color: black;
     color: white;
-    font: normal normal 0.3em 'Verdana';
+    font: normal normal 16px 'Verdana';
     padding: 10px;
     text-align: center;
 }
