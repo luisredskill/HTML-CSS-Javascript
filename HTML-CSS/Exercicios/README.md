@@ -2449,6 +2449,8 @@ Resultado:
 
 ### 19.3 - Como escolher a posição de referência da imagem de fundo?
 
+#### 19.3.1 - Alterando a referência.
+
 Por padrão é o canto _*esquerdo superior*_(left top).
 
 Referência:
@@ -2481,7 +2483,15 @@ Resultado e imagem de referência:
 
 ![posicaobg2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/posicaobg2.PNG)
 
-![posicaobg3](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/posicaobg3.PNG)
+![posicaobg3](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/posicaobg3.jpg)
+
+#### 19.3.1 - O que alterar a referência significa para a responsividade?
+
+Alterar a referência de uma imagem de fundo diz ao site qual parte do seu fundo é a mais importante e que sempre deve ser mostrada. Isso quer dizer que as dimensões de altura e largura partirão sempre do ponto de referência.
+
+Vamos supor que nós temos uma imagem de 300x300, e o navegador esteja sendo dimensionado em 200x200. As seguintes porções do fundo seriam mostradas:
+
+ ![posicaobg4](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/posicaobg4.jpg)
 
 ## 20 - Estilização CSS
 
