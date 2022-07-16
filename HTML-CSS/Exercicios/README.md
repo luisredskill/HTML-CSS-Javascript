@@ -2386,7 +2386,7 @@ Resultado:
 
 ![fundo](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/fundo.PNG)
 
-### 19.2 - Repetição de fundo.
+### 19.2 - Repetição de imagem de fundo.
 
 #### 19.2.1 - Como repetir uma imagem de fundo?
 
@@ -2447,7 +2447,41 @@ Resultado:
 
 ![CSS3_5](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/CSS3_5.PNG)
 
+### 19.3 - Como escolher a posição de referência da imagem de fundo?
 
+Por padrão é o canto _*esquerdo superior*_(left top).
+
+Referência:
+
+![posicaobg](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/posicaobg.PNG)
+
+Para reposicionar a imagem de background devemos utilizar a declaração _*background-position*_.
+
+Código:
+
+```
+div#q1{
+background-position: left top;
+}
+
+div#q2{
+    background-position: left center;
+}
+
+div#q3{
+    background-position: right bottom;
+}
+
+div#q4{
+    background-position: center center;
+}
+```
+
+Resultado e imagem de referência:
+
+![posicaobg2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/posicaobg2.PNG)
+
+![posicaobg3](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/posicaobg3.PNG)
 
 ## 20 - Estilização CSS
 

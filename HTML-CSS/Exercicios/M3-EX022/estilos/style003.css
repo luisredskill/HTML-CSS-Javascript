@@ -6,18 +6,42 @@ div.bloco{
     margin: 10px;
 }
 
+body{
+    color: white;
+    font-size: 3em;
+    
+    text-shadow:
+        2px 2px 0 #000,
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+       -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
 div#q1{
 background-position: left top;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 div#q2{
     background-position: left center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 div#q3{
     background-position: right bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 div#q4{
     background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
