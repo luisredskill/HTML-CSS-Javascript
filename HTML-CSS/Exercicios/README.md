@@ -831,7 +831,7 @@ __* * *__ - O seletor * é uma configuração global, ou seja, afeta o documento
 
 ## 12 - Tipos de estilização CSS.
 
-Conteúdo de apoio presente no [PDF do capítulo 12](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/12%20-%20Trabalhando%20com%20estilos.pdf).
+Conteúdo de apoio presente no [PDF do capítulo 12](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/PDFs/12%20-%20Trabalhando%20com%20estilos.pdf).
 
 ### 12.1 - Como adicionar CSS na linha? 
 
@@ -877,7 +877,7 @@ Inline prevalece sobre a alteração interna do HTML que, por sua vez, prevalece
 
 ## 13 - Cores.
 
-Conteúdo de apoio presente no [PDF do capítulo 13](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/13%20-%20Cores.pdf).
+Conteúdo de apoio presente no [PDF do capítulo 13](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/PDFs/13%20-%20Cores.pdf).
 
 
 ### 13.1 - Como utilizar cores dentro do CSS?
@@ -1161,7 +1161,7 @@ Resultado:
 
 História da tipografia, explicação sobre os estudos da tipografia presentes no conteúdo do pdf.
 
-Conteúdo de apoio presente no [PDF do capítulo 14](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/14%20-%20Fontes.pdf).
+Conteúdo de apoio presente no [PDF do capítulo 14](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/PDFs/14%20-%20Fontes.pdf).
 
 ### 14.2 - Como alterar uma fonte no CSS?
 
@@ -1528,7 +1528,7 @@ Resultado:
 
 ## 15 - Seletores CSS
 
-Conteúdo de apoio presente no [PDF do capítulo 15](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/15%20-Seletores%20personalizados.pdf).
+Conteúdo de apoio presente no [PDF do capítulo 15](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/PDFs/15%20-Seletores%20personalizados.pdf).
 
 ### 15.1 - Hierarquia Class x ID.
 
@@ -1800,7 +1800,7 @@ Com o mouse em cima da div(11) ativando o seletor(05).
 
 Já abordado em aulas anteriores
 
-Conteúdo de apoio presente no [PDF do capítulo 16](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/16%20-%20Modelo%20de%20Caixas.pdf).
+Conteúdo de apoio presente no [PDF do capítulo 16](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/PDFs/16%20-%20Modelo%20de%20Caixas.pdf).
 
 O modelo de caixas se utiliza de aninhamento, ou seja, existe uma hierarquia de elementos dentro dos arquivos que utilizam o __*modelo de caixas*__. Ambas as linguagens CSS e HTML5 utilizam este sistema.
 
@@ -2067,7 +2067,7 @@ Note que a sombra, nesse caso é parcialmente transparente para dar um efeito ma
 
 ## 17 - Criando um site
 
-Conteúdo de apoio presente no [PDF do capítulo 17](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/17%20-%20Primeiro%20mini-projeto.pdf).
+Conteúdo de apoio presente no [PDF do capítulo 17](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/PDFs/17%20-%20Primeiro%20mini-projeto.pdf).
 
 ### 17.1 - Criando o design no seu site
 
@@ -2337,7 +2337,7 @@ Se, por exemplo, a fonte padrão for alterada, todos os elementos que receberam 
 
 Boa parte do conteúdo já foi estudado anteriormente.
 
-Conteúdo de apoio presente no [PDF do capítulo 18](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/18%20-%20Aprendendo%20Git%20e%20GitHub.pdf).
+Conteúdo de apoio presente no [PDF do capítulo 18](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/PDFs/18%20-%20Aprendendo%20Git%20e%20GitHub.pdf).
 
 Link de download para o [Github Desktop](https://desktop.github.com). Ferramenta que facilita a utilização do git.
 
@@ -2360,7 +2360,7 @@ Depois, a página ficará disponível no endereço usuário.github.io/repositór
 
 ## 19 - Imagens de Fundo
 
-Conteúdo de apoio presente no [PDF do capítulo 19](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/19%20-%20Imagens%20de%20Fundo.pdf).
+Conteúdo de apoio presente no [PDF do capítulo 19](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/PDFs/19%20-%20Imagens%20de%20Fundo.pdf).
 
 ### 19.1 - Como adicionar uma imagem ao fundo a um elemento CSS?
 
@@ -2453,6 +2453,6 @@ Resultado:
 
 Já abordado em aulas anteriores
 
-Conteúdo de apoio presente no [PDF do capítulo 20](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML%26CSS/PDFs/20%20-%20Mini-projeto%20Cordel.pdf).
+Conteúdo de apoio presente no [PDF do capítulo 20](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/PDFs/20%20-%20Mini-projeto%20Cordel.pdf).
 
 ------------------------------------------------------------------------------
