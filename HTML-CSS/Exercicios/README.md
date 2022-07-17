@@ -2685,6 +2685,10 @@ Veja aqui o [projeto feito em aula.](https://luisredskill.github.io/HTML-CSS-Jav
 
 ## 21 - Tabelas em CSS
 
+### 21.1 - Hierarquia de tabelas.
+
+
+
 | TAG HTML          | significado                           |
 | ----------------- | --------                              |
 | table             | tabela                                |
@@ -2724,6 +2728,61 @@ Resulado:
 | ----------------- | --------    |   --------      |
 | Luis Carlos       | Ribeiro     |      22         |
 | Raissa            | Castro      |      25         |
+
+- _*IMPORTANTE*_ - _*NÃO*_ é obrigatório o fechamento das tags &lt;td&gt; e &lt;tr&gt;. 
+
+### 21.2 - Bordas de tabelas
+
+Por padrão as _*bordas*_ de uma tabela CSS vem _*desativadas*_. Para ativá-las basta adicionar uma borda como já foi mostrado no [16.2.1](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Exercicios/README.md#1621-adicionando-uma-borda).
+
+Porém uma nova propriedade é aplicada as bordas de tabela. Por padrão as bordas de uma tabela não colapsam gerando o seguinte efeito:
+
+![table](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/table.PNG)
+
+Para fazer com que as bordas _*colapsem*_, podemos utilizar o atributo _*border-collapse*_ que vem com o valor padrão em _*separate*_ alterando-o para _*collapse*_.
+
+````
+table{
+    border-collapse: collapse;
+}
+````
+
+![table2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/table2.PNG)
+
+### 21.3 - Alinhamento do conteúdo em tabelas.
+
+#### 21.3.1 - Alinhamento horizontal.
+
+Para alinhar o conteúdo de uma célula em uma tabela _*horizontalmente*_ utilizamos o _*text-align*_. A posição padrão é à esquerda.
+
+````
+td{
+    text-align: left;
+    text-align: center;
+    text-align: right;
+}
+````
+
+Resultado:
+
+![tablealign](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/gifs/tablealign.gif)
+
+#### 21.3.1 - Alinhamento vertical.
+
+Para alinhar o conteúdo de uma célula em uma tabela _*verticalmente*_ utilizamos o _*vertical-align*_. A posição padrão é ao centro.
+
+````
+td{
+    vertical-align: left;
+    vertical-align: center;
+    vertical-align: right;
+}
+````
+
+Resultado:
+
+![tablevertical](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/gifs/tablevertical.gif)
+
 
 
 ------------------------------------------------------------------------------
