@@ -2683,6 +2683,47 @@ Veja aqui o [projeto feito em aula.](https://luisredskill.github.io/HTML-CSS-Jav
 
 ![cordelaula](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/gifs/cordelaula.gif)
 
-## 20 - Projeto Cordel
+## 21 - Tabelas em CSS
+
+| TAG HTML          | significado                           |
+| ----------------- | --------                              |
+| table             | tabela                                |
+| tr                | table row ou linha de tabela          |
+| td                | table data ou dado da tabela          |
+| th                | table header ou cabeçalho da tabela   |
+
+As tabelas em CSS possuem uma hierarquia, primeiro criamos uma &lt;table&gt;, que será a nossa tabela, dentro desta tabela criada, colocaremos linhas &lt;tr&gt; e, por fim, colocaremos dados dentro dessas linhas &lt;td&gt;.
+
+Ainda podemos adicionar, na primeira linha, o cabeçalho da tabela &lt;th&gt;.
+
+Código:
+
+````
+<table>
+  <tr>
+    <th>Nome</th>
+    <th>Sobrenome</th>
+    <th>Idade</th>
+  </tr>
+  <tr>
+    <td>Luis Carlos</td>
+    <td>Ribeiro</td>
+    <td>22</td>
+  </tr>
+  <tr>
+    <td>Raissa</td>
+    <td>Castro</td>
+    <td>25</td>
+  </tr>
+</table>
+````
+
+Resulado:
+
+|       Nome        | Sobrenome   |     Idade       |
+| ----------------- | --------    |   --------      |
+| Luis Carlos       | Ribeiro     |      22         |
+| Raissa            | Castro      |      25         |
+
 
 ------------------------------------------------------------------------------
