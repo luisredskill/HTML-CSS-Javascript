@@ -1297,7 +1297,7 @@ seletor{
 
 __*IMPORTANTE*__ - note que nem todas as fontes possuem o sublinhado!
 
-### 14.5 - Fonte, tamanho, peso e estilo em uma única linha.
+### 14.5 - Fonte, tamanho, peso e estilo em uma única linha (Font Shorthand).
 
 O CSS possibilita que declaremos todos esses aspectos em uma única linha. Isso é feito da seguinte forma:
 
@@ -2604,7 +2604,7 @@ size
 
 ````
     background: black url('../imagens/wallpaper002.jpg') center center no-repeat fixed;
-    
+
     background-size: cover;
 ````
 
@@ -2613,10 +2613,16 @@ Resultado:
 ![fixed](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/gifs/fixed.gif)
 
 
-## 20 - Estilização CSS
-
-Já abordado em aulas anteriores
+## 20 - Projeto Cordel
 
 Conteúdo de apoio presente no [PDF do capítulo 20](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/PDFs/20%20-%20Mini-projeto%20Cordel.pdf).
+
+
+Projeto feito com base nos conhecimentos anteriores e [capítulo 19](https://github.com/luisredskill/HTML-CSS-Javascript/tree/main/HTML-CSS/Exercicios#19---imagens-de-fundo).
+
+[Projeto feito sozinho]()
+
+[Projeto feito em aula]()
+
 
 ------------------------------------------------------------------------------
