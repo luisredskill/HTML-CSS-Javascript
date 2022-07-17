@@ -1239,7 +1239,7 @@ No geral as medidas __*absolutas*__ não são recomendáveis, principalmente pt 
 
 ### 14.5 - Como adicionar negrito, itálico e sublinhado?
 
-#### 14.4.1 - Negrito.
+#### 14.5.1 - Negrito.
 
 Para alterar o peso de uma fonte utilizamos o comando:
 
@@ -1265,7 +1265,7 @@ Este comando pode receber uma variedade de argumentos, assim podemos ter:
 
 __*IMPORTANTE*__ - note que nem todas as fontes possuem esse espectro de peso! Algumas não possuem nem mesmo o negrito, apenas a fonte NORMAL ou 400.
 
-#### 14.4.2 - Itálico.
+#### 14.5.2 - Itálico.
 
 Para adicionarmos itálico a um texto utilizamos o comando:
 
@@ -1276,7 +1276,7 @@ seletor{
 ```
 __*IMPORTANTE*__ - note que nem todas as fontes possuem o itálico!
 
-#### 14.4.3 - Sublinhado.
+#### 14.5.3 - Sublinhado.
 
 Para adicionarmos sublinhado a um texto utilizamos o comando:
 
@@ -1297,7 +1297,7 @@ seletor{
 
 __*IMPORTANTE*__ - note que nem todas as fontes possuem o sublinhado!
 
-### 14.5 - Fonte, tamanho, peso e estilo em uma única linha (Font Shorthand).
+### 14.6 - Fonte, tamanho, peso e estilo em uma única linha (Font Shorthand).
 
 O CSS possibilita que declaremos todos esses aspectos em uma única linha. Isso é feito da seguinte forma:
 
@@ -1525,6 +1525,60 @@ seletor{
 Resultado:
 
 ![espacoentrelinhas](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/espacoentrelinhas.PNG)
+
+### 14.11 - Alterações de exibição de fonte em maiúscula e minúscula.
+
+Há como alterar a visualização de um texto via CSS através dos comandos _*text-transform*_ e _*font-variant*_.
+
+Exemplos:
+
+- small-caps, deixa a letra inteira com a fortação de maiúscula porém os tamanhos não são alterados.
+
+````
+h1{
+    font-variant: small-caps;
+}
+````
+texto digitado _*"Cordel Moderno"*_:
+
+![small-caps](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/small-caps.PNG)
+
+- uppercase, transforma todas as letras em maiúsculas.
+
+````
+h1{
+    text-transform: uppercase;
+}
+````
+texto digitado _*"cordel moderno"*_:
+
+![small-caps2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/small-caps2.PNG)
+
+
+- lowercase, transforma todas as letras em minúsculas.
+
+````
+h1{
+    text-transform: lowercase;
+}
+````
+
+texto digitado _*"CORDEL MODERNO"*_:
+
+![small-caps3](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/small-caps3.PNG)
+
+- capitalize, transforma a primeira letra de cada palavra em maiúscula:
+
+````
+h1{
+    text-transform:capitalize;
+}
+````
+
+texto digitado _*"cordel moderno"*_:
+
+![small-caps4](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/small-caps4.PNG)
+
 
 ## 15 - Seletores CSS
 

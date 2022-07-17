@@ -33,7 +33,7 @@ header{
 
 header > h1{
     padding-top: 50px;
-    font-variant:small-caps;
+    text-transform:capitalize;
     font-family: var(--fonte2);
     font-size: 10vw;
 }
