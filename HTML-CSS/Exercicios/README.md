@@ -2620,9 +2620,9 @@ Conteúdo de apoio presente no [PDF do capítulo 20](https://github.com/luisreds
 
 Projeto feito com base nos conhecimentos anteriores e [capítulo 19](https://github.com/luisredskill/HTML-CSS-Javascript/tree/main/HTML-CSS/Exercicios#19---imagens-de-fundo).
 
-[Projeto feito sozinho]()
+Veja aqui o [projeto feito sozinho.](https://luisredskill.github.io/HTML-CSS-Javascript/HTML-CSS/Exercicios/Desafios-M3/Desafio%20012%20Efeito%20parallax/index.html)
 
-[Projeto feito em aula]()
+Veja aqui o [projeto feito em aula.](https://luisredskill.github.io/HTML-CSS-Javascript/HTML-CSS/Exercicios/Desafios-M3/Desafio%20012%20Efeito%20parallax%20feito%20em%20aula/index.html)
 
 
 ------------------------------------------------------------------------------
