@@ -3033,9 +3033,37 @@ thead > tr > th {
 
 ````
 
+### 21.9 - Tabelas responsivas
 
+Quando trabalhamos com tabelas maiores enfrentamos um problema muito comum, caso a tela seja reduzida o html da página gera uma rolagem lateral da página inteira:
 
-### 21.9 - Desafio 14
+![tabelaresponsiva](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/gifs/tabelaresponsiva.gif)
+
+Para evitar esse tipo de comportamento podemos utilizar a seguinte configuração:
+
+Primeiro, no HTML, inserimos a nossa tabela dentro de uma div e damos um id para ela:
+
+````
+<div id ="container">
+    <table>
+
+    </table>
+</div>
+````
+
+Depois, nas CSS, alteramos o atributo _*overflow-x*_:
+
+````
+div#container{
+    overflow-x: auto ;
+}
+````
+
+Resultado:
+
+![tabelaresponsiva2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/gifs/tabelaresponsiva2.gif)
+
+### 21.10 - Desafio 14
 
 Reconstruir tabela mostrada [em aula](https://www.youtube.com/watch?v=V2gVaqTSRmo&list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ&index=37).
 
