@@ -2904,7 +2904,18 @@ thead > tr > th {
 
 ````
 
-### 21.7 - Desafios mesclagem de tabelas.
+### 21.7 - Mesclagem de tabelas.
+
+Podemos mesclar as células de tabelas presentes em html utilizando o _*rowspan*_ e o _*colspan*_.
+
+Dessa forma, mesclamos a célula ao número de colunas ou linhas especificado, exemplo:
+
+O número três tem um rowspan, enquanto o 8 tem um colspan.
+
+````
+<td rowspan="2">3</td>
+<td colspan="3">8</td>
+````
 
 Código presente neste [link](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Exercicios/M3-EX023/tabela004.html)
 
