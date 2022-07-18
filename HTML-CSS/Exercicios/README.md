@@ -2945,6 +2945,16 @@ Resultado:
 
 ![mesclagem](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/mesclagem.PNG)
 
+### 21.8 - Desafio 14
+
+Reconstruir tabela mostrada [em aula](https://www.youtube.com/watch?v=V2gVaqTSRmo&list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ&index=37).
+
+Resultado:
+
+![desafio14](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/desafio14.PNG)
+
+Código disponível [aqui]()
+
 
 
 
