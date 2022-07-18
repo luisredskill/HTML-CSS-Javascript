@@ -2943,7 +2943,7 @@ Para isso temos uma ferramente que permite selecionar colunas inteiras muito par
     </colgroup>
 ````
 
-Essa ferramenta permite a criação de um grupo de colunas &lt;colgroup&gt onde cada elemento &lt;col&gt inserido irá representar uma coluna em ordem da esquerda para a direita. Ou seja, ao alterar a classe .cnome, estaremos alterando toda a primeira coluna (verde claro).
+Essa ferramenta permite a criação de um grupo de colunas &lt;colgroup&gt; onde cada elemento &lt;col&gt; inserido irá representar uma coluna em ordem da esquerda para a direita. Ou seja, ao alterar a classe .cnome, estaremos alterando toda a primeira coluna (verde claro).
 
 O mesmo é válido para sexo(vermelho),cidade(cinza) e profissão(azul)
 
@@ -2971,7 +2971,36 @@ Resultado:
 
 ![selecionandocolunas](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/gifs/selecionandocolunas.gif)
 
+Ainda é possivel selecionar mais de uma coluna por tag &lt;col&gt; da seguinte forma:
 
+HTML:
+
+````
+    <colgroup>
+        <col class="cgroup1" span ="2">
+        <col class="cgroup2" span ="2">
+    </colgroup>
+````
+
+Assim serão aplicadas nas duas primeiras colunas a formatação da classe cgroup1 e nas duas últimas a formatação da cgroup2:
+
+CSS:
+
+````
+/* Cada um é aplicado individualmente no gif abaixo e depois em conjunto */
+
+.cgroup1{
+    background-color: lightgreen;
+}
+
+.cgroup2{
+    background-color: red;
+}
+````
+
+Resultado:
+
+![span](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/gifs/span.gif)
 
 
 ### 21.8 - Cabeçalho fixo para tabelas.
