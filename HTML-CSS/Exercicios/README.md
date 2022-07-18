@@ -2693,10 +2693,15 @@ Veja aqui o [projeto feito em aula.](https://luisredskill.github.io/HTML-CSS-Jav
 | ----------------- | --------                              |
 | table             | tabela                                |
 | tr                | table row ou linha de tabela          |
-| td                | table data ou dado da tabela          |
-| th                | table header ou cabeçalho da tabela   |
+| thead             | indica o cabeçalho da tabela          |
+| th                | indica conteúdo do cabeçalho ou foot  |
+| tbody             | corpo da tabela                       |
+| td                | conteúdo do corpo                     |
+| tfoot             | pé da tabela  |
+| caption             | legenda da tabela  |
 
 As tabelas em CSS possuem uma hierarquia, primeiro criamos uma &lt;table&gt;, que será a nossa tabela, dentro desta tabela criada, colocaremos linhas &lt;tr&gt; e, por fim, colocaremos dados dentro dessas linhas &lt;td&gt;.
+
 
 Ainda podemos adicionar, na primeira linha, o cabeçalho da tabela &lt;th&gt;.
 
@@ -2729,9 +2734,61 @@ Resulado:
 | Luis Carlos       | Ribeiro     |      22         |
 | Raissa            | Castro      |      25         |
 
+````
+    <table>
+        <caption>População dos Estados</caption>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População(2010)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class = "num">41 262 199</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class = "num">19 597 330</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total de habitantes</td>
+                <td><strong>210 147 125</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+````
+
+Resultado:
+
+![tablehead](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/tablehead.PNG)
+
 - _*IMPORTANTE*_ - _*NÃO*_ é obrigatório o fechamento das tags &lt;td&gt; e &lt;tr&gt;. 
 
-### 21.2 - Bordas de tabelas
+### 21.2 - Escopo de tabela (SEO).
+
+Para ajudar nas buscas e no rankeamento de sites, devemos definir um escopo para cada título de informação presente em nossa tabela.
+
+Fazemos isso atribuindo aos títulos suas respectivas informações correspondentes, exemplo:
+
+````
+ <th scope="col">Estado</th>              
+````
+
+Isto indica que o título _*Estado*_ &lt;th&gt; se refere a coluna de informações &lt;td&gt; abaixo dele representado em vermelho:
+
+![tablehead2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/tablehead2.PNG)
+
+O mesmo se aplica ao título _*População*_ &lt;th&gt; que se refere a coluna de informações &lt;td&gt; abaixo dele representado em verde.
+
+![tablehead3](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/tablehead3.PNG)
+
+
+
+### 21.3 - Bordas de tabelas
 
 Por padrão as _*bordas*_ de uma tabela CSS vem _*desativadas*_. Para ativá-las basta adicionar uma borda como já foi mostrado no [16.2.1](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Exercicios/README.md#1621-adicionando-uma-borda).
 
@@ -2749,9 +2806,9 @@ table{
 
 ![table2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/table2.PNG)
 
-### 21.3 - Alinhamento do conteúdo em tabelas.
+### 21.4 - Alinhamento do conteúdo em tabelas.
 
-#### 21.3.1 - Alinhamento horizontal.
+#### 21.4.1 - Alinhamento horizontal.
 
 Para alinhar o conteúdo de uma célula em uma tabela _*horizontalmente*_ utilizamos o _*text-align*_. A posição padrão é à esquerda.
 
@@ -2767,15 +2824,15 @@ Resultado:
 
 ![tablealign](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/gifs/tablealign.gif)
 
-#### 21.3.1 - Alinhamento vertical.
+#### 21.4.2 - Alinhamento vertical.
 
 Para alinhar o conteúdo de uma célula em uma tabela _*verticalmente*_ utilizamos o _*vertical-align*_. A posição padrão é ao centro.
 
 ````
 td{
-    vertical-align: left;
-    vertical-align: center;
-    vertical-align: right;
+    vertical-align: top;
+    vertical-align: middle;
+    vertical-align: bottom;
 }
 ````
 
