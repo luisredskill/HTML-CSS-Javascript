@@ -2953,7 +2953,7 @@ Resultado:
 
 ![desafio14](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/desafio14.PNG)
 
-Código disponível [aqui]()
+Código disponível [aqui](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Exercicios/Desafios-M3/Desafio%20014%20tabela%20de%20notas/index.html).
 
 
 
