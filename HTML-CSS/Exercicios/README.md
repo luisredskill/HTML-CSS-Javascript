@@ -2786,6 +2786,14 @@ O mesmo se aplica ao título _*População*_ &lt;th&gt; que se refere a coluna d
 
 ![tablehead3](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/tablehead3.PNG)
 
+Também pode ser aplicado a linhas como é o caso do foot apresentado na tabela onde _*Total de Habitantes*_ &lt;th&gt; se refere à linha representado em amarelo:
+
+![tablehead4](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/tablehead4.PNG)
+
+
+
+
+
 
 
 ### 21.3 - Bordas de tabelas

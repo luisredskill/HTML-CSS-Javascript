@@ -26,6 +26,9 @@ thead, tfoot{
 
 .num{
     text-align: right;
-    background-color: green;
+}
+
+tfoot  td {
+background-color: rgb(199, 199, 80);
 }
 
