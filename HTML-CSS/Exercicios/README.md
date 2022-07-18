@@ -2772,6 +2772,8 @@ Resultado:
 
 ### 21.2 - Escopo de tabela (SEO).
 
+#### 21.2.1 - Escopo simples
+
 Para ajudar nas buscas e no rankeamento de sites, devemos definir um escopo para cada título de informação presente em nossa tabela.
 
 Fazemos isso atribuindo aos títulos suas respectivas informações correspondentes, exemplo:
@@ -2795,6 +2797,26 @@ O mesmo se aplica ao título _*População*_ &lt;th&gt; que se refere a coluna d
 Também pode ser aplicado a linhas como é o caso do foot apresentado na tabela onde _*Total de Habitantes*_ &lt;th&gt; se refere à linha representado em amarelo:
 
 ![tablehead4](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/tablehead4.PNG)
+
+#### 21.2.2 - Escopo de grupo.
+
+Quando executamos uma mesclagem de células de um título, queremos indicar que uma série de informações estão representadas por um mesmo título.
+
+Exemplo:
+
+![tablegroup](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/tablegroup.PNG)
+
+Note que Mulheres neste caso representa um grupo de linhas, não apenas uma linha.
+
+Assim sendo, devemos utilizar o atributo _*row-group*_(verde) em vez de _*row*_ (vermelho).
+
+![rowgroup](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/gifs/rowgroup.gif)
+
+
+O mesmo se aplica ao título _*Filmes*_ onde devemos utilizar o _*col-group*_(verde) em vez de _*col*_(vermelho):
+
+
+![colgroup](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/gifs/colgroup.gif)
 
 
 
