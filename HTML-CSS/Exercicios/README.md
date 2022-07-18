@@ -2906,7 +2906,7 @@ thead > tr > th {
 
 ### 21.7 - Desafios mesclagem de tabelas.
 
-Código presente neste [link]()
+Código presente neste [link](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Exercicios/M3-EX023/tabela004.html)
 
 Resultado:
 
