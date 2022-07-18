@@ -3073,6 +3073,22 @@ Resultado:
 
 Código disponível [aqui](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Exercicios/Desafios-M3/Desafio%20014%20tabela%20de%20notas/index.html).
 
+## 22 - Iframes
+
+### 22.1 - O que é um iFrame?
+
+iFrame é a abreviação de Inline Frame, essa ferramente permite que você exiba conteúdo de outra página na sua página web. Exemplos:
+
+- Vídeo do youtube
+
+![youtube](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/youtube.PNG)
+
+- Google maps
+
+![googlemaps](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/googlemaps.PNG)
+
+
+Ele é parte do conteúdo do site, mas não é parte do site em si.
 
 
 
