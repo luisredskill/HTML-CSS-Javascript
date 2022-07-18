@@ -5,6 +5,7 @@ body{
 table{
     width: 500px;
     border-collapse: collapse;
+    position: relative;
 }
 
 td, th{
@@ -24,11 +25,18 @@ thead, tfoot{
     color: white;
 }
 
+thead{
+    position: sticky;
+    top: -1px;
+}
+
+tbody > tr:nth-child(2n){
+    background-color: lightgray;
+}
+
 .num{
     text-align: right;
 }
 
-tfoot  td {
-background-color: rgb(199, 199, 80);
-}
+
 

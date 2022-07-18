@@ -1767,6 +1767,8 @@ Com o mouse em cima da div 01:
 
 - __*active*__ - altera um elemento que está ativo.
 
+- __*:nth-child(4n)*__ - seleciona um elemento filho a partir da sua posição intercalando a cada Xn elementos. Neste caso 4,8,12,16,etc.
+
 ### 15.7 - O que são pseudo-elementos?
 
 Pseudo-elementos são elementos novos adicionados por CSS, normalmente utilizamos ele quando vamos repetir uma formatação em vários elementos. Eles são selecionados pelo símbolo de __*::*__.
@@ -2786,6 +2788,10 @@ O mesmo se aplica ao título _*População*_ &lt;th&gt; que se refere a coluna d
 
 ![tablehead3](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/tablehead3.PNG)
 
+````
+ <th scope="row">Estado</th>              
+````
+
 Também pode ser aplicado a linhas como é o caso do foot apresentado na tabela onde _*Total de Habitantes*_ &lt;th&gt; se refere à linha representado em amarelo:
 
 ![tablehead4](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/tablehead4.PNG)
@@ -2847,6 +2853,65 @@ td{
 Resultado:
 
 ![tablevertical](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/gifs/tablevertical.gif)
+
+### 21.5 - Efeito zebrado em tabelas.
+
+O efeito zebrado pode ser feito facilmente por uma pseudo-classe [já citada](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Exercicios/README.md#1562---procurando-por-uma-pseudo-classe) que seleciona elementos filho com base em suas posições relativas ao pai.
+
+Código:
+
+````
+tbody > tr:nth-child(2n){
+    background-color: lightgray;
+}
+````
+
+Assim, primeiro é selecionado o corpo da tabela, depois a pseudo-classe que representa as _*linhas da tabela*_ intercaladas por um múltiplo de 2.
+
+Resultado:
+
+![tablezebra](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/tablezebra.PNG)
+
+Ainda podemos utilizar _*2n-1*_, _*odd*_ e _*even*_ para obter o mesmo resultado diferenciando apenas qual será a primeira célula a ser aplicada o efeito.
+
+### 21.6 Cabeçalho fixo para tabelas.
+
+Podemos criar um cabeçalho fixo para nossa tabela da seguinte forma:
+
+Primeiro declaramos que a posição da tabela é do tipo _*absolute*_
+
+````
+table{
+    position: relative;
+}
+````
+
+Depois, selecionamos o cabeçalho ou o título dentro do cabeçalho:
+
+````
+thead  {
+    position: sticky;
+    top: -1px;
+}
+
+/* podemos utilizar um código parecido de mesma função: */
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: gray;
+}
+
+````
+
+### 21.7 - Desafios mesclagem de tabelas.
+
+Código presente neste [link]()
+
+Resultado:
+
+![mesclagem](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/mesclagem.PNG)
+
 
 
 
