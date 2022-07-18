@@ -2818,13 +2818,27 @@ O mesmo se aplica ao título _*Filmes*_ onde devemos utilizar o _*col-group*_(ve
 
 ![colgroup](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/gifs/colgroup.gif)
 
+### 21.3 - Mesclagem de tabelas.
+
+Podemos mesclar as células de tabelas presentes em html utilizando o _*rowspan*_ e o _*colspan*_.
+
+Dessa forma, mesclamos a célula ao número de colunas ou linhas especificado, exemplo:
+
+O número três tem um rowspan, enquanto o 8 tem um colspan.
+
+````
+<td rowspan="2">3</td>
+<td colspan="3">8</td>
+````
+
+Código presente neste [link](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Exercicios/M3-EX023/tabela004.html)
+
+Resultado:
+
+![mesclagem](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/mesclagem.PNG)
 
 
-
-
-
-
-### 21.3 - Bordas de tabelas
+### 21.4 - Bordas de tabelas
 
 Por padrão as _*bordas*_ de uma tabela CSS vem _*desativadas*_. Para ativá-las basta adicionar uma borda como já foi mostrado no [16.2.1](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Exercicios/README.md#1621-adicionando-uma-borda).
 
@@ -2842,9 +2856,9 @@ table{
 
 ![table2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/table2.PNG)
 
-### 21.4 - Alinhamento do conteúdo em tabelas.
+### 21.5 - Alinhamento do conteúdo em tabelas.
 
-#### 21.4.1 - Alinhamento horizontal.
+#### 21.5.1 - Alinhamento horizontal.
 
 Para alinhar o conteúdo de uma célula em uma tabela _*horizontalmente*_ utilizamos o _*text-align*_. A posição padrão é à esquerda.
 
@@ -2860,7 +2874,7 @@ Resultado:
 
 ![tablealign](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/gifs/tablealign.gif)
 
-#### 21.4.2 - Alinhamento vertical.
+#### 21.5.2 - Alinhamento vertical.
 
 Para alinhar o conteúdo de uma célula em uma tabela _*verticalmente*_ utilizamos o _*vertical-align*_. A posição padrão é ao centro.
 
@@ -2876,7 +2890,7 @@ Resultado:
 
 ![tablevertical](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/gifs/tablevertical.gif)
 
-### 21.5 - Efeito zebrado em tabelas.
+### 21.6 - Efeito zebrado em tabelas.
 
 O efeito zebrado pode ser feito facilmente por uma pseudo-classe [já citada](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Exercicios/README.md#1562---procurando-por-uma-pseudo-classe) que seleciona elementos filho com base em suas posições relativas ao pai.
 
@@ -2896,7 +2910,71 @@ Resultado:
 
 Ainda podemos utilizar _*2n-1*_, _*odd*_ e _*even*_ para obter o mesmo resultado diferenciando apenas qual será a primeira célula a ser aplicada o efeito.
 
-### 21.6 Cabeçalho fixo para tabelas.
+### 21.7 - Personalizando colunas e linhas inteiras de tabelas.
+
+#### 21.7.1 - Selecionando linhas de tabelas.
+
+A personalização de linha é algo mais natural e intuitivo, fazemos isso a partir de uma classe inserida dentro de uma tag &lt;tr&gt; da seguinte forma:
+
+Código:
+
+````
+<tr class ="destaque">
+````
+
+Resultado:
+
+![selecionandocolunas](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/selecionandocolunas.PNG)
+
+#### 21.7.2 - Selecionando colunas de tabelas.
+
+Já a personalização de colunas é um pouco mais complicado, pois não temos uma coluna para selecionar, mas sim dados &lt;tr&gt;, forçando a inserção dado a dado.
+
+Para isso temos uma ferramente que permite selecionar colunas inteiras muito parecido com o &lt;tr&gt;. Exemplo:
+
+![selecionandocolunas2](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/selecionandocolunas2.PNG)
+
+````
+    <colgroup>
+        <col class="cnome">
+        <col class="csexo">
+        <col class="cidade">
+        <col class="cprof">
+    </colgroup>
+````
+
+Essa ferramenta permite a criação de um grupo de colunas &lt;colgroup&gt onde cada elemento &lt;col&gt inserido irá representar uma coluna em ordem da esquerda para a direita. Ou seja, ao alterar a classe .cnome, estaremos alterando toda a primeira coluna (verde claro).
+
+O mesmo é válido para sexo(vermelho),cidade(cinza) e profissão(azul)
+
+Código:
+````
+/* Cada um é aplicado individualmente no gif abaixo */
+
+.cnome{
+    background-color: lightgreen;
+}
+
+.csexo{
+    background-color: red;
+}
+
+.cidade{
+    background-color: gray;
+}
+
+.cprof{
+    background-color: aqua;
+}
+````
+Resultado:
+
+![selecionandocolunas](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/gifs/selecionandocolunas.gif)
+
+
+
+
+### 21.8 - Cabeçalho fixo para tabelas.
 
 Podemos criar um cabeçalho fixo para nossa tabela da seguinte forma:
 
@@ -2926,26 +3004,9 @@ thead > tr > th {
 
 ````
 
-### 21.7 - Mesclagem de tabelas.
 
-Podemos mesclar as células de tabelas presentes em html utilizando o _*rowspan*_ e o _*colspan*_.
 
-Dessa forma, mesclamos a célula ao número de colunas ou linhas especificado, exemplo:
-
-O número três tem um rowspan, enquanto o 8 tem um colspan.
-
-````
-<td rowspan="2">3</td>
-<td colspan="3">8</td>
-````
-
-Código presente neste [link](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Exercicios/M3-EX023/tabela004.html)
-
-Resultado:
-
-![mesclagem](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/mesclagem.PNG)
-
-### 21.8 - Desafio 14
+### 21.9 - Desafio 14
 
 Reconstruir tabela mostrada [em aula](https://www.youtube.com/watch?v=V2gVaqTSRmo&list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ&index=37).
 

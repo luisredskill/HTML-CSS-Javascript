@@ -1,67 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio</title>
+    <title>Exercício de Tabelas</title>
     <link rel="stylesheet" href="estilos/style005.css">
 </head>
+
 <body>
+    <h1>Exercício de Tabelas</h1>
     <table>
-        <thead>
-            <tr>
-                <th scope="col">Grupo</th>
-                <th scope="col">Nomes</th>
-                <th colspan="3" scope="colgroup" class = "gg">Filmes</th>
-            </tr>
-        </thead>
-        <tfoot>
-            <tr>
-                <th colspan="4" scope="row">Total</th>
-                <td>1000</td>
-            </tr>
-        </tfoot>
-        <tbody>
-            <tr>
-                <th rowspan="3" scope="rowgroup" class = "">Mulheres</th>
-                <td class ="">Ana Maria Santos</td>
-                <td class = "gg2">Alien</td>
-                <td class = "">Rambo</td>
-                <td class = "">Vingadores</td>
-            </tr>
-            <tr>
-                <td class ="">Beatriz Souza</td>
-                <td class = "gg2">Hulk</td>
-                <td class = "">Inception</td>
-                <td class = "">Batman</td>
-            </tr>
-            <tr>
-                <td class ="">Cláudia Melo</td>
-                <td class = "gg2">Oblivion</td>
-                <td class = "">Matrix</td>
-                <td class = "">Big Hero</td>
-            </tr>
-            <tr>
-                <th rowspan="3" scope="rowgroup" class = "">Homens</th>
-                <td >Bruno Mendonça</td>
-                <td class = "gg2">Intocáveis</td>
-                <td class = "">Amnésia</td>
-                <td class = "">Gladiador</td>
-            </tr>
-            <tr>
-                <td>Daniel Lourenço</td>
-                <td class = "gg2">Wall-E</td>
-                <td class = "">Oldboy</td>
-                <td class = "">Dangal</td>
-            </tr>
-            <tr>
-                <td>Fabiano Mota</td>
-                <td class = "gg2">Star Wars 5</td>
-                <td class = "">Taxi Driver</td>
-                <td class = "">Toy Story</td>
-            </tr>
-        </tbody>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr class="destaque">
+            <td>Luis</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Gustavo</td>
+            <td>M</td>
+            <td>42</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Hélio</td>
+            <td>M</td>
+            <td>19</td>
+            <td>Vendedor</td>
+        </tr>
+        <tr class="">
+            <td>Maria</td>
+            <td>F</td>
+            <td>39</td>
+            <td>médica</td>
+        </tr>
+        <tr>
+            <td>Otávio</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Nutricianista</td>
+        </tr>
     </table>
 </body>
+
 </html>
