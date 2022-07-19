@@ -3088,7 +3088,95 @@ iFrame é a abreviação de Inline Frame, essa ferramente permite que você exib
 ![googlemaps](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/googlemaps.PNG)
 
 
-Ele é parte do conteúdo do site, mas não é parte do site em si.
+Ele é parte do conteúdo do site, mas não é parte do site em si. Alguns sites não permitem que seu conteúdo seja colocado em iframes como o próprio google:
+
+![google](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/google.PNG)
+
+### 22.2 - Problemas com iFrame.
+
+O iFrame possui uma série de problemas de compatibilidade, SEO e segurança. Dentre eles podem-se citar:
+
+- Existem alguns problemas para indexação de conteúdo dentro de iFrames segundo o Google. O rankeamento pode ser prejudicado.
+
+- Os softwares leitores de tela (acessibilidade para cegos) tem dificuldade para acessar o iFrame.
+
+- O navegador pode se confundir ao entrar em um iFrame e acaba não conseguindo voltar a página no iFrame e voltando na principal.
+
+- Abrir janelas possui o mesmo problema anterior.
+
+- Caso o site não seja responsivo, ele não será propriamente exibido dentro do iFrame.
+
+- A segurança do seu site pode ser comprometida, pois o site inserido no iFrame pode ser malicioso.Cross site e XSS são os tipos de ataques mais comuns.
+
+### 22.3 - Como deixar os iFrames mais seguros?
+
+#### 22.3.1 - Formulários.
+
+Alguns códigos maliciosos utilizam-se de formulários para capturar informações do usuário para uso indevido.
+
+Sabendo disso podemos impedir que um iFrame envie formulários através do atributo _*sandbox*_.
+
+Exemplo:
+
+````
+<iframe src="paginaexemplo.html" frameborder="0" sandbox="sandbox">
+````
+
+Esta configuração não vai permitir que sejam enviados formulários.
+
+- _*IMPORTANTE*_ - Este é o nível máximo de segurança, não apenas formulários são impeditos, mas uma série de funções podendo prejudicar a utilização do site.
+
+#### 22.3.2 Informações do usuário.
+
+Muitos sites utilizam os dados de navegação do usuário para mostrar propagandas, isso pode ser impedido através do seguinte código:
+````
+<iframe src="paginas-extras/pag004.html" frameborder="1" referrerpolicy="no-referrer">
+````
+
+### 22.4 - Como adicionar um iFrame?
+
+O iframe pode ser adicionado através da tag &lt;iframe&gt;.
+
+Código:
+
+````
+<iframe src="url-da-página.com.br" frameborder="0"> Seu navegador não possui compatibilidade com iframes</iframe> 
+````
+Note que o iframe por padrão vem com a propriedade de borda no 0, ou seja, não há borda. Caso essa propriedade tenha qualquer número acima de 0 é criado uma borda de 1px em volta do iframe.
+
+- _*IMPORTANTE*_ - A informação colocada dentro do iframe só é exibida em caso de incompatibilidade com o recurso! Normalmente, um link é adicionado para direcionar o usuário ao site.
+
+### 22.5 - Como personalizar um iFrame?
+
+#### 22.5.1 - Como alterar o tamanho de um iframe?
+
+ Alteração inline.
+
+O tamanho padrão de um iframe é de _*300x150*_.
+
+Podemos alterar o tamanho do iframe inline:
+
+````
+<iframe width="500" height="500" src="http://www.google.com/"></iframe>
+````
+
+Alteração via CSS
+
+````
+iframe{
+    width: 400px;
+    height: 400px;
+}
+````
+
+#### 22.5.2 - Como retirar a barra de rolagem?
+
+Existe um parâmetro para iframes chamado de _*scrolling*_ e ele é utilizado para permitir ou não a rolagem do conteúdo. Ele pode receber 3 atributos: auto, yes e no.
+
+- auto - o navegador vai decidir automaticamente
+- yes - o navegador sempre vai criar a barra de rolagem
+- no - o navegador não vai permitir a rolagem em nenhum caso
+
 
 
 
