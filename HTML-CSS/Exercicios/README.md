@@ -3199,7 +3199,7 @@ Projeto feito com base nos conhecimentos anteriores e [capítulo 22](https://git
 Veja aqui o [projeto feito em aula.](https://luisredskill.github.io/HTML-CSS-Javascript/HTML-CSS/Exercicios/Desafios-M3/Desafio%20013%20Redes%20Sociais/index.html)
 
 
-![projetosocial](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/gifs/projetosocial.gif)
+![projetosocial](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/projetosocial.PNG)
 
 
 ------------------------------------------------------------------------------
