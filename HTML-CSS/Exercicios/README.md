@@ -3126,6 +3126,14 @@ Esta configuração não vai permitir que sejam enviados formulários.
 
 - _*IMPORTANTE*_ - Este é o nível máximo de segurança, não apenas formulários são impeditos, mas uma série de funções podendo prejudicar a utilização do site.
 
+Permitindo que formulários sejam executados:
+
+````
+<iframe src="paginaexemplo.html" frameborder="0" sandbox="allow-forms allow-scripts">
+````
+
+Note que os formulários utilizam javascript para serem executados.
+
 #### 22.3.2 Informações do usuário.
 
 Muitos sites utilizam os dados de navegação do usuário para mostrar propagandas, isso pode ser impedido através do seguinte código:
@@ -3145,6 +3153,12 @@ Código:
 Note que o iframe por padrão vem com a propriedade de borda no 0, ou seja, não há borda. Caso essa propriedade tenha qualquer número acima de 0 é criado uma borda de 1px em volta do iframe.
 
 - _*IMPORTANTE*_ - A informação colocada dentro do iframe só é exibida em caso de incompatibilidade com o recurso! Normalmente, um link é adicionado para direcionar o usuário ao site.
+
+Podemos adicionar conteúdos como:
+
+- Videos do youtube/vimeo
+- Google maps
+- Planilhas do google
 
 ### 22.5 - Como personalizar um iFrame?
 
@@ -3177,7 +3191,21 @@ Existe um parâmetro para iframes chamado de _*scrolling*_ e ele é utilizado pa
 - yes - o navegador sempre vai criar a barra de rolagem
 - no - o navegador não vai permitir a rolagem em nenhum caso
 
+## 23 - Projeto Cordel
 
+Conteúdo de apoio presente no [PDF do capítulo 20](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/PDFs/20%20-%20Mini-projeto%20Cordel.pdf).
+
+
+Projeto feito com base nos conhecimentos anteriores e [capítulo 19](https://github.com/luisredskill/HTML-CSS-Javascript/tree/main/HTML-CSS/Exercicios#19---imagens-de-fundo).
+
+Veja aqui o [projeto feito sozinho.](https://luisredskill.github.io/HTML-CSS-Javascript/HTML-CSS/Exercicios/Desafios-M3/Desafio%20012%20Efeito%20parallax/index.html) com alterações propositais.
+
+![cordel](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/gifs/cordel.gif)
+
+Veja aqui o [projeto feito em aula.](https://luisredskill.github.io/HTML-CSS-Javascript/HTML-CSS/Exercicios/Desafios-M3/Desafio%20012%20Efeito%20parallax%20feito%20em%20aula/index.html)
+
+
+![cordelaula](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/gifs/cordelaula.gif)
 
 
 ------------------------------------------------------------------------------
