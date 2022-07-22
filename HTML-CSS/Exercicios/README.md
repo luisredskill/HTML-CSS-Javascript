@@ -3191,21 +3191,15 @@ Existe um parâmetro para iframes chamado de _*scrolling*_ e ele é utilizado pa
 - yes - o navegador sempre vai criar a barra de rolagem
 - no - o navegador não vai permitir a rolagem em nenhum caso
 
-## 23 - Projeto Cordel
-
-Conteúdo de apoio presente no [PDF do capítulo 20](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/PDFs/20%20-%20Mini-projeto%20Cordel.pdf).
+## 23 - Projeto Social
 
 
-Projeto feito com base nos conhecimentos anteriores e [capítulo 19](https://github.com/luisredskill/HTML-CSS-Javascript/tree/main/HTML-CSS/Exercicios#19---imagens-de-fundo).
+Projeto feito com base nos conhecimentos anteriores e [capítulo 22](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Exercicios/README.md#22---iframes).
 
-Veja aqui o [projeto feito sozinho.](https://luisredskill.github.io/HTML-CSS-Javascript/HTML-CSS/Exercicios/Desafios-M3/Desafio%20012%20Efeito%20parallax/index.html) com alterações propositais.
-
-![cordel](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/gifs/cordel.gif)
-
-Veja aqui o [projeto feito em aula.](https://luisredskill.github.io/HTML-CSS-Javascript/HTML-CSS/Exercicios/Desafios-M3/Desafio%20012%20Efeito%20parallax%20feito%20em%20aula/index.html)
+Veja aqui o [projeto feito em aula.](https://luisredskill.github.io/HTML-CSS-Javascript/HTML-CSS/Exercicios/Desafios-M3/Desafio%20013%20Redes%20Sociais/index.html)
 
 
-![cordelaula](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/gifs/cordelaula.gif)
+![projetosocial](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/gifs/projetosocial.gif)
 
 
 ------------------------------------------------------------------------------
