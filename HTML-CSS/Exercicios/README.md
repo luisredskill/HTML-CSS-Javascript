@@ -3201,5 +3201,76 @@ Veja aqui o [projeto feito em aula.](https://luisredskill.github.io/HTML-CSS-Jav
 
 ![projetosocial](https://github.com/luisredskill/HTML-CSS-Javascript/blob/main/HTML-CSS/Screenshots/projetosocial.PNG)
 
+## 24 - Formulários em HTML.
 
+### 24.1 O que são formulários em html?
+
+Formulários html são campos de informações que permitem ao usuário fazer requisições http ao site, utilizadas comumente para o cadastro de um cliente, declaração de preferências, escolha de caracteristicas de produtos, etc. 
+
+Não está limitado apenas à isso, qualquer informação do cliente pode ser coletada através de um formulário, sendo assim o maior ponto de interação entre usuário e site.
+
+### 24.2 Criando formulários.
+
+Para se criar um formulário em HTML utilizamos a tag &lt;_*form*_&gt;.
+
+````
+    <form>
+        Este é um formulário.
+    </form>
+````
+
+Normalmente, formulários são utilizados para aglomerar informações do usuário e enviá-las ao servidor. Para otimizar o SEO da página devemos ligar os campos de _*input*_ aos campos de _*nome*_, para isso podemos utilizar a tag &lt;_*label*_&gt;.
+
+- _*IMPORTANTE*_ - Primeiro damos um _*id*_ ao _*input*_, depois usamos a tag &lt;_*label*_&gt; para conectar o input ao nome, assim as SEOs são otimizadas e funcionam melhor em nosso site
+
+````
+    <form>
+        <label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome"></p>
+    </form>
+````
+
+- _*IMPORTANTE*_ - o método padrão de envio é o _*GET*_, mandando as informações digitadas pela URL, para alterar isso utilizamos o parâmetro method que pode receber _*GET*_ ou _*POST*_.
+````
+    <form method="post">
+        Seu formulário
+    </form>
+````
+### 24.3 Desligando autocomplete.
+
+````
+    <form autocomplete="off">
+        Seu formulário
+    </form>
+````
+### 24.4 Enviando formulários em javascript.
+
+Para enviar formulários em javascript devemos resgatar as informações do formulário dentro do código javascript, para isso devemos _*dar um id*_ para o nosso formulário:
+
+HTML:
+
+````
+    <form id = 'form'>
+        Seu formulário
+    </form>
+````
+
+Javascript:
+````
+const form = document.getElementById("form")
+````
+
+Depois, devemos executar um script quando uma ação ocorrer a partir do usuário, por exemplo click no botão submit:
+
+HTML:
+
+````
+<input type="submit" value="Enviar">
+````
+
+````
+addEventListener( 'submit', (event) =>{
+    alert("vai acontecer quando clicar no botão Enviar")
+})
+````
 ------------------------------------------------------------------------------
