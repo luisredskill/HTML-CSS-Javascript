@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box--two {
+    border-color: black;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}

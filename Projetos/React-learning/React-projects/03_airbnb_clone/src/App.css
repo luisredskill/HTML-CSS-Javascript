@@ -1,0 +1,198 @@
+/* -------------- IMPORTS -------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* -------------- GLOBAL CONFIGS -------------*/
+
+*{ 
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  background-color: black;
+  width: 550px;
+  height: 850px;
+  margin: auto;
+  font-family: 'Poppins', sans-serif;
+  color: #222222;
+}
+
+.container{
+  background-color: white;
+  width: 550px;
+  height: 850px;
+  
+}
+
+/* -------------- NAVBAR -------------*/
+
+nav{
+    height: 70px;
+    width: 550px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.13);
+}
+
+.nav--logo{
+  height: 26px;
+  width: 83px;
+  margin-left: 20px;
+}
+
+/* -------------- IMAGES -------------*/
+
+.hero--container{
+  height: 420px;
+}
+
+.hero--img--flexcontainer{
+  height: 280px;
+  display: flex;
+  align-items: center;
+}
+
+.hero--img--container{
+  height: 245px;
+  width: 550px;
+  position: relative;
+}
+
+#img01{
+  position: absolute;
+  top:50px;
+  left: 60px;
+}
+
+#img02{
+  position: absolute;
+  top: 10px;
+  left: 142px;
+}
+
+#img03{
+  position: absolute;
+  top: 84px;
+  left: 142px;
+}
+
+#img04{
+  position: absolute;
+  top: 40px;
+  left: 225px;
+}
+
+#img05{
+  position: absolute;
+  top: 146px;
+  left: 225px;
+}
+
+#img06{
+  position: absolute;
+  top: 0px;
+  left: 308px;
+}
+
+#img07{
+  position: absolute;
+  top: 107px;
+  left: 308px;
+}
+
+#img08{
+  position: absolute;
+  top: 30px;
+  left: 391px;
+}
+
+#img09{
+  position: absolute;
+  top: 136px;
+  left: 391px;
+}
+
+/* -------------- TITLE + TEXT -------------*/
+
+.hero--text,.hero--title{
+  margin-left: 20px;
+  font-size: 36px;
+}
+
+.hero--text {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: light;
+}
+
+/* -------------- CARD POSITION-------------*/
+.card--whell{
+  display: flex;
+  overflow: scroll;
+}
+
+.card--container{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card--rating--container{
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+}
+
+.card--rating--container p{
+  display: flex;
+  align-items: center;
+}
+
+.card--rating--container span, img{
+  margin-left: 3px;
+}
+
+
+/* -------------- CARD IMAGES SIZE -------------*/
+
+.card--img{
+  width: 176px;
+  height: 235px;
+  overflow: hidden;
+}
+
+.card--star{
+  width: 13px;
+  height: 13px;
+}
+
+/* -------------- CARD TEXT STYLE -------------*/
+
+.card--lightfont{
+    color: #918E9B;
+    font-weight: light;
+    font-size: 12px;
+}
+
+.card--container{
+  font-size: 12px;
+  margin: 10px;
+}
+/* -------------- CARD BADGE SOLD OUT STYLE -------------*/
+.card--badge{
+  position: absolute;
+  top: 9px;
+  left: 10px;
+  width: 60px;
+  height: 20px;
+  font-size: 9px;
+  font-weight: bold;
+  background-color: white;
+  padding: 5px 5px;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+}
+
