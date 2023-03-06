@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    position: relative;
+    padding: 15px;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.gallery-wrapper{
+    overflow-x: auto;
+}
+
+.gallery{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+}
